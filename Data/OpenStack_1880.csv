@@ -1,0 +1,1968 @@
+,BugId,Project,FixHashId,BUG,BIC,Comments
+312,1242662,neutron,7d44629c2e8003f5bbb87e9b697eec54b4cce793,1,1,Exception does not exist
+313,1242819,nova,8c985874c7885f31871204d3f83ce547fefc5fb6,1,1,Optimize the code
+314,1242933,neutron,cecd7591533e2c046aedba3b8e5d14a5b2fa7fe9,0,0,Add a feature. This allows instances to do SLAAC configuration
+315,1242942,cinder,5be4620ae5bb50c8436de0e11269c85a095ed40b,1,1, does not handle missing volume group gracefully
+316,1242980,cinder,b104d1c0c70898b59b6668970e05cebadecd064a,1,1,
+317,1243037,nova,01e1c027754b47239b9f9a6c40196512ec262986,1,1,Forgot to check float numbers that are not allowed
+318,1243062,nova,65df7336994b03b12aecf9bcdafcfb0d839815f9,1,1,Wrong description
+319,1243073,neutron,9a64271bd9f741b13f6cf4a9074524d3854fdd14,1,1,
+320,1243083,nova,0fcbb7b286888d642d329db1299eb9f3708d1f50,1,1,
+321,1243101,nova,21045a58497818f76f880fe74b3eb5ab09088cf3,1,0,architecture
+322,1243108,nova,aab3c6178571456ea3f2523f401d0a18c04e573c,1,1,Bug in a fixing bug
+323,1243129,neutron,a1de76d1407952572cfe081c4872d7a6127995b3,0,0,this should be prohibited
+324,1243148,neutron,258aad077279b2020b47f4136747c1e5aa4bf5a8,1,1,
+325,1243193,nova,9ceee09594cd35c264cab3e3b3d1d80aaa3fdbc4,1,1,
+326,1243213,neutron,355ff10f6e5e4111f14c79b1bdfc48854c81f8b3,1,0,postgre specific
+327,1243301,nova,38018d32f9db5b9222436d0f860244ce38ba97fb,1,1,"The status should be deleted, but was error"
+328,1243485,cinder,4adf35778b3aae3db99a90a1bbb94e668ec7963d,1,1,Exceptions wasnt handled
+329,1243488,nova,0a84a7fb24a4605f0da863407512612651890003,1,1,
+330,1243613,cinder,ce889d99f61aecd0b4002d44866bbfff8ff6a2c3,1,1,Typo in code
+331,1243652,neutron,b9ddfa566c6caad2384c791d1ae1873ce70c261e,1,0,Bug in postgre
+332,1243704,glance,c0e1d5bd2944a011c0cbaba61d284aedec086b60,0,0,it becomes easier to log the error message – feature
+333,1243840,cinder,587fd9021982e3b1fb0c5765df6bad2723701031,1,0,Bug: Error message when it is just could be a warning. Also done because: ‘This is to comply with the desire of the QA team’
+334,1243849,nova,661fa0c83309f002bbbdd67d81f3e6fbb6bde829,1,0,New decision
+335,1243878,neutron,50da460869661ba63971a17c9c1b514bf22874a2,1,1,
+336,1244018,nova,b9b55935cb61cc1726525b1c4963e352a3a81ea9,1,1,
+337,1244092,glance,4ba5cbc48f471c39826aa38244f86a2a6252b2e9,1,1,
+338,1244203,nova,73ee7346675ffb38276583ac7b941970f7037181,0,0,The code shows that add a feature
+339,1244220,nova,a528302a248f4128c3440665f38b964a3593c3f5,1,0,Evolution
+340,1244238,cinder,bfb66019edd197141ea1462ba78dd27a2ed0e40d,1,1,
+341,1244257,cinder,8185d1b5db421441ebba128f23f840a42f9bf050,1,1,
+342,1244415,cinder,2737c76cb2fb436f117a4f635aebca7a01691d88,1,1,
+343,1244609,cinder,e011130104950c854bc9e139e24422b753653063,1,1,Typo in message
+344,1244829,nova,c0e546ace478277cc2911b1c5bef1e082b76b546,1,1,"Broken method, I dont see a evolution context"
+345,1244860,neutron,8cf394b896e3644ff51edf6a0d462501fb6e6843,1,1,
+346,1244918,nova,34e14fbbb5293c52ef5dbfeb1172390f15d79e1f,1,0,I think is a VMware ESX specific error
+347,1245208,neutron,d52f84d96a2fadcf90fdac7a3e265c45d2ec234a,0,0,Tests… ‘Should not’
+348,1245310,neutron,9b083d7636508cbc5addfe3457c1aac706f0e267,0,0,Might potentially  cause consumers to not work properly
+365,1246258,nova,b12da559b6a40fba4e4431d74372b5e350047525,1,1,
+366,1246276,nova,04e53669dd3e6acd8086fd06ea073a02207ffb24,1,1,
+367,1246291,cinder,d281149ea0f860c7c862f7897710d2e1fcb681e7,0,0,Remove unnecesary calls (¿To improve the performance?) I think is just refactoring the code
+368,1246327,nova,482dfeb113f1e0ff814aa1fc980d67e0c8b06d76,1,0,Evolution of Havana
+369,1246592,nova,e74ceb68e1642d773f2ad0c655e6354f7a7fb362,1,1,typo error
+370,1246737,neutron,0d131ff0e9964cb6a65f64809270f9d597c2d5d1,1,1,
+371,1246788,neutron,3c3e6eef90c87440c87803dba3325e7cc8c79a17,1,0,postgres specific
+372,1246848,nova,1c1570ff7ac8470d7dba28c893300835b22e0966,1,1,
+373,1247106,nova,6e8a094c48dc77fdfe68c72c7a09b7819710d4b6,1,1,Inconsistent states
+374,1247185,nova,8c985874c7885f31871204d3f83ce547fefc5fb6,1,0,if qemu-img >= 0.12.1
+375,1247217,nova,187140c2fcafb56752f0160832607e374a4a94ff,1,1,
+376,1247427,nova,88861df2b95a9c66a1a9d1969ad9e560786bb848,1,1,
+377,1247556,nova,8797aeaf14352a353ebfd1ed011f63a5b2fa3447,1,1,
+378,1247610,nova,0ed493b829e8b8844b86a80da3cd70c69b1fe23a,1,1,Bad status
+379,1247743,cinder,10108f4d2e640a9fc12037ece39a833421d27149,1,0,NFS specific
+380,1247844,nova,7070e4a66f576b2e6e4a4f1121445200e7854942,0,0,The client needs to provide a more granular exception. Feature
+381,1247902,neutron,bb2c4ef9a26b12c68ca1e6710d0c92ce00c464cb,0,0,I think we need to handle collections such as… Feature
+382,1247976,neutron,5e8043e8a2675b4485a52d688ea86d1165d81a29,0,0,Add VM (live) migration support to the ML2 cisco nexus mechanism
+383,1247998,cinder,e066158b5235a3879fe90fa3bd813fc3363c01f5,1,1,There is a problem
+384,1248002,neutron,504f496d6b4fd6234c3e65ba636ee12b004fae1f,0,0,Bug in tests
+385,1248019,nova,17d131661740e452e9729d9ac8881e6fede23dd7,1,0,Issue with NFS
+386,1248214,glance,66f52c0b0d03362b72f65631af3e562cc999f84a,0,0,Remove unused method
+387,1248216,cinder,2f62736e47367404ac56525689412d123d69c283,0,0,Remove deprecated command in tests
+388,1248219,neutron,2fb996642a597e7050ecc13ef6f3ad4aaae34997,1,1,
+389,1248222,neutron,0da18edec2ca213a9d87778a4679afb891d58a28,1,1,
+390,1248377,neutron,29e93f2248df880f411bbf83316fd67d93a33b7d,0,0,Tests
+391,1248415,cinder,a9267644ee09591e2d642d6c1204d94a9fdd8c82,0,0,Add functionality
+392,1248424,nova,94c1ad5c0eb0fd574f659a9477b222a7d6c84c4b,1,1,
+393,1248434,cinder,539eaaab89eea42f3f92a4ce069183c7730034af,1,1,
+394,1248443,nova,47c95694e93b361e3b0738afac8e724557a36c8a,1,1,
+395,1248463,nova,6847a0ef927929e631e9c6db2e2812528ca93151,1,1,Issue with the API and add more
+396,1248699,nova,edc66467fc0dcf729990d8e7baed254f8ded9bfa,1,1,"It says Ubuntu, but I think is more general with the use of the command"
+397,1248799,nova,c8ded6429616b798947072a62cb1b5ee4ea51209,1,1,
+398,1248802,nova,dd6765f751f9c6f36c027ba7c945c919ecf825e2,1,1,Bug in the sequence of the commands
+399,1248815,cinder,0d91b1a86a211610f78ac5c0df5a0b02b5a2f3a1,1,1,Is using 200 OK instead of 400 Bad Request. Bad code
+469,1254639,neutron,3f29c06d54de32f0a0859f53e942e1f18326b4d4,0,0,"'suggests’, ‘should also’"
+470,1254664,nova,497bdfec93d696c7200a71b85a0680d99ce07bb9,1,1,Something is ignored
+471,1254727,nova,842b2abfe76dede55b3b61ebaad5a90c356c5ace,0,0,We are able to increase the min required libvirt to 0.9.11
+472,1254811,nova,22cd7cc27ca8285c1674e370e256ec84d3f2a20a,0,0, Deprecate and remove libvirt.api_thread_pool option 
+473,1254820,nova,afc517e093e171c2b143e91972dea19351f62592,1,0, fails on older versions of libvirt 
+474,1254902,nova,ff221c6cc61f7b98b62462ab4f0e0e1cf691a9a8,0,0,I think is evolution of the code. No bug
+475,1254924,neutron,09c3051fb2819b647f4d8196e6e0fbc66f0ccc04,0,0,removes the other redundant notification sent. Just delete 
+476,1254963,cinder,a0693a91f55b2b08a46f1396dd1a1102783df9c6,0,0,removes redundant conde
+477,1254975,cinder,4a8ad10c3d5d79e09805c28486bd0f8a5a16c511,0,0,removes redundant conde
+478,1254978,cinder,018ba6302b0f5b909e9f32f44a14c21313a2663e,1,1,typo in code
+479,1254988,nova,3001bc67edacb89a852b06a7d840da41f42e0e5b,0,0,removes redundant conde
+480,1255001,nova,545a4976fc7896e8afee8c70661d109c464c8f44,1,1,Bad code
+481,1255023,nova,8a8b0ba9abcf7237dc4a7d8ddfc739939c6e9164,0,0,tests
+482,1255035,nova,1447b8117bc4de27243913208ead210b8f36d635,1,1,Bad argument
+483,1255058,neutron,3c00dd43f613c838f713a7cbf3cedb6767a8c52a,1,1,  Bugfix and refactoring
+485,1255145,neutron,eb23b345876796f4002cab3632bad1c840289d04,1,1,No need to trigger a notification
+486,1255150,neutron,7599d9d0526e22977caf6de13c751884a5d8f2f5,1,1,Add unit tests BUT find some errors
+487,1255153,neutron,b22515e443449a83f423620cb1df5b92770bef32,1,1,There is a bug: it takes the whole interface down.
+488,1255183,neutron,121189401a97e5f471a287c453d7f2013c92477a,1,1,Sending a lot of notifications
+489,1255347,nova,18a1486293b15c5713ac1352b9b9b30fdf2b7413,1,1,
+490,1255449,nova,0fe3001d639df81ae4e5f77bcfc32bc1bffb014e,0,0,Add a feature. ‘should use’
+491,1255519,neutron,0cbcdcfc5094fcb52679550bc67db8136441adf6,1,1,Bug. Check is an integer to fix it
+492,1255532,nova,0f07f8546fda9732a7e3597a2de78156f1fb5a34,0,0,"Is a test bug, but add some commits of other bugs :/"
+494,1255609,nova,2f49ed4b5dbb5c954fc7a9b42ee7b170c38c775c,1,1,Race condition
+495,1255680,neutron,2b375c0f15fd43af23fbd28b85929d63a753548b,1,1,Sending a lot of notifications
+496,1255802,cinder,b523699ce039d77e0bc02eb2c00e436c2e28a274,1,1,
+497,1255871,neutron,dd71021347f782608575d551f2329715c00546ce,0,0,It should… Add a feature I think
+498,1255908,cinder,d02ae9225d8ba4f7373ecced49c2d7c1cd17a732,0,0,Typo in comments
+499,1255914,nova,180d686d2ff73d24c8259cf9784adef582befaef,0,0,Typo in comments
+500,1255917,cinder,b625f558862465184dd28da7215f34c77ec1ece6,1,1,Change to case insensitive
+501,1255925,cinder,be4102b0577937c0193703ace9ae7591197341de,0,0, Remove unused reservation methods from db.api 
+502,1256036,neutron,35f64f8026f7607c749727ac6b3ee93c956bdfd2,1,1,
+503,1256041,neutron,272912b6d82af00a6f7bafc26d8ce7a79b09ef26,1,1, Fix a typo in log exception in the metering agent 
+504,1256217,glance,1408ff71f4d849c319866be92414361d8103acdd,0,0,Typo in comments
+505,1256243,neutron,52f0750d80e8742efc253b48c6bc121ae9853cc1,0,0,Evolution: Add Session Persistence support 
+506,1256264,nova,751b1a04c9b14bdaf20d555e0aaa41bc276955c4,1,1,Doesnt respect cpu limit…
+507,1256427,nova,2d2e30dba5c571c05dd4191c1b023fe4014c1751,0,0,Duplicate exception
+508,1256483,cinder,d54c49a22e3ce147003cc9a926b7b72e8dc9c1a8,0,0,'Use model_query() instead of session.query’ for no reason
+509,1256696,nova,477b3d4dec1a815edeae02531db987b75be4194c,1,1,Typo in code and comment
+510,1256734,glance,5fc030cce44ca0849cc3d2c1830ead6804c70cf9,0,0,tests
+511,1256737,cinder,aa453576ff13c97c63dcb3cd5941675ffdc93360,0,0,Tests and new version
+512,1256738,cinder,aa453576ff13c97c63dcb3cd5941675ffdc93360,0,0,tests
+513,1256763,cinder,24d6b57d1cb0c4f91545f85ea9c766d1e0ec50a0,1,1,confusing message
+514,1256766,neutron,3f110c9a571249c6626ebd1ef7dbf67b71273fa5,1,1, confusing message
+515,1256838,nova,2593469103aa7d9d2bcb759b78d5f8637911a1e0,1,1,Race condition
+516,1256873,nova,d122b2e05a9e13d5caea3f8f6578bb473fbb9c5e,0,0,Server actions should raise – Feature
+517,1256981,nova,93bc58765f393536c640494ec129bf39dbdc30c4,1,1,Typo in code
+518,1257014,neutron,a3c944bb1860faeb4eb0e90534ace07c1e869ea1,0,0, Atomically setup OVS ports  - Feature
+519,1257038,nova,f024b5f9fa0c6b772c597298792b94d01c075384,0,0,A better solution should be
+520,1257068,cinder,5896966d40884a7bdba2878386ef8f2966d08d1a,0,0,tests
+521,1257119,neutron,b6e23caddf05457b2337ac03d33b066a36aad154,1,1,The id parameter is missing in… Typo?
+522,1257135,nova,71d900543217b8fe1c9cdc93f1a6503b3ea9c7c5,0,0,Not an error. Just in case.
+523,1257146,nova,d5ff12a700495ba6b685cae08a0a8f017e3a976a,0,0, Need to handle…
+524,1257151,nova,f045a5dfa66aa46e11d3302ee707f067e86c9b59,0,0,Typo in docs
+525,1257168,nova,fb9b60fb5d3084d4cab29936fd1f534e5599f231,1,1,Race condition
+526,1257198,cinder,3b2842bf2df46daf4e4d26695c06963499968181,0,0,it's necessary to unify all 
+527,1257222,nova,1cd59abef5e9947fa8a98932d71a6b3aeae88ae5,0,0,test
+528,1257225,neutron,db5ea5c705757ca20a5789839f96518877c91820,1,0,Bug in a duplicate name. Evolution of the project?
+529,1257234,glance,720d5abfc56e4cfdbc135400f4799c2d1d8cd8c3,0,0,Add logs. Add a feature
+531,1257274,cinder,aa453576ff13c97c63dcb3cd5941675ffdc93360,1,0,Issue of version
+532,1257282,glance,2eca65eb5febae59eaca9e949ecd6a6f9492350a,1,0,Issue of version
+533,1257293,cinder,cbd7acfc294c4bf2ae0014bcf04646382bed469d,1,0,This bug affects only Topology  Version 2
+535,1257354,neutron,901d676b8bcbb3e731ba44a4e574e9ae998f486e,1,0,"Since the old L3 mixin has been moved as a service plugin, the metering service plugin doesn't respect anymore…"
+536,1257355,nova,c61c67c5afd100749b7b55b251bd4e4e3bb556a2,1,1, live migration fails when using non-image backed disk 
+537,1257467,neutron,794a1325dfc8a6937412a597f19acecf08d4b34a,0,0,feature
+538,1257496,glance,5ec9baa8857646e0608cd9a3135d172f3b92327c,1,1,Creating image with bad scheme in location causes 500
+539,1257607,neutron,51ef6a1dc30576f31a8a120066d81feedd0bf224,1,1,Typo in code
+540,1257661,nova,2e758452ddcb8871f7dbc6c859e3414923cd18bc,0,0, should handle boolean string parameters
+541,1257726,nova,b48bd3c0cf1f4ccfada24a6aebc7ced308d44927,0,0,Refactoring code
+542,1257815,neutron,89f25623a4345b5044a58cff36e7fd103c6b88e8,1,1,
+544,1257940,nova,b18b2333a98889f6a4a2fd0e859b466116ce4aac,0,0,Add debugs
+545,1258000,cinder,62617e656fe5895de30ce55971b07680f7b0a6b2,0,0,Typo in docstring
+546,1258004,cinder,b91e6e31ece12d5b1204680aa0a912e3b9569f3b,1,1,Incorrect response
+547,1258033,cinder,dd9536ac6e6df0e1ae6754e580b99cfbfd05eb77,0,0,Evolution: should use optional key value pairs for adding metadata
+548,1258048,nova,d9237dff7ace30dab331151c736d7cca97618e04,0,0,Typo in docstring
+549,1258065,neutron,c011b7668f83b25f1b8e026a909243af96f8f85c,1,1,
+550,1258100,cinder,7aabee6f76fb390faac68f8195dab4018917bae4,1,1,Typo in help
+551,1258103,nova,e8c86fc82df85a87ee7ddec0db633567924a4369,0,0,Unused code
+552,1258128,cinder,69ce114232f9102220b45c8242eda3e78872a3e6,1,1,Wrong arg position
+553,1258150,neutron,2aaec3a81148e6c0cefd8f5b989dbcecf872a680,1,1,deadlock
+554,1258166,nova,7dd4d98c2873e1868296ef973f0be42cadcb6d6d,0,0,Recomendation
+555,1258179,nova,933603ed8523493d0693f02f62fef6d427de421f,1,1,Scalability scenario
+556,1258203,cinder,17912f4c4fba270a15cab47bb68d9e30c34a69b0,1,1,wrong check
+557,1258275,nova,16dfff5dedffcf4645df3c13b623d1ecd7560d8b,1,1,
+558,1258331,glance,0d95e5316a99b78b4f629a29d862548f87671b43,0,0,New scenario. Evolution
+559,1258360,nova,10004672ad1476c55deaad53684a50358da6f656,0,0,removes an unneeded call. Refactoring
+560,1258379,neutron,3e263ba6c58c43f71c02417f8948300e8cb5c462,0,0,Evolution: router must have gateway interface set 
+561,1258438,neutron,6c2bec5d9e40c68c75cc56e077e2af97d1359d20,1,1,
+562,1258620,nova,46922068ac167f492dd303efb359d0c649d69118,0,0,Evolution: Make network_cache more robust with neutron 
+563,1258629,neutron,b67b20832a5bfccd1bbf8d1e63ebcd7061856881,0,0,Obsolete code
+564,1259088,neutron,f691ebe03916a78cbf18017d628a28b17f147700,0,0,the dispatch MAYBE dispatch the rpc message to an unready agent
+565,1259144,neutron,1763c80711993c55f4f13afe56f449b1dd6d3d3a,0,0,Delete duplicated code
+566,1259183,nova,6037b9cc20a8ab379855370394e108912ea3a0f2,1,1,Bug…  Solution: Ensure api_paste_conf is an absolute path
+567,1259267,nova,709410d243a97d35c3da314b41bab039eac75736,1,1,
+568,1259279,cinder,a83506d170e90b111b7e63fab9f585883971f316,0,0,Improve the logs
+569,1259336,cinder,bc16517ac7351b715d0202f7beb5a5e0d7ff8f97,1,1,Missing exception
+570,1259431,neutron,ef42f7c3f982092be6b5199bd9c2ade69e0446f3,0,0,Variable for agent instance should be named as 'agent' instead of plugin
+571,1259646,neutron,ca668a0b9ec5f6412cd842b89d523ba1a8369782,0,0,Refactoring code
+572,1259796,nova,5228d01bcde531cc2c141f38a150dbb2daef1c07,1,1,
+573,1259818,glance,130781cb7b6fc1635838a7c3f19d340a0a846637,0,0,Remove unused exceptions 
+574,1259867,cinder,92e058d6800e1cb33a0359cdc5c079b55612525c,1,1,
+575,1259965,neutron,c8ff2a10697303d8a04980d258a12449d12d587a,0,0,Feature: Need to make server return also members and monitors which are in pending states.
+577,1260075,nova,c47b4f388cb40d5792a206ac42ebdaebd5bde0d1,1,1,
+578,1260123,nova,e3ac20fca7494122a4c0ed2edc00377aa92cb49d,1,1,Infinite loop
+579,1260178,nova,09cca5fc0c9dd02832421b26acbf691df0c39936,1,0,Error getting version. The code evolved
+580,1260249,nova,4963fa0fa0d96d8641339614438d42c81958f728,1,1,fdf248652a38eff287d6cabbac1a260151fecd40
+581,1260265,nova,ce3f9e5fa9cd05f3ee3bb0cc7d06521d05901cf4,0,0,Evolution: Remove traces of now unused host capabilities from scheduler 
+582,1260314,glance,a7e977bfd46ffc932f32f7e4e5a60ea3db4ed574,1,1,
+583,1260322,cinder,783e3243f98a90550a8b7ec8ce279709ab8db372,0,0,Implementation/Evolution
+584,1260333,glance,5ecd5bc3db0ecc8716baa03a6e34f08e1c87fd7e,1,1, Malformed property protection rules return error
+585,1260538,nova,62c869d2375009190c5358636fd7de2ab9d194a5,0,0, Remove action-args from nova-manage help 
+586,1260682,neutron,c15a794a832e0453075d363df949684c0fb86657,0,0,Handle a new exception
+587,1260738,glance,f924943f250b52522a9285410d076d3567199c0f,1,1,Images are created with negative sizes :O
+588,1260771,nova,bdecc8d2339e3e0dd87c7258244ac8568b5b965e,0,0,"Implementation: Define ""supported_instances"""
+589,1260773,cinder,6ccc654a0509c4e308713f9e6fd95266cd112c9d,1,1,
+590,1260806,nova,f6988b3f1ebf56364696ff25448a8018866fd20b,1,1,
+591,1261021,nova,709410d243a97d35c3da314b41bab039eac75736,1,1,
+592,1261442,nova,52f9994aab8b60de2ba22579f923beb050e92bca,1,1,Fix image cache
+593,1261475,nova,02abbef960b12deaa7a911788dbc56f3a0bd555a,1,1,Aren’t safe… Bug I think. 
+594,1261585,nova,1fc9eafab43accc127044351106983e2cb215520,1,0,For windows compatibility
+595,1261621,nova,eb3db3be60f22a462f30004c55000e26545748cd,1,1,
+596,1261652,neutron,44b3783ceb94934bf8d4d62f704d42b49e52866e,1,0,For postgresql specific
+597,1261665,neutron,7dc3c671656974596b9a373c911e5b786d57be35,1,1, was being applied on the incorrect port.
+598,1261675,nova,9e7e8daa66f0c05ac7ce3927562d246baf70067f,1,1, Unable to snapshot an instance with ephemeral RBD 
+599,1261692,swift,cd4b4da8b6362e6621602a8b815bbeeea2000ff7,1,1,but the fixing commit solves many more issues!
+600,1261728,nova,78d62186e5b0388f740d42cb8da5798cd67d7880,0,0,tests
+601,1261731,cinder,99f3ce38e9ad1e272a4a04858ff1acc709e7c9cb,1,1,"One LOG is just a debug, no error or warning. Typo?"
+602,1261738,glance,b35728019e0eb89c213eed7bc35a1f062c99dcca,1,1, user_total_quota calculated incorrectly 
+603,1261747,glance,cff35c1999997b6af62f4ef285d66f38b19433af,0,0, user_storage_quota now accepts units with value
+604,1261849,cinder,edc93383f7cd9d055d655a8e345a3efa81b7de5b,1,0,Wrong href because evolution
+605,1261978,nova,8727745562d63149ad16f1ef07cbedcf506076da,1,0,specific machine type 
+606,1262039,nova,48a20d85cb9ef91c48f681c76fc6ca7512eccfbc,0,0,"We should modify the ""image"" to empty dictionary"
+607,1262051,glance,16d48ca756570ff9b10d5102544d1d5eb0020f29,0,0,tests
+608,1262089,neutron,4ded12bef837e707c76af87d71155f04534dcb0d,0,0,tests
+609,1262124,nova,6478554f531f6ee2fa86226fbc79dd31e556bc06,0,0,Evolution: we should allow an admin user to…
+610,1262206,nova,d54041f0b4763c00f661088f113e26e38c747730,1,1,
+611,1262461,nova,5ebc60c48d4a8b6c7bac96d923626df9ae67a2b2,1,0,Evolution: various resize methods are using the old-style quota class to reserve and commit quota changes directly to the database
+612,1262488,neutron,5abac020f459045ceee75c971e179d9dbce8eac8,1,1,
+613,1262858,nova,3ccb676dffea46b4ecfab35e16c0e96642353ee7,1,1,"It says deprecated, but its a typo of a deprecated typo"
+614,1262880,cinder,186221779a92002ff9fa13c254710c0abb3803be,1,1,Using wrong value
+615,1262885,neutron,d00e0b839378aed4c337efa1a33f6abbb384c149,1,1,Forgot to clean up? Bug: goes out of sync with db after being down 
+616,1263204,nova,8cc59d2084a8b1129929a162b753d4ca407018e7,0,0,Refactoring code. Friendly messages
+617,1263217,neutron,f0921a4bbad5946abb6d9679867928a970cf5820,0,0, Remove unnecessary call
+618,1263258,cinder,65c635d6a5be0b4afaa9289c901f90275a0be102,1,0,Specific of Nexenta iSCSI driver
+619,1263569,nova,4b4f0d61836e527340511f6198c2f2c0bdf70888,0,0,delete obsolete code
+620,1263602,nova,8c359e0d0cf40b82b07ed1a30f6bfc00369892a6,0,0,tests
+621,1263647,glance,c1c72d1694927e4dea1c6f09bd0cea67c2643e7b,1,1, Fix the incorrect log message when creating images 
+622,1263684,glance,5de69badfc44dd03e5fa21577a66daabc3ade5a0,1,1,Bad eror code
+623,1263729,glance,a8ef64c4eccbc0639e0e7a81ff584287a4f9ddd0,1,1, Image size won't be updated if locations are updated to empty 
+624,1263813,neutron,f778931252fbee34980e32289e96534eebb89c2b,1,1, Corrects broken format strings 
+625,1263820,cinder,1e73e64e7407294dc68af9c09323e2b396335c4a,0,0,Handle a new exception
+626,1263866,neutron,501213686886baccd3280e10b8856a25d3517519,1,1,I see a race condition. Bug
+627,1263881,neutron,7e91362dbb974df5ee44d346e1d0971479510d4b,1,1, fails when more than one port is added/deleted simultaneously 
+628,1263945,glance,7e13cf73f1869599c1218cf58468c21bb22dd5bf,1,0, Backwards compat support breaks transport_url
+629,1264053,cinder,5fe07c1be34a73c457bd8e6b8a86bfc6e53567d5,0,0,Remove redundant check
+630,1264193,glance,1a9f95329f269673efffb35ca403292f7d404333,1,1,Fix inconsistent doc string and code
+631,1264204,glance,2bebf1090156da5a773df723026c16bc40d8a138,0,0,Tests
+632,1264220,nova,8010c8faf9f030d2c0264189f9e6c70e10a093f2,1,1,(ef3b1385cb3708aa4993a149ce24082b4082e347)
+633,1264223,cinder,534ce5dde117a61abbab49e8b1bc34b5fcbfc095,1,1,typo in code
+634,1264360,cinder,8328fc46d783f4ec9286eededafa91afae89cba0,1,0,Mysql specific
+635,1264424,cinder,57fd92a3943aa4856de6ceb18a7b704ed7fae7c6,0,0,Feature: Some exc.HTTPError subclass needs keyword argument ``explanation`` 
+636,1264428,glance,1864939720c94b602699f69002c6467fda247deb,0,0,tests
+638,1265081,neutron,de4b5a2bba57cbd5294fb6f9527d64b8eeddf901,1,1,Fix integrity
+639,1265132,neutron,02f4516ad38c5deeefd686b87edf4bf06cffe5af,0,0,redundant code
+640,1265148,cinder,a4c750f3027977551c1fdab430040689a620edb0,0,0,redundant variable creation
+641,1265264,nova,608a710db5bcf4359e1e445553143cd39ffe194c,0,0,unused import
+642,1265267,neutron,ab97446132da9b0aff4d13ac01591f86aa066d48,0,0,unused import
+643,1265408,nova,5930e5f9acad1e42b3eb32f62b8cbc1d9b4c6384,0,0,unused code
+644,1265446,glance,d37907af5b71024024fb70d9454e4b3e05875105,1,1,
+645,1265448,glance,e19e2b812031802dd46f2f29b0a0508b9f7ac470,1,0,Evolution bug
+646,1265452,nova,d48dd03e4278ef3d6ed50521f595254167726d3c,1,1,
+647,1265465,nova,793604653f68e2d7d184182d0a976a7d43c07607,1,1,
+648,1265494,nova,6abda5b738c5d801ede3328cf0ec1dc9dddc022f,1,1,"It is kept as pause, and shouldn’t"
+649,1265512,nova,55296828a7d7a03736a21d846da15571ca22ec9e,1,1,
+650,1265561,glance,5f56945157f94e71ca02a4b86a2d6528afc99058,0,0,More helpful logs
+651,1265607,nova,e73072e76c2aedfc52cd2de480b2f41b60769acc,1,1,
+652,1265711,glance,a5b78ae0b502ad0ee95037f5b1d9619dba3dab81,1,1,Negative numbers raise a bug
+653,1265725,cinder,3c876c67eb32ecffb58a2234c828e5cfee70ec90,0,0,Remoe unused parameters
+654,1265893,cinder,c32302c5d5f35df39b49d32fcba47a4d36b3783a,0,0,Update V2 API
+655,1266048,cinder,3e4f554f614c8cb6d5f014c72f3c635184a4dec2,1,1,
+656,1266051,nova,429ac4dedd617f8c1f7c88dd8ece6b7d2f2accd0,1,1,
+657,1266334,neutron,bf8bf46cbbe7428c9a12886604fe5aa10019aaec,0,0, Quota extension is not enabled
+658,1266344,nova,521a03bb67724ab545430ea891eb6d6d90b992f5,0,0,Remove duplicate code
+659,1266450,nova,b9a2ad044c68212665c15aa49f1257cd4168c738,0,0,unused variables
+660,1266534,nova,cd0371280dd204a10673d5d1b70ba0b9f2757a22,0,0,Fixing tests
+661,1266537,neutron,d9bcd597c67900472709cd11604afe1616e0af4e,1,1,Race condition
+662,1266579,nova,743b74d59d3279478c512a0a559642b1d05284bc,1,1,Race condition
+663,1266611,nova,aa1792eb4c1d10e9a192142ce7e20d37871d916a,1,1,a fix commit add a bug
+664,1266617,nova,20fa2a35c843afe409ad347a40751bb59f9ecf9e,0,0,unused code
+665,1266620,nova,c167db9536c2d1ad22ac7463d448d092ca5b530e,1,1,Wrong message
+666,1266634,nova,c199a14039ddcde63896456ee25db68da1afcc8f,0,0,tests
+667,1266650,neutron,d4ec8e13d7b43a21443f5b67cc16db68bded9bba,0,0, should support Quota extension 
+668,1266711,nova,85068cc9f68aa704895ffe5ac185bb9cf7d05e2d,1,1,
+669,1266804,cinder,d64478fd35a7024f46fa8dbf54103a7a0e30be5a,0,0,feature for postgre
+670,1266906,cinder,a7b6d82fd170bc594ceff791eb10b900a61c9175,1,1,
+671,1266919,nova,6438d2587e1b93c73b8461b0e7dbd7bcd5243aea,1,1,There is a bug and add an exception for that
+672,1266986,glance,ec979d5b112e2d23eb428cdfaf467d64cfa79499,1,1,typo in a message 
+673,1267074,glance,ff1f6607e71ee261a9499b4a11de34e3648c570b,0,0,It’s better to use…
+674,1267101,neutron,85ddbde058d8bda0b938eb7a45ef73519a831b3b,1,1, request timeout error
+676,1267246,neutron,a9c6bb4647afd3df985cf40531d48957ad5d9580,0,0,tests
+677,1267290,neutron,a1e1b0a6251c9b0838f871591316c41f37b4b3e0,1,1,performance bug
+678,1267291,neutron,df315513efe62667220562dd2edb5401b15ab2ba,0,0,This possibly causes
+679,1267300,nova,9f7c5bf5ad38237f2adac980afb69fcdb26678a3,0,0,It’s better to use…
+680,1267423,cinder,f78746062f942b30d73f2575c41dee26b3619f2f,0,0,unused code
+681,1267468,neutron,7b9daa829fe137cb3da377c89b293f01e5fa0871,0,0,add sanity checks 
+682,1267619,neutron,251159c90a69dfb61d9927093d5eae41cd99e2a7,1,0,Issues by evolution
+683,1267664,nova,58d7eeede1e2912ab250fd306c85ca1a05de2fbc,0,0,No bug: Private methods should be prefixed with a _ for Clarity
+684,1267682,neutron,d583d55c6a4e6c01c49411b7e5b519031bce0699,1,0,On some linux distribution
+685,1267685,nova,44545eab5e86d0837f4032759f2d8e8e6f9846b0,0,0,Support IPv6
+686,1267790,neutron,5b5ba869aa4680bcfa7544c4e718cb5a5dc9c168,1,1,
+687,1267841,neutron,2779fdd14279e017f35780fe343b1c7243898397,1,1,Fix description
+688,1268294,cinder,671cd61704551a5d1fd753bb890650edd6dcd152,0,0,"Imrpove?: If the driver raises an exception, make sure it is printed"
+689,1268460,neutron,5fae0fae2164f4fab64e3eff01c9c644d861946a,0,0,Improve?: Report proper error message 
+691,1268513,cinder,7d028b77a4bde48ed2729f370773c9d510156686,0,0,Add support for special char
+692,1268561,neutron,45557c43e4f8e42a98c09deb45739bebaa5b8507,0,0,tests
+693,1268569,nova,cbbb9de51b52793f6d424c58199b22a422d39aed,1,1, race condition
+694,1268711,neutron,9d3a07ed04952c1fd8e65b5f46671208b793d659,0,0,No bug. Just Remove psutil dependency 
+695,1268762,neutron,b78eea6146145793a7c61705a1602cf5e9ac3d3a,1,1,"Unfortunately, ovs does not reinitialize the interfaces"
+696,1269152,neutron,47871570eb7ed351738828bc233343520283de0d,0,0,"Missing LOG,exception to show the error"
+698,1269445,cinder,193096a476ca3da2ef7f36f89fdbd897c5bcc320,1,0,Check newer version
+699,1269501,neutron,212c755c34c195148c668b553ccd9f371df63420,0,0,Refactor to remove _recycle_ip 
+700,1269505,neutron,0d111c97334c28444708e623a3fde912bc7c25d7,0,0,delete code
+702,1269567,neutron,702e1fbf7ad5dd961dfd35cd6a0e54d4d6da5e34,1,1,performance issue
+703,1269633,cinder,f1d30c9bc4ae626883d827d3b0a0458aa9f70820,0,0,missing method
+704,1269684,nova,fd901be0c6718c26c078bb5ae85ba804b153833c,1,1,missing information in the payload.. bug i think in this case
+705,1269958,cinder,9c1ad54e7815d50d9561d88337724ad2042c92a2,0,0,"I dont see the bug, just a report that shouldnt use env"
+706,1269990,nova,cc134ab2dca6c28e75d4530517f309c3fabc969a,1,1,LXC I think is OS code
+707,1270008,nova,844df860c38ac38550b8d1739fd53131cd7fd864,1,1,Add a exception to handle a bug
+709,1270034,cinder,68ed1bcec81e173648a4a86e5f4e21abc6dcf539,0,0,Unused variable
+710,1270088,nova,da84cb078e9820c7c9d64bdccd904e1b257ab96e,0,0,No bug: needs tests + better log 
+711,1270178,cinder,6c9f81b97ededf2b6401861f7d876851ff07b34b,0,0,No bug: code needs update from Oslo
+712,1270192,cinder,3764cecfc3b0a5b35634b15a4b049f433a8a22de,1,1, cinder volume hanging
+713,1270204,cinder,e62b70562dd8d2d94b526f3f7a52ef4aff9a3f40,1,1,Bug with spaces
+714,1270624,cinder,82283790b7c5ba6ae0e561ee3302d7fed7983267,1,1,Bug in log
+715,1270680,nova,119e2a690a64fdfd541010590285f754b3393653,1,0,Evolution bug: this race may have been introduced by the use of objects
+716,1270693,nova,7e18d67cc9c96a14e0ca24a41820441e41457738,0,0,tests
+717,1270811,nova,861d67120227f7a52ff3f9ef7225b84a9ac26647,0,0,tests
+718,1270863,neutron,fbf0e621399027d5004bbc8c888d67a3c2851686,0,0,Use of constants instead of variables
+719,1270973,nova,33cc64fb81773f0c246073d23c525357c9aa3b08,1,1,
+720,1271231,neutron,2302ed3f22512590af23a649e09b952189e0fa9d,1,0,Bug by evolution
+721,1271249,cinder,28b8ecc15d874644952bb74539c61becaf5f7d20,0,0,tests
+722,1271331,nova,74ade48634e2b72ec0b09792e97ac77dfb5fd999,0,0,tests
+723,1271449,neutron,65dde5624bbe1a1f896fe437fef0ad9bbe168153,1,1,
+724,1271568,cinder,65fa80c361f71158cc492dfc520dc4a63ccfa419,1,1,Bug: can't handle rpc message. Need move a method
+725,1271821,nova,951bae39e704b04414ebb711b425631cf2d46be5,0,0,No bug. ‘So we need to add a protection ‘
+726,1272128,neutron,609f01a1ddca64ec191cb15a4f6fb93d219c3336,0,0,Support Port Binding Extension in Cisco N1kv plugin
+727,1272136,glance,8143d814f2b355b1a2a7a1bd92920641e4d0fb43,0,0,tests
+728,1272182,cinder,04dd95bef7e88c2602cca74d542654ec7bdfc754,0,0,Docstring change and unused variable
+729,1272195,nova,46922068ac167f492dd303efb359d0c649d69118,0,0,Refactoring: Make network_cache more robust with neutron 
+730,1272286,nova,d46f4a5b6d17f20a9c1de9367af11c9f3e7a7ef0,1,1,There is a bug. But they only remove code
+731,1272365,cinder,b1e7d0ad220d869323754683dbb447f6821ef705,0,0,Just because of pylinter: Ensure return
+732,1272490,neutron,1027d02977812064b688fe0748c46663c1627cf2,1,0, some drivers do not support bulk operations
+733,1272500,nova,9271e300a55f8aa16ff867fff71adadb383849b8,1,0,newer version
+734,1272503,swift,15c04f6869c3ae4bb8906b3783551df0e718d462,0,0,tests
+735,1272518,nova,0b8267aa834e9d86cf2ecd9fd64ccc218df454bd,0,0,Modify some typos in tests and also deletes 2 returns in code that doesnt make sense. No bug
+736,1272565,neutron,bb406281d8e36c29874bee3d9a3d1d5eae4ccdd5,0,0,Bad log severity: Debug severity is more appropriate
+737,1272623,nova,6534a89de9cabc274cbdb7d2ecee3d851c456a87,1,1,"Bug that allows to restore, when it shouldn’t "
+738,1272830,nova,2bfc7171c23d0595aa7f8680271778bc58cb28ba,0,0,Add more documentation
+740,1273139,nova,a6d28e811ad916d686e350ce2dd8f6b8b0e128d6,1,1,typo in code
+741,1273259,neutron,9e247277e2d916fa705715e018ef5f3f221f0efa,0,0,tests
+742,1273266,nova,11d8dc7b9eed0e293ac5afab4792d8af7b807f4c,1,1,Wrong message log
+743,1273355,neutron,d26bd87919990923b6fc85779f03705514d8d0b3,1,1,fails
+744,1273496,nova,bb67b0137e8faebc8892c9176775f02f6dbb920b,1,0,Bad driver name
+745,1273803,nova,81f9256747377f1b9488b407a2f33d251ffd1d8f,1,1,Trying to do something wrong
+746,1273852,nova,60ca9548905b58cea67776a71864486bfd1d69c7,0,0,No bug: should be purely DB layer
+747,1274123,cinder,5ba26c8aa5b295a1202fbc6c01eb050ce3f3af3d,1,1,Race condition
+748,1274252,cinder,9afbd3fbba201ee606cf6e3b57675d3fbf9514b2,1,1,
+749,1274294,nova,e498373b26d3fa05274429bcf958ea86eb4e3af2,1,1,Fix help msg
+751,1274334,cinder,dc4655a5ae5a2ad576b68f3bc7d5044e395ee49e,1,1,typo in code
+752,1274365,glance,7f3e27ab06a0792181347f0f4feb7d06b546d9ac,0,0,tests
+753,1274439,nova,73c87a280e77e03d228d34ab4781ca2e3b02e40e,1,0,performance issue. Change in requirements
+754,1274523,nova,1b83b2f11054ddd3f72fe75c5cef496060afcb3a,0,0,Add support 
+755,1274601,cinder,d311066dd43bdc4598fa76837d78ecfac16f5e58,0,0,No BFC for this bug
+756,1274611,nova,0d447f6edd406547e828c592823ac6624e56e91f,1,1,Bug with the configuration
+757,1274627,nova,a70c5eb83d14541c2297b6d834dff1c0ac00962e,0,0,"I dont see the bug, feature?. Volume attach /detach should be blocked "
+758,1274718,nova,e6ac12041ebe85fe9d46ab9346ae0bc9ef0a3599,0,0,tests
+759,1274758,nova,82821b407ce7a226918758876abca46b727d9706,1,1,
+760,1274924,nova,328beb0433c04a0888d38cbc2927248fdd963318,1,1,Problem updating. Deletes some metadata
+761,1274992,nova,2749bb9138f5946d1ef3030c7fe349fbd5920139,1,1,Race condition
+762,1275126,glance,2c94b11c40433e44c481aed6b590a563471dc358,0,0, Add VMware store the strategy module 
+763,1275166,neutron,ebc88e6110660c0d543e75140d2e19ccf4796bea,0,0,remove unused code
+764,1275173,cinder,da13c6285bb0aee55cfbc93f55ce2e2b7d6a28f2,0,0,Refactoring code to make 1 less call. No one speaks about performance
+765,1275267,nova,6a0e6209cab2ced467b63ce9ce69a41daae669fe,1,1,
+766,1275352,nova,c283576770b1bb96fd3dd012c6ced22b2a8eb903,0,0,tests
+767,1275654,neutron,fdbaba877f98bf20c1ff71c9bd0d04956120f845,0,0,tests
+768,1275682,cinder,86591a24d48fe19be427b5a8981821fcdb85bb37,0,0, volume retype to be supported
+769,1275755,nova,280af85945d7ce8be60135fd364f22e1e8782b87,0,0,Exception with more information
+770,1275771,nova,05f688e49fbf543a6c69c0f186279c6732118470,1,1,Notifications do not work
+771,1275772,nova,378c28a8c05d3943324b5a39edef947ed7a9f52a,1,1,missing raise statement
+772,1276011,glance,8496dad34797104482a5a76d809b72569adcd794,0,0,Remove duplicate code
+773,1276038,nova,f591eee475df177fef5f10898b2d95c1a75f5563,0,0, Disable IGMP and refactorize tests
+774,1276142,glance,f50074c0f65fdeae90dcd4b469fa2ac6f306e4b7,1,1,Fix unstable state after image wasnt deleted because an error
+775,1276312,nova,60da388de842a0e3b11aed8f4f4e2e21ab270660,0,0,Mak a more generic msg
+777,1276398,nova,c94b71c2d42a651f3b24d5f0ac1819bfa2a79a12,0,0,There is a bug in tests. Change the place of the configuration to satisfy the tests
+778,1276409,neutron,844ae433c17ee3956a8c83ed693ca44c8e3c38de,1,1,typo in a message 
+779,1276440,neutron,3faea81c6029033c85cefd6e98d7a3e719e858f5,1,1,dont not send duplicate msg. High load of traffic
+780,1276539,nova,fb12fa03ad21c4c8924175ae77bc6bd30139f089,0,0,Raise more specific exceptions
+781,1276644,nova,acf9fddcf3129ffab9e01aeb1e9991830013bfbd,1,1,Bug not defining a variable in python
+782,1276728,nova,3720fd17b060de6f14e537e6c003e923c67c65a0,0,0,'can be wrong’ not a bug still
+783,1276731,nova,c9a020f121a85ff88b890e964dc8c1f6d0ff5843,0,0,Suggestion:  should not rely
+784,1276876,neutron,6aa0a44a9d2ed0a4c2d6d515458c94698a1ad3d8,0,0,Add and update information
+786,1277054,nova,ea7242a293abe59dd91add5e44e58a2eb6cd99fc,1,1,
+787,1277155,cinder,dc02810c5dc64ca48a163645588ea6a60367227a,0,0,tests
+788,1277168,cinder,ea7d4a599224b5d0c7674d03993bbe72c49f0d51,1,0,Bug because of evolution of the names etc
+789,1277222,neutron,056942ad5c0b379ebad06110b45b72f685b6c03d,0,0, Reorganize code
+790,1277422,nova,c70749b9c8d9575ba28b2c012615d6bae146ccc3,1,1,wrong quota calculation
+791,1277914,neutron,e62e5f3763934bef452d07dafc29ee3709bc2213,1,1,Raise a exception that does not exist
+792,1278028,cinder,a82bae3f7b56fb84377fa6571b9f21ca6809da0e,0,0,Update the default settings to a new value
+793,1278035,cinder,4cac1bd3227fd8b65744e75f0df018fb34bcb1c1,0,0,Feature not a bug
+794,1278104,nova,423f344c59da1eecd7ab8bbb905abc1ff5948b14,1,0,Docker version bug
+795,1278149,nova,9bb9a77e41b009cb940e98feda666dd8d806c862,1,1,typo in code
+796,1278271,neutron,26d8231b0bf4050453bcb6122484c801eff852ca,0,0,I think is not a bug. 
+797,1278279,nova,b699c703e00eda1c8368b2470815b8cfc2fae2e4,1,1,bad attributes
+798,1278291,nova,1fb1b058211f08c0b993372e734ed62cd9267193,1,1,typo getting the msg
+799,1278530,neutron,1c0235fb592d63e03506670e5690ab6c7ecab0a7,1,1,sending wrong id
+800,1278581,neutron,8f0f6ca82fcbec153f992fd2347b6c4fd9a9eb25,1,1,It fails. can't reassociate floating ip
+801,1278696,nova,f1b76971ba9f670b0ee916625318d65f18c3c4aa,1,1,wrong msg
+802,1278991,neutron,d59d5a1c72c2324b857225680f5578d381a2ec73,0,0,Fix POSSIBLE deadlock
+803,1279137,cinder,dfb1a090334d705425e739e8174a9c1c07009433,1,1,Bug in tests that didn’t show a bug in code
+804,1279146,cinder,b5c4c5767fbfe9580e68343e722794326e6bb254,0,0,remove unused code
+805,1279172,nova,53fe8696314fb73ca9943fce998d96fa6d0414b4,1,1,Bug encoding text
+806,1279189,nova,0b311bffc0f22f0b877d6bcad0c4cbcf1701dd54,1,1,Typo? Return instead of raise
+807,1279195,nova,f52a7f181ab8eb7b9e3e780183662fde8755cabd,0,0,Catch a new exception
+808,1279300,nova,7fbb42296970ee30d21bbd66b144a2ab421aa17f,0,0,Give more info
+809,1279317,nova,6def27b434a53aa8c1aca62640a6c072cc21209e,0,0,imrpove tests
+811,1279551,neutron,464c307c68fca0353fb7d65acf650001c8de3f73,0,0,Evolution change (bug?)
+812,1279572,nova,30f73de399d9490f8f23d493c3cc20813ef71481,1,1,
+813,1279611,neutron,a060b6c0b7d26b02ac2ca15ede49fa56a026efda,1,0,ulrparse not compatible with python3
+814,1279703,cinder,8bd9b9a63fd104ada41ae1e449e83da337068157,1,1,bugs in log messages…? I dont think it’s a bug.. but is typo in code
+815,1279747,cinder,09b20b1b8493bef07cfc1caa8c345eba7ae33062,1,1,typo in code
+816,1279753,glance,31bcc97214358482e9ccc035189ef70ced1afc21,0,0,tests
+817,1279769,neutron,9af846caf7f4d00eddb2d839c032b909eb79d403,0,0,Not a bug now: ‘It may cause ‘
+818,1279813,neutron,3c0025abf4581dc3561637e802de7bba1434d2b3,0,0,'I don't see any issues due to this but it is better to be fixed.’
+819,1279897,cinder,0c6c57d70826b36db30795fa993cf677a4c2a6e4,0,0,'may return ‘
+820,1280033,cinder,24755ff21f0ee7643ba1cdeb339b260cde5683e9,0,0,‘we don't need this module now ‘
+821,1280035,neutron,fcad26e394cd6021aab2c94f1179533cc7866f8c,0,0,tests
+822,1280055,nova,1a8dd2487d95327b97ebf8e8b4a27420d1432fd4,0,0,Remove duplicate code
+823,1280067,nova,d72d925fc1c3b8620b81531ec74524aceb89d4e8,1,1,Not catched exception
+825,1280132,nova,5856c3e585891103767eda87035dee8ecaee32ab,1,1,Option format not correctly set
+826,1280140,nova,d835163759527a651f3c4f2109ca0fdc3e968d37,1,1,Fix instance not found
+827,1280363,nova,80ffc9b8b38293c05c9d48cb615b24fd7255a850,0,0,Replace exceptions (refactoring)
+828,1280379,nova,c1a64c94ef848f825e6a36581814511a81945428,0,0,tests
+829,1280409,cinder,9e858bebb89de05b1c9ecc27f5bd9fbff95a728e,1,1,
+830,1280522,glance,8d4312a2c9b020cec1241fde0b9a1fb29af5e6f6,0,0,tests
+831,1280532,nova,fa72e49845179e29cf918e0742ef735ae868bb4c,1,1,
+832,1280572,nova,e5cd9d90062d778b7725de0c76d44d6077e8e237,1,1,bad return status
+833,1280597,neutron,854a5ac0bec932130eac0ac1ca1e679cc6487c93,0,0,typo in commentary
+834,1280826,nova,88b7380d0e7c398780d2bb20abd1936e7c879665,1,1,failure with msgs
+835,1280827,neutron,3d24fe5710cbea6d7d1f88c3476f4a856347ab5e,0,0,No bug but regex parsing is tedious and error prone
+836,1280964,cinder,6427b5506de72f0adf224d3643f6df9d4a465bdd,1,0,Incompatible with python3
+837,1281083,neutron,abca726e405fec960b546319ea81295b0c6adb0c,1,1,bad validation code
+838,1281440,nova,eeb97eb16c1f56cecca83700ab28a594ed27ab1f,0,0,No bug. Should handle boolean string parameters
+839,1281481,neutron,a98dc7680d4689f5ce5f602f9c5cb3bcc77de215,0,0,tests
+840,1281574,neutron,a38d73d9449675374f45c44b35978735e53cdbaf,1,1,race condition
+841,1281694,neutron,f50df8eb3c5bf38abbb0389b85c4b628cffb59f4,1,1,
+842,1281772,neutron,084b7f62280241a9037b6f9e592c466135e5fec1,1,0,"It worked, but now it is a bug because of evolution"
+843,1281789,neutron,d532864d832656adaca433792ed50c8ed71db40a,1,1,wrong id
+844,1281904,nova,544745f9da3245a71d771cff26dc6d0255bb0470,1,1,Wrong exception type raised
+845,1281916,neutron,b5d09ffe604a1f6d8272b773bb183e5f2bc3d0f3,1,1,Cannot distinguish IPv6
+846,1281921,neutron,47079b78b8d8414da9e876d31c6364d6c78389ab,1,1,typo in code
+847,1281936,nova,028217a0dc6cdc33a37cc303ab9ffb6633036cfe,1,1,Bug in a special case calling directly
+848,1282084,cinder,38e192afecd0d08921d4fb4d7166fa156addb6a4,0,0,More pythonic
+849,1282098,cinder,efd4ff9c2584de9acfbae432f889e222f5058ea1,0,0,unused function
+850,1282303,neutron,326b85dd6154048b1671732d2d7df8deb8b99207,0,0,"'the only reason why I'm making this change is that I want to add
+something to the __init__() class’"
+851,1282352,neutron,2a0c679b00ecf8d047a4372bc38f1b2662348f48,1,1,"Bug, I think is not specific. It is a bug in the code"
+852,1282354,neutron,e8988fe72eaddb38282356fe92076fd9cd2897b1,0,0,No bug. ‘should’
+853,1282366,neutron,2b16e91b3f0fe06153a3a890c159c52974a57b91,1,1,
+854,1282394,neutron,0dd0b6b5ee75bd437b2a82f2e666a6c671b91514,0,0,No bug . ‘It is so annoying for debugging or log monitoring.’
+855,1282400,glance,1c5797d53a53a990cef3d695f0752742fd213840,0,0,tests
+856,1282401,neutron,2ea6eadfd574770f19c817f9451ab4e7ad6d77b9,0,0,tests
+857,1282423,nova,0192898e30035028b002f9aed3199be69a18efb3,1,1,
+858,1282437,glance,eafa186b499eb8fd5d37a4c47e99156546e4cab8,0,0,"Refactor? Indices start in 0, not in 1 according to a rule."
+859,1282514,cinder,14903b4ca7d625b8e93fe431f854263bbe26e4bc,0,0,"No bug. In case of it, not BIC python3"
+860,1282662,neutron,e3e0401672c8745092d3f0d99686b2ca94c1eb58,1,1,
+861,1282715,glance,18b4df178b7d708848cad9de7f9073f8fa7f20f9,0,0,No bug. ‘VMware datastore should use oslo.vmware common code ‘
+862,1282754,neutron,f8ab9d4366c87724cba2e49e71dc72e2427d5a68,0,0,No bug. ‘Validate multicast ip range in Cisco N1kv’
+863,1282873,neutron,7ab7e70559733a97eb0c77442bfaae7e7e10b790,0,0,remove code
+864,1282922,neutron,64acc3bd63846a6e7da8d1136f946372c698cb76,1,1,performance bug
+865,1282925,neutron,5e4b0c6fc6670ea036d801ce53444272bc311929,0,0,no bug: ‘can lead to long transaction if ‘
+866,1282946,neutron,7ad82b95f611678f71fd500b6541e04ff8359d15,0,0,tests
+867,1283019,neutron,14cb886809e5cccbf799a0dc2e5b99f31b1ab3be,0,0,"NO bug. ‘No need to use ""is not"" when comparing values’"
+868,1283080,glance,765b6c98e08577038d33c9a5d745bb75c6b9f06d,1,0,Evolution bug. ‘It seems this change is missing from Glance’
+869,1283233,cinder,e31b9e78374bcaeae573cce2915897ceb870ffc3,1,1,
+870,1283250,neutron,ebf2763508535d9b3aaa6753139858b6fdd21f23,0,0,tests
+871,1283338,cinder,379273925517e8b9bf971e018a1dc41f809c4814,1,1,unstable state
+872,1283765,neutron,9bc29208bda6071a34bcc0da36a396eb8bab4f30,1,1,Bug. plugin changes port it shouldn't
+873,1283872,cinder,330a476f8a82c672d636d7da78b81cc46db1e9dd,1,1,wrong msg
+874,1283876,nova,7eb42f18ce8574b28ecba16b478bcfc40dfa2005,1,1,Wrong message
+875,1283930,neutron,e95571a6e350338a1567234bc934f70f83e69d86,0,0,Improvement. Not a bug
+876,1283987,nova,1b83b2f11054ddd3f72fe75c5cef496060afcb3a,1,1,There is a deadlock. But also refactoring code.
+877,1283990,neutron,3d9e183d596c806527008f6eb15edc9d249cb3c0,1,1,Small bug
+878,1284162,neutron,0049967a874a3dca7c6ab8e8e84ca7dea21dc0b2,1,1,
+879,1284227,cinder,115b6276ac3dd7b3e8c6a42e9d0d80709791b7a2,0,0,tests
+880,1284265,neutron,aeea31b21245864888f4744c19a0fed2a9c6567e,0,0,tests
+881,1284275,cinder,52389188372b38ef237898e90cc533cf27d3eda1,0,0,Add a feature
+882,1284277,neutron,cb99c08e968685c6f59bab2e49f86d56a2ec509d,0,0,Add some logic to manage errors
+883,1284284,cinder,5eac161aa81a68e7cc4adb92798f6c3e849da81c,1,1,It ignores a parameter. This implements the fix for the bug...
+884,1284312,nova,a17d38b96c4b776de8938195f86953ff26f94c2f,1,1,race condition
+885,1284314,neutron,706a8b1ff30c011169846ed5e38f06aa9f15faf2,0,0,No bug. ‘stats table needs columns to be bigint’
+886,1284338,cinder,85239cc81440d9e5a4aee3c0961c96a4197ad939,0,0,refactoring code
+887,1284345,nova,bf322d27a0eaec92a9ed6f42c60c2168456825f8,0,0,Make less calls
+888,1284362,cinder,65e1031c6aeaf4d88029e33694c0c32ef81e75a6,0,0,No bug. ‘Add versioning output’
+889,1284368,cinder,e088c73b185073943d9b18b7ede0375c096ee8b3,1,1,Returning the wrong value
+892,1284709,nova,4c68f19cd8d1f045bde02be7eec50c34c1d87932,1,1,
+893,1284733,nova,aaf5762be5d37cac022dc321b6400b9743a25303,1,1,Bug. But they only deletes 1 line
+894,1284881,neutron,50edccfad29d3c602eba628fc80e46a0a67de090,0,0,Delete unnecessary code
+895,1284930,nova,635c5b611ae765bca3a888b1fcabe6bf0027c948,0,0,Just add an except. No bug
+896,1284979,cinder,7ca4bea7e3d8688c847bdbcfe3e60900c61c297c,1,1,Non authenticated error.
+897,1284996,nova,478f447070e2aa11ac14d419ae283e6bb9edeeb3,0,0,No bug. Feature. reduce VM network down time
+898,1285029,cinder,6d9bb4bdc915b1ed6ac9d49012eb185a369cc624,0,0,tests
+899,1285035,nova,026583e60e9ec2b83049e8ceee16f182560d2562,1,1,bug for 1.0
+901,1285060,cinder,b868ae707f9ecbe254101e21d9d7ffa0b05b17d1,1,1,
+902,1285209,nova,dc716bd0ce77b56f4aabe54d6633b7f3bf9b0a5d,1,1,They dont umount…. 
+903,1285259,nova,8cd2b890710ba6e53884f43b5d6ce095672732a4,0,0,Change in requirements
+904,1285289,neutron,038a56c13dafb1993ea2c6cba5a1a06b573cfa03,1,0,Bug because a field has been removed
+905,1285335,neutron,03500414cf463905a28ea30d069630dcfda1d90b,0,0,Evolution
+906,1285383,neutron,42c882b9e98755b9e119f6c566fc00a62a420af7,0,0, make replication mode configurable 
+907,1285437,nova,16e360d3a9183e9fd2b3dc163fe3e1ce4ec18e8b,0,0,Improve messages
+908,1285473,neutron,c75aada35b13da33d08f51d14fd36640d8b735fa,0,0,Use x to avoid inconsistencies
+909,1285482,nova,ccb68ab1cd50f00546794c4bda9acb2580d8b3a4,0,0,add a sample file
+910,1285641,neutron,273b169029e6693cb862be38df1c70e540808645,1,0,Evolution bug
+912,1285735,nova,d9a5a80bc06f7a25c259ff763a59dffd9514371e,0,0,Evolution change. NO bug. Change in the decisions made
+913,1285886,nova,621fc02f70fa4fa50b2f05167eefa39b71f72024,0,0,"Before was ‘’, now is None"
+914,1285906,cinder,fb25917fe17fc80c1ae704759c8f6487ac2e9a22,1,1,
+915,1285993,neutron,71deb11f6fd5186cabcc42431316deb5dbfa3dfe,1,1,Crashes
+916,1286285,cinder,b493dcce93418ed09f0e2b7e1dccc20270deb75c,0,0,'It should be calling’ (Just in case)
+917,1286297,nova,daedfffd95b375f00deacb43b6de5e02ddde6df4,1,1,There is a bug. The decision is to delete some code
+918,1286375,glance,965e2c359477b7445b36f84ad1186f541cb831ca,0,0,Feature: Add OVA container format 
+919,1286412,neutron,9869cc1d100ced5f50cf03b557639835c364fbb5,0,0,'Add support...’
+920,1286528,nova,a72a3f4c956338b05db2c6fa958112cf5df8dcad,1,0,Windows dependency?
+921,1286565,neutron,c36ddaf930ba309be3c127dc1836f28a8ab97c5d,1,1,"I think cisco is not a specific platform, is 1 of their plugins"
+922,1286694,cinder,f7d99b07f72037b87d5e9f63b48a7c49f7116fe5,0,0,Feature. Add initiator target map 
+923,1286712,cinder,5c1d0a6246cbd3f05f6c41e7cfc7046fa3431726,0,0,cleanup
+924,1286714,cinder,5c1d0a6246cbd3f05f6c41e7cfc7046fa3431726,0,0,cleanup
+925,1286733,neutron,142c55e82a4d36af887439a94054617a5a0ede9c,0,0,Change in requirements
+926,1286742,cinder,5c1d0a6246cbd3f05f6c41e7cfc7046fa3431726,0,0,cleanup
+928,1287031,neutron,aa5ace6b7555dd9ed59dd07ea022585f44767f27,0,0,unused code
+929,1287176,cinder,5eac161aa81a68e7cc4adb92798f6c3e849da81c,1,1,Bug. Make something optional
+930,1287185,cinder,5eac161aa81a68e7cc4adb92798f6c3e849da81c,0,0,Add support for an argument
+931,1287292,nova,4640542cc502a442d4807822d75d3fa3eff0a33b,1,1,incorrect use
+932,1287367,nova,f3f46b532c528c31fbcdc0d18b18105c42a0d74c,1,1,Raising the improper code
+933,1287407,neutron,17624e21f4812be80ca535a1f119127c021db54e,0,0,cleanup
+934,1287419,neutron,6c91bdfe24e275ede65df369d714ca119d5ce5f2,1,1,wrong parameter passed
+935,1287432,neutron,dba196702b43f90928a644bdafaf42c97b71267f,0,0,No bug. ‘ should be renamed’
+937,1287476,cinder,0e44ba4c273f41195d0361d3c48df76e2e5add76,0,0,Add initiator_target_map for IBM Storwize/SVC
+938,1287495,glance,e7c1bdf146c0492a7f122399b099f0fee8b6d125,0,0,No bug. should check
+939,1287524,neutron,40390598c5a440d1bbfa4f229130eeedf5cd4dba,0,0,'This code could be simplified’
+940,1287542,nova,5eafe1ccb30462d9b78b13323135fb9f90d1fd54,1,0,Bug because of evolution
+941,1287643,cinder,e8fac5eda3309a19ee2e1b36883a4e30476644a9,1,1,Fix conversion methods
+942,1287760,glance,412e793780665b43c134ddd59907766549ecadd8,0,0,No bug: Task create should return 'Location' header 
+943,1287844,nova,f5bc15687bcab1e0e4a2163a194c04bd8c5d14d9,0,0,We need to raise a exception
+944,1287944,cinder,48955e56b886c0da51c1555aca62e099761ad99b,1,1,Many bugs in 1 commit
+945,1287945,nova,bb83f1a743150779e190705d2875a2319720c60c,1,1,
+946,1288178,nova,a88d9d5936aabc52046ed3ae566741422bfaed78,0,0,Rewrite nova policy
+947,1288188,neutron,6206d555c3cd129a9ea83174ee786e1e15a4c48c,1,1,Fix usage of save_and_reraise_exception
+948,1288281,nova,b69584a523f41f8171805e22ac6a0b29172e832e,0,0,This can mislead…
+949,1288283,cinder,b2447503b0ba98e644439d31435d47435c46cd69,1,1,Fix the incorrect behavior
+950,1288296,nova,2b2decfd1b5b0d68813bc7e5b5e4349a1ab592aa,1,1,Conflict. Not allow duplicates names.
+951,1288337,glance,4da02aeabc9bb072bd33b21a1c8fb6e10cc4e262,0,0,remove code
+952,1288358,neutron,466e89970f11918a809aafe8a048d138d4664299,1,0,Architecture/db specific
+953,1288379,neutron,2648aa3561d23e1215e0cc6f446253e5df56c8f6,1,1,deadlock
+954,1288392,nova,c47900064f2f3b4384cfa3fd6fe21f452514fa36,1,1,Bug. Remove some callls
+955,1288407,neutron,f83b2ef4fc042d8559b1f75dbe949460f2843c7e,1,1,
+956,1288420,neutron,c9226a858201a6c3691390259b46a643e8dc8b2f,0,0, IBM Plugin need db migration
+957,1288441,neutron,1959092bca5646306cfec5303f43627e78f6e2d4,0,0,tests
+958,1288463,nova,fa73a5d037471dbec11893ad83bd93276968b9af,1,1,Security bug
+959,1288492,neutron,7f6a6cdfc95610cea0a6e4bb01e7de330e1f76d4,1,1,typo in code
+960,1288574,nova,3824051b1e5618388a17c88867a3037397bc96b7,0,0,no bug yet. it will be an issue if too many backup failed
+961,1288609,nova,e251535eaa7c6a564eddb9218de177c9bea656bb,1,1,wrong
+962,1288645,cinder,df03a9b9b7025a0e13d9387a74c304875dec0918,1,1,keyerror
+963,1288661,nova,1284c4d2e471809635a070289ace0049abf38f18,1,1,typo in code
+964,1288809,nova,fa2f139e22ed1317f4afe01faaf7ee3943444715,1,1,incorrect allocation
+965,1288816,cinder,5119d323650f97f12e12fdb6a2a80e46739629fc,1,0,Adds xiv_chap to xiv/ds8k driver configuration
+966,1288915,neutron,13fd601415418407bb2d2f6bafffb470e5879df6,0,0,Improve message
+967,1288923,neutron,d5c0a37999f9e3a611a322baacabebc06b13283b,1,1,There is a bug. (Maybe make a feature(
+968,1288926,nova,00f5125745dc72afbc9aeade8b780d7a3be49a30,1,1,bug rebooting
+969,1288962,cinder,aa4a89eda8941bce22ead9db2dd5f7bc6ca90e04,0,0,No bug. doesn't enforce 32 block-ranges limit
+970,1289007,neutron,4559a5f381082dba30bb535b69deeb09135da680,1,1,This leads to erroneous values 
+971,1289027,neutron,f64eacfd27220c180f6afc979087b35aa1385550,0,0,improve unit test coverage
+972,1289039,neutron,fe2ef9f0dd1f33b61fe11eebf2ae3d577a73ef53,1,0,Bug due to evolution
+973,1289066,neutron,fe2ca9a75878a445a54ecfe4a97c79b696abf503,1,1,
+974,1289079,nova,adeeabf313a15162c45d4e6ba6cf9596f318f3ed,1,1,There is a bug. Add exception
+975,1289100,neutron,5d782b33b772987b472ae5aeb5ec13e1bd30335f,0,0,"For conformity wit Neutron agents, this needs to be added"
+976,1289130,neutron,fb9886b903434321e62373cb4c11ba014921e4df,1,1,Fix bad error msg in some cases
+977,1289132,neutron,97c0723cfe7ffa1dbc6c278110029df755df8045,1,1,
+978,1289134,neutron,84368554d8a13a421297298de40693956af25fcd,1,1,bad formating error
+979,1289138,neutron,caf7ecaef75f4d9eba0d85db8917be5a9118792d,1,1,bad call
+980,1289164,nova,27b405e46c62e7084ac8db038f4b213a30dc3d23,1,1,No exception handled.. Error raised
+981,1289192,neutron,288e3127440158f177beaae1972236def4916251,1,1,Fix certificate file helper functions 
+982,1289230,cinder,7f643ca464194067c70d86efdc262daa9d2d3a92,1,1,typo in code
+983,1289236,neutron,815dd8c4ea026b4064a853c7ad5bab47afec06b6,0,0,Change the except. Exception very narrow
+984,1289256,neutron,f5601393e97baf87daa5b2065cb8783e3fd34214,1,1,Bad usage
+985,1289361,nova,527d9e532d1c2692fdd367314d98c37237ecc834,1,1,
+986,1289382,cinder,aca0fa8354670d2d7b5ae0a65a539db4cf455995,1,1,Bad log raise exception
+987,1289397,nova,a516ae71d57eda013f7cb9428f945dfea08ead3e,1,1,
+988,1289627,nova,62cb0dc6257daac5ec9fd1a90ee5721e6543dd76,0,0,Add more infor to the error
+989,1289696,cinder,b5f7cf989c6f233fb2b0dd759cc33afb94761ec2,0,0,can cause problems when several requests …
+990,1289993,nova,eeaf046c18d08403a0fefd778d4eb8401db0d357,0,0,remove code
+991,1290036,nova,100c42ed15be5fc3ca52fb7cba0987e768a18a3f,0,0,typo in commentary and add test
+992,1290234,glance,d2a81315316a95dbb6888f778e4f207582c626c3,0,0,do not use xx in python3
+993,1290261,nova,b4ef81d6a018a3e6781bbfd5c9a2c73727645cc5,1,1, Missing translation support
+994,1290294,nova,b4964eb6a570e290545f95d45411dc8441985cd5,1,1,terrible bug
+995,1290317,cinder,7521e6dce39a9ec99d35892780a39bf8049e38db,1,1,message format error
+996,1290362,nova,3da0d898f487fbc4ca668e57133a2b3f102f73be,1,0,x86 specific
+997,1290403,nova,a41ef0ede2cdace1db4d932e0931509a84ba837e,1,1, erroneous values collected
+998,1290478,neutron,665352f169a7d1e7eca590d466241cc313adb7c3,0,0, could cause a timeout 
+999,1290486,neutron,8e9f00a19dab98e5cfc7ca32beb9f17ebb5bc1bb,1,1,
+1000,1290487,nova,dba898226ec26ab49cecd24e9d6c255cf6153cd1,0,0,potentially causing threading issues
+1001,1290503,cinder,bb5228cf79ff5bea543abc321b2dfad9fea5e9a5,1,1,key_error. Add default value
+1002,1290540,nova,6a36d367b54538ef6347c948b3e549f21993771a,1,1,"Revert deprecation warning.. Bug, Ithink"
+1003,1290549,neutron,31f051a0349a40fe629a7bb5ce0ea683aa28a659,0,0,Refactoring code
+1004,1290550,neutron,1dfd65f4cff1133cff45e103083fc3ae3130877b,0,0,tests
+1005,1290561,neutron,793224b2668f6522c8197bd3c5e3a7612dc4c9f0,1,1,
+1006,1290627,cinder,657b5106c35e2834d75e77e4702b9fd99bde817f,1,1,Fix exception msg
+1008,1290975,nova,dd3f7cddd380205c26e5e2b9e2002d773eab9047,0,0,New style
+1009,1291007,nova,d19c75c19d2de8b20e82e6de9413ba53671ad7fb,1,1,
+1010,1291014,nova,8babd6a99014ccaf51d955769eaec085e037cc76,1,1,Attribute error
+1011,1291032,neutron,ea1aa7794585c7cca3118ece282e08cfb760218b,0,0,More pythonic
+1012,1291103,neutron,7360e67d32dbd8c98ef59c46bf0c7fff16f48d0c,1,1,broken
+1013,1291108,cinder,71853a32111ec9a36f8a2082b41b52519b66be85,0,0,tests
+1015,1291144,neutron,3d8ee7eb633e251c3e343239b0e0ee6234df9393,0,0,tests
+1017,1291238,nova,878a82bf547464f934b1b49896886e3abd8f6387,0,0,It’s not a bug
+1018,1291291,cinder,36b5782dea6d0e627c65c73dbfee39d55dbee318,0,0,it should ignore datastores
+1019,1291346,cinder,36b5782dea6d0e627c65c73dbfee39d55dbee318,1,1,There is a bug because they chose a bad critery
+1020,1291364,nova,73da55e4ef626283ae58a97c7ad89854ec77daa3,1,1,
+1021,1291489,nova,c32986966dfd034c3d706b2e9ab2820a2c3cfc3e,1,1,
+1022,1291515,nova,09dd7bf800bcfc18a2a57b9e1ce0c3c24653f5ac,1,1,Bug after a change.
+1023,1291535,neutron,b2f65d9d447ddf2caf3b9c754bd00a5148bdf12c,1,1,  Correct OVS VXLAN version check
+1024,1291565,nova,6e5f6041a38ddb0b2643dff66d264f3594f1a875,0,0,remove unnecessary querying
+1025,1291646,glance,551cad4c7bf7043c8942319fc46e58d851051b2c,0,0,Refactoring code
+1026,1291690,neutron,c57f11321220a21af10d884c87ab989dc7dc2e69,1,1,
+1027,1291695,neutron,402175a787c2064404eaf7c260a16ea05e9a99a3,1,1, should call eventlet sleep in watchdog 
+1028,1291741,nova,7ae506a4b1829fbd8cbecc0a6b267f76230face7,1,1,Bug. Didnt resize
+1029,1291804,cinder,1e4d070a5b638de58c87363b18a76171dcd0ce38,1,1,Profile attributes not reflecting. Change the way to do it
+1030,1291805,nova,8fa190c0d4ede0acc8ed4a462a5ebb751380143c,1,1,Bug after change to list
+1032,1291915,neutron,907bf41afbdb9f565c45a535f637c8928d0be52a,1,1,
+1033,1292105,neutron,3445715f98e3aaa967f1661e403e45ad85392909,1,1,Bug after a change.
+1034,1292114,neutron,f23d081b26071e1b309f49e5a5ab0cdc1a739e9d,1,1,Mixing cisco plugin when it is working
+1035,1292119,cinder,371a58fd1d3fb1c2db7e1234f9c51f22b1b8787e,1,1,performance bug
+1036,1292173,neutron,e0f69d69293f0ffba22a6540f483f05baa48cd6f,0,0,Remove list events
+1037,1292181,nova,c5e17f4dc2277ed422b060f860443d71a47fc440,1,1,
+1038,1292185,nova,c5e17f4dc2277ed422b060f860443d71a47fc440,1,1,
+1039,1292243,nova,1d44bc5d7ac4adb1ad8a3aaabf0c27c593ec07e1,0,0,No bug. should delete all neutron ports on error
+1040,1292285,nova,8ff06df88b1f979f5a67f9d55fa0e828a6e73d04,1,0,version sql or related to a special db
+1041,1292309,nova,e0844f257cd170d01255aa3f8bfd48ff50731f16,0,0,Catch a new exception
+1042,1292339,nova,1c0c1eb01d45eb016ba6b2ad63b9e3e652365b34,0,0,a trace log can be ignored. No bug
+1043,1292380,cinder,3f67de92cfcfc61ca26156961e1f2d4d2ebded66,1,1,The info of the first exception is lost
+1044,1292455,glance,5b0ec5a3be0d92687c552f197f5474d5066a5a5c,1,1,"The info of the first exception is lost, again"
+1045,1292494,nova,362e998e89a1f1d9dce3379c4610b205ebeec7c0,1,1,Strange values when updating quota
+1046,1292633,nova,d39442007157c3074c199aba64424b2f4b08f461,1,1,
+1047,1292644,nova,6fcb34b825b6fe4ae750f6d38d9cf62fa0254a30,0,0, nova.compute.api should return Objects 
+1048,1292733,nova,d3acac0f5bffca59441d9a4a12c89db1d45ec4cf,1,1,Ironic bug
+1049,1292742,neutron,773352e39f371cda9c2f1be4c55accf4b7dc017b,0,0,It’s a bug related to the tests
+1050,1292764,glance,3bbdc70d4e1d0a8c960d7d0a7634f10b4b3163fe,1,1,
+1051,1292782,glance,6b8a91940b4fd410098e366689f2753010fc1ec1,1,1,It’s like a typo in msg
+1053,1292984,nova,8d2b250105564bc3288bf01881dfdc7f48012708,0,0,remove log msg
+1054,1292997,nova,048cd541c7066185b3802bded7b2f009859443c3,1,1,Correct inheritance of nova.volume.cinder.API
+1055,1293083,neutron,e13d19cab384a9f5f8a00436ad39118f342af32c,1,1,report interval leading to overload
+1056,1293184,neutron,7a2053c7a27bdec02e97b46736c5fcce5f2d053a,1,1,Bug
+1057,1293298,nova,4ecc1c52dbe02d5c4211d3936e2eec57dcc22de3,0,0,remove import
+1058,1293435,nova,cfdd9441b1545b5d89be6e8bca036ba185099f12,1,1,Fix location
+1059,1293508,neutron,13c9f3b813f5bb368e311ba0d428fa759d68289a,1,1,Wrong code 500 instead of 400 and add error msg
+1060,1293587,neutron,b5917e35acb6189079f33ebb5562b8d2288dcd4f,0,0,add support for https
+1061,1293641,nova,dba898226ec26ab49cecd24e9d6c255cf6153cd1,1,1,deadlock
+1062,1293750,nova,8e3dc81837ddb76dff5267ff5fbbd750b20fc31f,1,1,Bug. Object doesnt have attribute
+1063,1293792,cinder,4cc2366623743393f89a198581fcb69dc04d31cd,0,0,tests
+1064,1293799,neutron,dafe6598c70e74781053acf68a8d5a7cea064a0e,1,1,Bug. Change order
+1065,1293818,neutron,d37b6c9ee8ddf2cc90197e5a442ba759eca5a0c0,1,1,Bug using root
+1066,1293938,nova,8a50755b9df445a07140f385f1ff32db20bf683b,0,0,Changing in the code for the tests
+1067,1294069,nova,1b2570877846598d3545a9c9f31680f2a995491f,1,1,
+1068,1294096,neutron,acf0e109f3b01e4918d49305a6d95b3732a10b4e,0,0,some cleanup
+1069,1294166,neutron,e10f406a653f3037109e2d7f59bed65bd54300a8,1,1,
+1070,1294308,neutron,9014f66fce619af6d72823b3fdb0ecf148582649,1,1,
+1071,1294346,nova,3ad414597043979b8d73c17c05e666cff33a9b88,1,1,keyerror
+1072,1294368,neutron,7026d96ce44522c95c785376178347d2b0a9d750,1,1,
+1073,1294434,neutron,ccfe47d4b9c2abaa25b3b2a2dc655c32beb0b377,0,0,"Implementation, "
+1074,1294445,neutron,77ddd463bd2e96041c0b6ecea1c46c4ac4d55851,0,0,I think is implementation of keeping a record of the problems
+1075,1294527,neutron,a79aa79b2ae1222bd8776cde10bebeefc6bc8791,0,0, To avoid unnecessary user-visible errors 
+1076,1294537,neutron,98fc828801f370c0561f22d97ffdd1055d4e0663,1,1,
+1077,1294568,neutron,5d6cb0c62e0245735a9d511d2f871776055ff224,1,1,Bug. Change the name to avoid conflicts
+1078,1294598,cinder,bc115eaa477d30826ac17986a6e45844b456e206,1,1,
+1079,1294603,neutron,14b6611efea4c9658c611e8cfcfb42fc7dd82f55,1,1,
+1080,1294724,cinder,e145ef798d2c80ea48be2826f4c648e72958f5d1,1,1,RPC mechanism was forgoten.
+1081,1294812,cinder,bdfc450f59a6b73c1548734e0a5cca5a9e6256ab,0,0,Implement validate_connector in FibreChannelDriver
+1082,1294892,neutron,3666dcf76dd8cf7a22743e407343b528331130f7,0,0,add debugs
+1083,1295187,neutron,ef7e17e66591bb93eeeff8d58a8e5c96bf2eca89,1,1,typo in code
+1084,1295214,neutron,98b3f4a95104234e5106bc1ee58efd427da96c00,0,0,refactor the error message
+1085,1295239,cinder,cf18199571b7965a8fe77db3d910b0e798f12946,1,1, Upload volume to image fails
+1086,1295381,nova,91ddf85abb8a516cfa2da346b393aa7234660f6c,1,1,Fix the insstance resize bug
+1087,1295438,neutron,083324df06828e1b8fb97220b7415c2a28ee16c4,0,0,"Refactoring the code, no bug"
+1088,1295448,neutron,913f45bc16dd2c35f7be772d5867f9208064498a,0,0,tests
+1089,1295491,neutron,af0c9ea3b8e8f5cc4fd523ff336887ae94bb6ef0,0,0,add more info to the error msg
+1090,1295558,nova,2318f9ba64b4c793eb913330b862d608d86c03b2,0,0,Future bug
+1091,1295703,neutron,252a83890abfb825497f308147aeafc6ee1e0731,1,1,There is a bug. They decided to delete the priority
+1092,1295754,neutron,f45c1c52423dcbb2ea7690d56b3edc232d16636e,1,1,"Bug , cannot delete"
+1093,1295790,neutron,66f22e754785638e059c0eba4f48bb5953386838,0,0,"rename a variable, evolution"
+1094,1295802,neutron,3d2f3cbde7bb99ed1371bca835a8e63ddc6323d9,0,0,No bug. Allow to add prefix to
+1095,1295887,neutron,9730c185847e1cc3fe0ced10f98a14a112e23a07,0,0,test
+1096,1295906,cinder,7320422e5a496350906dcd2a1cd5487088cf63e5,1,1,There's a problem in the attach volume logic 
+1097,1296164,nova,46d8dcfa5807ef84d6b96b056957a1b9aa0daff7,0,0, Missing implementation
+1098,1296478,nova,a5405fa3532d9dd3d33e848f36cc6530e74e6bb7,1,1,
+1099,1296519,nova,e686131fc4b8724328f0922067569120c90eb261,0,0,implementation: should handle 
+1100,1296590,nova,501ceec8b96ba70df4bce0f5aff33a2bb1aabbac,1,1,I think is a bug. They left a snapshot in a state that shouldnt be
+1101,1296662,nova,f0817d3ac11f98c3d518303a50711a6a9c677851,1,0,"Bug because evolution, wrong exception applied"
+1102,1296839,nova,115ed3e1cf2cf63bba3a37e61f2a34a186b9f3ad,1,1,"Attemp to resize, when it doesnt have to"
+1103,1296913,nova,2bca0c9011d9868aff3e80f4f6f432d29f07adf6,0,0,Evolution. Add implementation
+1104,1296940,nova,32d948124adeb4615ba141164a1c191eed11598d,1,1,"Bug!  Missing exception handling. I think this is not en evolutionary error.. in my opinion, the original author did not consider that a variable could be empty (0722a8fb230697026c54086fd81ae82690530cb7)"
+1105,1296957,neutron,5c6ff449bbd7386f0f3e41efc524024434f325df,1,1,
+1106,1297052,nova,d62fb490b10d9372bd52189d4c688a7c1b495d8b,1,1,wrong behaviour
+1107,1297145,neutron,f85f240cabb0a7cc1adb3fa1c3139984e8e30d4c,1,0,"deprecated, no BIC"
+1108,1297358,glance,8eb31484547b3cfc6c42e06e5d0124501b6339ef,0,0,Change in requirements
+1109,1297362,glance,853b5c9b24a169ec609253637adf093862db35b6,1,1,wrong behaviour in http codes
+1110,1297594,neutron,14b6611efea4c9658c611e8cfcfb42fc7dd82f55,1,1,Fixing commit introduces a bug
+1111,1297685,nova,8f299f5545e19b36533742458de43649d41080ed,1,1,Problem introduced by commit 114109dbf4094ae6b6333d41c84bebf6f85c4e48
+1112,1297875,neutron,c6c4a20777921dc1b21e80edb96ccd957a054c68,0,0,tests
+1113,1298042,cinder,31569827c749dca6e0affd4646360b839f321758,1,1,Bug. Wrong state
+1114,1298131,nova,af44b50b6b8187c559c56b9d3f7dc047fc5be407,1,1,Wrong hhtp code
+1115,1298201,cinder,24eb8234ff4b907b8c88f26fb0c427cb7a452140,1,1,Bug. Add a exception
+1116,1298420,nova,04fa99095cd82f7b6030694996c75d2fd95e7c61,1,1,
+1117,1298459,neutron,d3be7b040eaa61a4d0ac617026cf5c9132d3831e,0,0,add missing migrations
+1118,1298608,cinder,57e8cdb9dd8e24919bc2243438a6bded53491b3e,1,0,"Bug , HP LeftHand driver fails with Paramiko 1.13.0"
+1119,1298658,neutron,80eb1faf1b9466176a0fbf1f8a8b18cb500c6811,1,1,
+1120,1298699,neutron,979ec03f0be170b7b83fb8c9b6d76c678d8fca66,1,1,Wrong order of lines :/
+1121,1298865,neutron,25103df197c1f366eac8dd3069fabc01d3bd18e9,1,1,Wrong order of actions
+1122,1298975,nova,642e6acc5bf469dcf419da3bc5dce9d83aa48d6a,0,0,tests and some refactoring 
+1123,1298981,nova,ddd92b229daa31f6d8f6683986e135ebd36829c5,0,0,Add an option. Evolution
+1124,1299124,cinder,601d54c9ef926fa2d8abfe0121019f7ad94eefd5,1,1,Windows dependency?
+1125,1299131,cinder,23e820abb8685573f97f5e3764225a97dd695127,1,1,Windows dependency?
+1126,1299145,neutron,408ef55d4ef1a9d246571511203ab337ba5346c6,1,1, Documentation Bug
+1127,1299150,cinder,1f6972f3fdfb87b09c03f3c2c7ab1870d90e0dc2,1,1,Windows dependency?
+1128,1299156,neutron,6d49834976bc08d2b8f7939bc2a217f5cc81db47,1,0,Bug because of evolution
+1129,1299159,neutron,f56972193be903c67cd54c57bcc2becf6222aced,1,1,Fix the rules and add new ones
+1130,1299331,nova,a868fcedf8e46070cae6aa8e59e61934fa23db1c,1,1,
+1131,1299946,neutron,d9eea51187ddd9b951e9943030724489f1c21a26,1,1,"""Added the missing plugin session.”"
+1132,1300136,cinder,115b8447618073d3383bbd612ebd2fc68c8c5d28,1,1,"""Fix wrong exception reference”"
+1133,1300148,cinder,77b6a9f129977799bc5c6ccec6caaf707fa3047c,1,1,
+1134,1300303,cinder,5f00cad02da1093d71f636add0810a538cbd444f,1,1,
+1135,1300325,nova,721e7f939859fbfe6b0c79ef3a6d5e43c916da65,1,1,broken by version 46922068ac167f492dd303efb359d0c649d69118. “I was able to reproduce this. Good find! My fault :)”
+1136,1300380,nova,72cd430e971589f7872a9d4e8f173c68b4955375,1,1,
+1137,1300546,glance,819f28a0b8863bd18f8a14491b5966c8b2723432,0,0,
+1138,1300570,neutron,8fb023ed53aff31f37ebebb94aca4f8e2a188342,1,1,"""This problem is brought by the patch:  https://review.openstack.org/#/c/72565/"""
+1139,1300628,neutron,c70c2719d700902854ef0381cb725722ac2da05e,0,0,Refactoring “This needs to be removed because it's resulting in the entire portbinding_db schema for one small function.”
+1140,1300808,neutron,d4fdac7ae596888b8e83d9559019eafb728cd3fe,1,1,"“This is due to bug #1291535 and this fix: https://git.openstack.org/cgit/openstack/neutron/commit/?id=b2f65d9d447ddf2caf3b9c754bd00a5148bdf12c"""
+1141,1300906,cinder,e6c03e15e8caa957716eabfee047240622ac3bf5,1,0,"""Windows does not support using dynamic vhds as iSCSI”"
+1142,1301035,neutron,3be1d7a75c5ec754825e99e0a8d95b4e1521ae4b,1,1,
+1143,1301042,neutron,8ab6fd6d7e521a3692f57542e5c5c5d513d57ccc,1,1,
+1144,1301101,neutron,f86d244e45310dbef7f22c6f320fac6897fdce1f,0,0,Bug in test
+1145,1301105,neutron,9df867c672bfb3f80511086c889b744113c56604,1,1,
+1146,1301172,cinder,d75a90ec1daff1444f20f6b68255890391bdb4e5,1,0,"“Keys like display_name and display_description were deprecated for other actions in v2 like creating volumes, so for consistency they should work with updating.”"
+1147,1301337,neutron,58f33fd3ef7b66bb570ef757b9f70a023e0c8c59,0,0,Bug in test
+1148,1301340,nova,878f767b9e1cdc2b57858c41d973dd087f37bbaa,0,0,"feature “We should create helper to remove this duplicate code and help to implement new filters based on aggregates"""
+1149,1301348,cinder,4be8913520f5e9fe4109ade101da9509e4a83360,1,1,
+1150,1301363,neutron,83a11d406eb421285a7fffd3ce853394211ac397,0,0,Feature “It makes sense to refactor the functional tests to provide a base class which all these classes can inherit from”
+1151,1301384,nova,5d39189df6ecb559c3f8b7e2fa3beff25da9f452,1,1,Bug in logs
+1152,1301396,neutron,73705174c9cdd847501e36385ffb942c17c8ef61,1,1,
+1153,1301432,neutron,2da351af7d2a10a3055020d572d357c56ba2689b,1,1,
+1154,1301515,nova,93f29574c416aebcd1bd7527d3007664aa073766,0,0,"refactoring “Reduce logging in scheduler"""
+1155,1301602,nova,570a84e92c88b1c7d9fd48d107bc3fad75e32efe,0,0,Bug in test
+1156,1301696,nova,0b2cf281be48e76a80e2fc73f00529f22e8d9126,1,1,
+1158,1301982,nova,1680cf8cef9bd670306a0ef74803409f60f21f28,1,1,
+1159,1302007,neutron,ceee7b4ac9d027499dfd2568868f1192bfb77879,1,1,
+1160,1302091,neutron,c49ec8b3ba10bb414a0f135d29ff3685e26d58b3,0,0,Bug in test
+1161,1302211,nova,2634616e3d94b57600090f3262c96e2233a521f8,0,0,Bug in test
+1162,1302238,nova,18917d9e0d6fe250cc3b4f7301d37a6c5f5faffb,1,0,"""After https://blueprints.launchpad.net/nova/+spec/instance-group-api-extension,"""
+1163,1302272,neutron,0c202ab3e453e38c09f04978e4fce30d6ee6350c,1,1,
+1164,1302282,neutron,5f042a64308cb00698b454da09b4a87f2ac3fafd,0,0,Bug in test
+1165,1302283,neutron,0f2de5a3353c6951a88542f35be80b9ba9a55c0f,1,1,
+1166,1302312,neutron,4e9d4824050eedfd1495469a69e28864b6fec757,1,1,
+1167,1302334,nova,b5280671768bdf861d9f72f014a83bb07af09ab6,1,1,“Change I140bfec2a52bf659a725a7dbe78ba5c527ed26de converted the_post_live_migration() call to assume it was passed an object”
+1168,1302463,neutron,49502246ef319cf8981b8a867ce2a3b6a163fc9c,0,0,"Feature, “LinuxBridgeManager is adding a new method for checking”"
+1169,1302482,nova,529e7d14a716fcc1264b2e8053be3c842afd2153,1,1,
+1170,1302514,cinder,bc115eaa477d30826ac17986a6e45844b456e206,1,1,
+1171,1302609,cinder,eacab523be3d8f2f97809c785dba98e5e2e75c7b,1,1,
+1172,1302621,cinder,0756cf8ec3f2c73b4141b4b6dc597e82e47de669,1,1,
+1173,1302661,glance,164d1ab46f06141e2c12b944e15ae10f20dace38,1,1,“Backwards compatibility? (5fa3d2ef956aa463caf45405a911ef5733085058)
+1174,1302670,cinder,0edfa2eaab08a0756bf3ec7818cdc9a8a379ba87,0,0,Bug in test
+1175,1303179,neutron,acae91475775a8c85598b1bfdc4910e5fe81ced9,1,1,
+1176,1303312,neutron,7f9c6259923747f0629166dc85561b0ab231ff70,0,0,"feature ""Allow combined certificate/key files for SSL”"
+1177,1303360,nova,a2059b67b207d908b1c65c78dd806b1f5e79582d,1,1,
+1178,1303536,nova,60c899b9da8d64b4a5979b69c43c77ed9d5bf248,1,1,
+1179,1303591,nova,86d1007c2078a0ad80e49088b37660466b1a5cb3,1,1,
+1180,1303605,neutron,b12e38327af83f44cc8e38a23d16bb51a2346f57,0,0,Bug in test
+1181,1303890,neutron,9a830b370551019a4bd3a0c7504f48961e755bd4,1,1,
+1182,1303983,nova,7b8402ed3ba734836119441bdf1a6d6c661c8df2,0,0, Feature “Enable ServerGroup scheduler filters by default”
+1183,1304115,cinder,0c4a94eac94399a524ff758fa7046e98b07951ae,1,1,
+1184,1304127,neutron,4cb3eb2a98246f28f8016cfe32946d365203fbae,1,1,"""https://review.openstack.org/#/c/69465/"""
+1185,1304181,neutron,0e44b7b5418c400af7358a5391f350f2f737929e,1,1,“Git commit c3706fa2 introduced the force_gateway_on_subnet”
+1186,1304184,nova,2bc0877d3cbe5e6ed9bad0907f61011014b75a2d,1,1,
+1187,1304326,neutron,de403598f608172b1cf41ca4ec0d880642e215d5,1,1,
+1188,1304516,cinder,131777688562b1ec020327067d89da1535b99640,1,1,
+1189,1304558,neutron,77a58ecd0a65b688d9645a3c11a6dfb87e180449,0,0,"Refactoring “This should be removed once the root cause of the patching issue is found.
+“"
+1190,1304647,neutron,d90d71cfdae1d9c9c3b54cc33adfabce683c633c,1,1,
+1191,1304721,nova,3012eab2f7e70796ddc06d211dbc76bcf62c3736,1,1,
+1192,1304724,nova,275a165cf0e74112d7ec9addacb1f84d703977c8,1,1,
+1193,1304755,swift,41d851387cec122f4795d447458fd81e48e256b0,1,1,
+1194,1304790,nova,98f5496cc2b236f54848eb069ea1bc8c25f43b13,1,1,
+1195,1304917,nova,5aa4331cc8d9c0e4615f9859395a9ae8c6d40f09,0,0,Bug in test
+1196,1304968,nova,53ad788af6ced83bd9d6e58a25196a325d60fc4e,1,1,
+1197,1305083,neutron,b31d28415a6e5b7224d53eb674e4f76e8de738ac,0,0,"Refactoring “The dhcp agent never uses the reuse_existing flag, which is set to true by default.”"
+1198,1305197,cinder,d09d12ab2ba72a9e7fe42852a7cf837231053590,1,1,
+1199,1305377,neutron,dda6c89202b015628f74101839301424001a6c63,1,1,
+1200,1305399,nova,8831f3d0e2e2a81a6b406cc9c8bf89bc15989065,1,1,
+1201,1305423,nova,f087a6f77ef1338bb8d10943d2a18712220c3c44,1,1,
+1202,1305656,neutron,1e0ea5217a93fadb915c3dcdf4c260738bed70ac,0,0,Bug in test
+1203,1305957,neutron,f5d33051b6d9b0dd0fe08692758748ed34d50136,1,0,“This change https://review.openstack.org/#/c/69803/3 added new quota resources.”
+1204,1306009,nova,79ab96e34ba5b8dd3e4e542dd3a7f65624b13367,1,1,
+1205,1306032,cinder,9026db874634a78b8cdd3abb45a75a37f6ededfe,1,0,"""When creating a volume from a snapshot on Windows”"
+1206,1306479,nova,0da4d72ae6aae012f2c65c928bbab013043d09a1,1,1,
+1207,1306488,neutron,22bec67395b52a879ad4eb37b150eead9d4bb444,1,1,
+1208,1306591,swift,07841b42828dc133ba258cf7c7f09d6f8906a96f,1,1,
+1209,1306718,nova,b3225581befe14f21b909e176d0a4583b297e031,1,1,
+1210,1306727,nova,aee892e7af2dbe5a600945f98be8f1915e8ac654,1,1,
+1211,1306922,nova,4f8185549dfe11eb1ce405711593baa1528045ea,1,1,
+1212,1307025,neutron,e7ca2541b13d9e755f443b866708865ac22a8bd1,0,0,Bug in test
+1213,1307038,neutron,e7ca2541b13d9e755f443b866708865ac22a8bd1,0,0,Bug in test
+1214,1307088,nova,de05c2994212e83eba3cedf2544cdc549d9f8184,1,1,
+1215,1307295,neutron,b3e52b6b2462cf80dbdb5fa4785e51b0d147316e,1,1,
+1216,1307338,nova,6cd183a4bac7ae79bca380c960686ea33892f066,1,1,
+1217,1307408,nova,aadfffaaa69c6a8939f6c88cfbaeb026c7604163,1,1,
+1218,1307416,nova,c58f2393b1c88268179205e349a2638f481bd492,1,1,
+1219,1307472,neutron,53e784d27eafe848593467d4d598305f34030848,0,0,"Obsolete code “Remove workaround for bug #1219530"""
+1220,1307560,cinder,0814bff9366974d77d42d03fa11f60fbe469a8c7,1,0,"“LoopingCall has been renamed to FixedIntervalLoopingCall in https://review.openstack.org/#/c/26345/"""
+1221,1307582,nova,3a915546507e9a5617ada90546342a9239735ff8,1,1,""" This reverts commit 79ab96e34ba5b8dd3e4e542dd3a7f65624b13367.”"
+1222,1307662,nova,f9dfb5b25c087b5146e0c6a9956b2402aec6458f,0,0,refactoring “We should remove this unused argument.”
+1224,1308058,cinder,993facb3bf753d23332236dc05b397850bf99144,1,1,"""https://github.com/openstack/cinder/commit/da13c6285bb0aee55cfbc93f55ce2e2b7d6a28f2 - this patch removes the default of None from the getattr call.”"
+1225,1308253,cinder,aabb0fa1f68974e2fa4828cde1462dc47c429655,1,1,
+1226,1308342,nova,222d44532c65ddf3f26532ced217890628352536,1,1,
+1227,1308418,nova,fe02cc830f9c9e1dac234164bc1f0caa0e2072d7,1,1,
+1228,1308421,neutron,30e5dae520535fbd759f4c12e184970afef854de,1,1,copy & paste error
+1229,1308544,nova,476dc5efcdb11c9859b062dc69a8c205e69be861,1,1,
+1230,1308565,nova,98e6891dfd4408c56644f55fe3cff88703beb4bf,1,1,
+1231,1308649,nova,4ab7b6b7ad8b6047ec108c8f98bb1c0f310b9899,1,1,
+1232,1308675,neutron,dd2ccd12adfb6c7d4aa500ba4120f767beeed35c,1,1,
+1233,1308715,nova,da1fa5dc93e6e64d397e8d00769e34828669e010,1,1,
+1234,1308811,nova,5427630f735381569066815605c75bccd278def8,1,1,
+1235,1308819,cinder,3305f9dd061e70736fc4b890a207ecd4d30c3544,1,1,
+1236,1308839,nova,aa9383081230b92ecc7c1b176cb3eb62a237949c,1,1,
+1237,1308927,neutron,9f673c2482528bdde15776c52928dbaceecdf811,1,1,
+1238,1309043,nova,1722378c85dbc9dc2506a2f8a84fef7a27254f57,0,0,Bug in test
+1239,1309144,neutron,966dbb5368d710e2652b18f5b9cb4295f58598da,1,1,
+1240,1309154,nova,94a3b83f9f1fd52a78b9d49b32ddfae40182f852,1,1,
+1241,1309195,neutron,d23bc8fa6e2d8a735a2aa75224b1bc96a3b992f5,1,1,
+1242,1309239,nova,5aa29b6b0a34d603e882a80cdc8e936f983b1892,0,0,feature “we should always load the info_cache so we can avoid the extra query”
+1243,1309286,neutron,c1827a074654d2e8d07e93945fa605ad3b6c18fb,1,1,
+1244,1310135,nova,6e1fd7b9b51498af5f688a41d6636ff90b9a56f5,1,1,
+1245,1310460,neutron,7811c8a8ffce78dc14815203858854c450f1c8f6,1,1,
+1246,1310559,cinder,a221a30b32aa94077f352719b2637b51c1809069,1,1,
+1247,1310659,cinder,dcec1b84f4d3462fc408f4152f4c89b8df79d629,1,1,
+1248,1310817,nova,f89d13b141eba66487b3d858cd075a47b2de6016,1,1,
+1249,1310857,neutron,d6f014d0922e03864fd72efbcde04322711c2510,1,0,“devstack currently has a bug re”
+1250,1310966,nova,625e48f82b5c7f1d55641b4207afd85b0b798cc2,1,1,
+1251,1310991,cinder,fcc17a6b09cbcfaa8aa9db2ee5d187de7f7649aa,1,1,
+1252,1311058,cinder,8ce85e4fd40e9def337daadfdc92aca7b064efff,1,1,
+1254,1311243,cinder,a5a33a6833b29457d2ea7fc5b8c31f74a7aa4140,1,1,
+1255,1311260,neutron,c4f0c4ba967af71d31629beff72a0f1f748202cb,1,1,
+1256,1311277,cinder,8f112b270af0965a6f9aafbd83976c1ad22314f8,1,1,
+1257,1311960,glance,e5e76fffbddddf8e6cd8e0b0b1173d4cca53fafe,1,1,“ The current implementation can lead to session timeouts”
+1258,1311971,neutron,4539ff26d903174c844d6571533dfe719195e107,1,1,
+1259,1312124,neutron,e575fde4cbe9b23cfc103e2de2f4052dd5874b02,1,1,“In downgrade of 4eca4a84f08a_remove_ml2_cisco_cred_db migartion there is a mistake”
+1260,1312132,nova,d0a5e27288940c8e104330d784fed43575187afd,1,1,
+1261,1312392,neutron,17d38f90d1ce28383a5fc061e01f0853cd8debf6,1,1,
+1262,1312402,neutron,9e1c61b93ab3523bc1b5510775c1ee3331097f21,1,1,
+1263,1312467,neutron,fc7cffedbe60ae9da7963373e9072c55700fce5f,1,1,
+1264,1312482,neutron,f55e451fb790b976d3fbd3a23dd8688bcc584c77,1,1,
+1265,1312718,cinder,38ed0523125efeaf8383b36d1db169b42e2f5eb6,1,1,
+1266,1312822,neutron,bfdec043f1429ac4aa884e9422861b4e6c1ca815,1,0,“NSX 4.2 GA has tweaked the naming for certain resources. Edge”
+1267,1313116,cinder,c1c10205423db25bc6b69e0e23b4f56aa2dfbd25,1,0,“update version response to remove PDF and WADL links”
+1268,1313118,cinder,c1c10205423db25bc6b69e0e23b4f56aa2dfbd25,1,0,
+1269,1313119,nova,3903090a60ecb0170c070a68e2f1df4a01b0aca1,1,0,
+1270,1313801,neutron,ba87499dda0c897aa08afadfc2911ff80bdae2f9,0,0,"Feature, “Colocate strings used in REST client methods as URIs for APIs to Cisco CSR device, to make it easier to find and maintain them.”"
+1271,1313894,cinder,32bac00ea003015add0d33be262cb3002e4c43af,1,1,
+1272,1313992,glance,cb93eb60abf10af6fbb1ee438a6e8a51853e6788,1,1,
+1273,1313997,neutron,47e51e7521784f6a2edcfbf71a9aac0237e76e42,1,1,
+1274,1314007,glance,95d81a0b03703f47d457f26acecb36d7a10e66cb,1,1,
+1276,1314176,nova,18938d283c5f87ab2e55f9f75626f313e8724bf9,0,0,"Feature ""We need to improve the hacking rule to avoid markers of author for the tag:”"
+1277,1314472,neutron,717a0a0ab4436e2904360fe4e34226af7d0e412d,1,1,
+1278,1314677,nova,695191fa89387d96e60120ff32965493c844e7f5,1,1,
+1279,1314850,neutron,07a130be1a1f77fc86076f37afe5b6bae2692a2c,1,1,"""This method was removed from that file in commit 53609f29f3c8fcadc545afb891189253c07b33c3”"
+1280,1314994,neutron,61a7b584238327d346bd4da642f3f8cb4d1dbf9c,1,1,
+1281,1315097,neutron,89b01ca24ba95e36568352b4e5c7abf0cd04e4af,0,0,Optimization “Optimize querying for security groups”
+1282,1315137,neutron,5cecf9571f93f89ceaa024cae0a7368767643931,0,0,feature“plumgrid drivers should be dynamically loaded”
+1286,1315467,neutron,45381fe1c742c75773d97f1c0bd1f3cb1e7a6468,1,1,
+1287,1315475,neutron,3758f25c3ca83d9465f7a0041f286156504c7065,1,0,"“The initial OpenDaylight integration with Openstack did not support
+vlan isolation so it was not included as a valid type.”"
+1288,1315538,neutron,a3a8a86d7bccb824725d91735bd032237786f5aa,1,1,
+1289,1315542,cinder,f7f9e6228d8b73be6c1a4ad3fd998d02104a7a3b,1,1,
+1290,1315574,neutron,2d72790bf83473e0c9b73cc290f711fcda7a5803,0,0,Bug in test
+1291,1315597,nova,523e52f2f754f35b1e2453190f935d1a990464fb,1,0,"“api-version 3 list-extensions"" with a patch https://review.openstack.org/#/c/91942/ ,
+the output is the following.
+So 'extensions', 'flavors' and 'ips' are not camelcase. This seems inconsistent.”"
+1292,1315809,neutron,14ebdbe77479a72ad1f324663ec795460e03e99a,1,1,
+1293,1315815,neutron,5da44b9bdb65c54f823ce7867386b9ca0c9a6b25,0,0,"Feature ""Radware LBaaS driver should transfer the tenant-id to the back system when creating an ADC service”"
+1294,1316074,nova,9b41af32bbbfc063eabf570fb95cdf516a8bb4a7,1,1,
+1295,1316152,nova,2ddc905ebba6e6b2bd5be2ca45a14115ef5a6e8f,1,1,
+1296,1316167,nova,92d92c7fe1d4db4a5c263d4499eae64568765047,0,0,Bug in test
+1297,1316190,neutron,1715eb7c8e1f2433df3c081e357f8c40dfe2a28a,1,1,
+1298,1316382,neutron,0dde14c0cd6ffea8ebff715342852ef17a9c0b70,1,0,"""isn't present in the python 2.6 httplib.”"
+1299,1316486,neutron,61edb744bdaefa72151e99c43d9a6e75e7895f07,0,0,Bug in test
+1300,1316674,nova,4cb139fb99814f04b9e4595d7e2efa34e7992826,1,1,
+1301,1316824,cinder,f2a6e77bc75ea72a374ded4dba82cf2e95c11404,0,0,Bug in test
+1303,1317075,cinder,da9597aed0186e68dbf1c7304b30e49f8e6a54ff,1,0,"“the behavior described in this bug is specific to F20 (for now).
+“"
+1304,1317134,cinder,ffa12c98971e35056a7867cd61ba5a39630cc0a7,1,1,
+1305,1317180,nova,40a790c32ee4ea7b9d79e259545f07409fd618fa,1,1,“The following patch https://github.com/openstack/nova/commit/4c2f36bfe006cb0ef89ca7a706223f30488a182e#diff-5c6ee11140977e63b54542e2ff5763d3R22 caused a”
+1306,1317208,nova,1e2b7fbf73a9d6b9088396cd41091911d35279ef,1,1,
+1307,1317257,swift,b61fce6cbabf2181fed3f0c4bb83a2d3c40db100,1,1,
+1308,1317321,nova,524ee4913d9015c2893cca69cefbc80fbe6878bb,0,0,Bug in test
+1309,1317573,cinder,a058e90c5ec33e35c3bc88fed644b598e490e9ad,1,1,
+1310,1317654,nova,23790183d20f59ddcb6025e8497aa16e443bb929,1,1,
+1311,1317804,nova,59a6cf233b538d6666740de4796fce25ed8265aa,1,0,"""The change to use InstanceActionEvent in compute.utils.EventReporter changed the order of how things are done. “"
+1313,1317871,neutron,d7318ff7123ea851e9d6953ef2c66f793ae46ca1,1,1,
+1314,1317935,neutron,ce59e63249dfcd86e782d056407e38e845cbe19c,1,1,
+1315,1318104,nova,1236b09076cca3b4b16538b055e52edde5a4feea,1,1,
+1316,1318108,cinder,a7f24f0a2395594ead7eb8a5cef894b257cd7e4f,1,0,"Change in requirements “However, SolarisISCSIDriver
+    still called the _execute function, which no longer exists in it's
+    parent classes.”"
+1317,1318261,neutron,3f9658dcd9b2cccdc0f03088723305c980130cd3,1,1,
+1319,1318891,nova,c75cd9a8b9da86b9d9e7ffd6512fe13b1913fd85,1,1,
+1320,1319180,nova,de92d65f2981b826e145e82ab2734c19bf1dffa3,1,1,“I am not sure that this is a bug. The default value is None.”
+1321,1319182,nova,8ff170dc95bf3101fe38a2624e941bfa3b7c1138,1,1,
+1322,1319361,neutron,f27e5244adcac9a12c04605fbf5c49a086d5fce5,1,1,
+1323,1319615,nova,822f3069cd485215e863bc142b0e05d7bd1d52e6,0,0,"Refactoring, future bug “We should avoid to assign builtin function with other value.”"
+1324,1319643,cinder,6791fa41e06beab23bc7832a3bfa9ab28adf1e34,1,1,
+1325,1319892,neutron,3190e5b672ac21f9c82110d319473f2041bf64f7,1,1,
+1326,1319943,nova,5dda3a6ab2becb5dd0b58c088f6daad807e12276,1,1,
+1327,1320050,cinder,1eda138be81b2405969b80c00f30ba237e250fcd,0,0,"Feature “Brocade FC SAN lookup service should allow customized hosts key and missing policy"""
+1328,1320056,cinder,39081787963298be87c1941ab6cba5310f6261c6,0,0,Feature “Cinder utils SSHPool should allow customized ssh host keys and missing policy”
+1329,1320628,nova,cc5388bbe81aba635fb757e202d860aeed98f3e8,1,1,
+1330,1320774,neutron,0ff8536c0d9b95172c42b1a01d292df58ed2e573,0,0,Bug in test
+1331,1320775,neutron,6167cb55e2f62a645487d66e52b809c9599b3bb8,1,1,
+1332,1321080,neutron,bb4f44654f6765c4e1fbcf92375c273494151099,1,1,
+1333,1321220,nova,37520a7dc14971b2d244f37febdb9fb13edbfd2f,1,1,
+1334,1321239,nova,502fa4875a3975990cbdf84fc0f846f7ede8fa92,1,1,“The <instanceSet> information missing in the response elements.”
+1335,1321298,nova,6dd5cc503cc05c00c5f9d831480539c67f6e2a48,1,1,
+1336,1321334,nova,310231541661adaa30d92d357f7590c88dc905b3,1,1,
+1337,1321352,neutron,0f877f2594d415513856af3c528275fce2228ac1,1,1,
+1338,1321381,nova,803d59e9f409a59403b2ce55040acc02e14eee28,1,1,“Commit a141206e9dfd31955b9b31d9e5a7f73bbd8510ca ensured that user defined ports were not deleted when an instance is deleted or rescheduled. The problem with this commit is that it did not reset the 'device_id' and ‘device_owner' of the port.”
+1339,1321640,nova,513c6bbd36563e57a85d33f9c94f4a20ab7c00f4,1,1,
+1340,1321653,nova,9e8657839844ecef3348dad51aca6411f05da99d,1,1,
+1341,1321864,neutron,52301e4727091f867c42b18b316d4c4aacffea31,1,1,
+1342,1321872,nova,e0228eb7e739956978f002f58edf35bc4d698022,1,1,
+1343,1322025,nova,e15ce7735e492f9eb0914efb621211e315ea40d9,1,1,
+1344,1322076,neutron,09dd5eb9c81033fe83b10d4051b2f06125250185,0,0,"Resfactoring ""fwaas plugin doesn't need to handle delete firewall rule operation
+“"
+1345,1322105,neutron,c0c3c8361771091c1ef1d4906c2552f9d92e7715,1,1,
+1346,1322139,neutron,be340d1bab015c47650687f97393c6c9015fb537,1,1,“fix openvswitch requirement check” (b53c094d83df881156aa646002f95c9643b1b7a5)
+1347,1322180,nova,00ac56a100ac7329a01b5f1fa336b99e64778eaf,1,0,"""Legacy bdm in incoming parameters contains a number of devices specified by their names (e.g. ""vdb"" or “/dev/vdc""). Current code considers ""vda"" as root device and doesn't work on “/dev/vda”"""
+1348,1322195,nova,a55f41492e5ce9bbc2f2ef3435a7e7e65bf6cb3e,1,1,
+1349,1322379,cinder,bfbc29f19037feb89408206625849bde14a7e84a,1,1,
+1350,1322410,nova,1b46f86148c0366770065fc481984adc6bce5693,0,0,Refactorings “remove uncessary log.exception in api layer”
+1351,1322702,nova,0f28fbef8bedeafca0bf488b84f783568fefc960,1,0,"“This is really a bug in libvirt, not openstack”, “This patch fixes a bug in libvirt driver get_host_capabilities where some features can be duplicated”"
+1352,1322926,nova,50636a881b60f112027494bcd84af66888db8c1c,1,1,
+1353,1322958,cinder,c08211b19e2b9c38e537e155d11ffced37af0e85,1,1,
+1354,1323005,neutron,10bf897bf3a10681f5a8769f387599271d57dadb,1,1,
+1355,1323173,nova,75a0ec684c4a972ad7703399b64ddf9300a7acf3,1,1,
+1356,1323259,neutron,744c1bd2f1ae1caf3cd6d0c07d61b034a21204bc,0,0,"Feature ""To enable reuse of the ovs agent with the Intel® DPDK Accelerated Open vSwitch the proposal is to change the generation of the agent_id to use the hostname instead of the mac address of the br-int.”"
+1357,1323322,neutron,0f7cfee155c0e3e216b4a1425ec1fbdde6eeb296,1,1,Feature “Disallow regular user to update firewall's shared attribute”
+1358,1323403,nova,68e008b21b463a261461a0f7bbfaa92f4e9a7e92,1,1,
+1359,1323715,neutron,2bd97d205b98292be709b0257bda5fc489eb643a,0,0,Bug in test
+1360,1323718,neutron,43c1f98f074549611db90b6c333d2c54d7e4d4b3,0,0,"Feature “Additionally, the patch improves”"
+1361,1323741,cinder,571ac18e7c4109fc9728a0ee27f04887f1d8aeea,1,0,"“The 'num_iscsi_scan_tries' option was renamed to 'num_volume_device_scan_tries', but setting this ISER option still sets the old configuration field which is never read.”"
+1362,1323769,neutron,e588ee5b470bdca25abc634db3144d2aa9b84554,1,0,“NEC plugin: Bump L3RPC callback version to 1.1”
+1363,1323813,nova,bb23a3730e5b2281e0a223a86c89f2a0bfcb4897,1,0,"“According to AWS docs
+(http://docs.aws.amazon.com/AWSEC2/latest/APIReference/
+api-error-codes.html)
+“"
+1364,1323867,neutron,accd56fea86a0cd5f1706cbdd5b1bbc31c4cf479,0,0,Feature “Add new behavior to control update and delete operations “
+1365,1323975,glance,10691597011e8cb462d28c156b39742329bd0339,0,0,Refactoing “remove default=None for config options”
+1366,1324120,neutron,84dfaa8a87cce660aa20619bd93263e645bbb2d0,1,1,“Problem is the line https://github.com/openstack/neutron/blob/master/neutron/plugins/vmware/plugins/base.py#L1012. A flat network will return an object instead of 0”
+1367,1324131,neutron,c892a0f398b664bacf8a2a0302f51e3d9b96619d,0,0,“Radware LBaaS driver should support HA backend”
+1368,1324194,neutron,82683feff64b5b0dff36f983526421e608f13d94,1,1,“This is caused by a missing network_id in the port body”
+1369,1324400,nova,de58feb796d63dd4eea1fd49e66102686fcf4037,1,0,"“Since nova.virt.driver:LibvirtDriver.get_guest_config prepends instance root_device_name with 'dev' prefix, root_device_name may not coincide with device_name in block device mapping structure.”"
+1370,1324450,neutron,c1ed203ccb816ac0a3a0e015d2790ed3aee04564,0,0,"""add delete operations”"
+1371,1325116,cinder,759b3dcefc708aade88fd9c5906f86de9c7c67a8,1,1,
+1372,1325128,nova,4a60c6a655006b2882331844664fac5cf67c5f34,1,1,"“CVE-2014-3517"""
+1373,1325148,nova,897a4b754daae840100e63433d928bb62a81fbdc,0,0,“Remove useless”
+1374,1325184,neutron,903e2a8cd1dd9169048d1ad9dd8a566b2ae52395,0,0,Bug in test
+1375,1325246,nova,9047165b7fed691eb89ef7322b7f4fe9b453d184,0,0,Bug in test
+1376,1325481,cinder,7ef73d325bac3a57970be1fc0cfe8b0d871f533e,1,1,“comment misspelled about volume_clear in cinder/volume/driver.py (volume misspelled)”
+1377,1325608,neutron,0759ed18a95b438bf775d6905256119f1cee75db,0,0,"“https://github.com/openstack/neutron/commit/634fd1d23fb241bc4990275d5a4da0c3ab66e2de"""
+1378,1325771,neutron,7b9ed4edeef7d599c164c8682fbbb36066d98abb,0,0,"“it doesn't have a consistency hash yet, so it is currently setting the HTTP header to ‘False'."""
+1379,1325982,neutron,eb8973dc34901406f4ca8e47956cde5c43ca54c6,1,1,"“Validate expected parameters in add/remove router interfaces
+    The add and remove router interface methods check that interface_info
+    is not empty but don't check if it contains any of expected parameters:”"
+1380,1326007,neutron,03277a80d573161abd0d1cb81ec647b53e140063,0,0,Refactoring “Removing check for overlap with fixed ips”
+1381,1326173,neutron,63d271d4e4a8bab947f90f457ed176e46135d39e,1,1,
+1382,1326183,nova,232cbfe67ffb7696f115830c711a960af5fa0828,1,1,
+1383,1326256,neutron,8fb69a4633e87446eadd7f0173a0168f78604cbe,1,1,
+1384,1326429,swift,7056ec6a16fd8707564ec4b0a05cab461ee2a80d,1,1,
+1385,1326666,neutron,ff007a57efa82bc73cbe4a1e60b1cde42c7efa82,0,0,“dead code in ovs/ofagent agents”
+1386,1326778,nova,77dd352933ca4272bfc376bd2f9ea3ff781a9bf8,1,1,"“This reverts commit 6dd5cc5."""
+1387,1326781,glance,5cf0659d53eba85f7591565b7f18714e39c1713a,1,1,
+1388,1326926,nova,7f53a8c91e623c69855caadf6cf65703a7e5b799,1,1,"“This only shows up in master so it's a regression in Juno only, this is the patch that broke it:
+https://review.openstack.org/#/c/92285/"""
+1390,1327145,nova,c2aa27d6f86d9ead2a9653b07de425669351d93d,1,1,“Change https://review.openstack.org/#/c/62314/ mistakenly made the conversion of the instance object in compute/rpcapi.py rescue_image()”
+1391,1327406,nova,46e88320e6e6231550f3e2b40312c51f55e059f5,1,1,
+1393,1327476,nova,8f8b6e656a6ef06bf0b99068a07a7d194783fc9b,1,1,"""Commit 59a6cf233b538d6666740de4796fce25ed8265aa added code to handle
+    serializing non-str exception traceback objects, but didn't account for
+    unicode. “"
+1394,1327497,nova,3ea14e8a70a946dbb162ecafa848e4f2fa29772a,1,1,
+1395,1327974,neutron,25a5a8526cf8182fbb6d7f8acf224ee1666da5c2,0,0,Bug in test
+1396,1327975,neutron,a8d664d95f22a713d54c8ea30471dd3a4e976924,1,0,“The name of the synchronized queue class is queue instead of Queue in Python3.”
+1397,1328162,neutron,58e6bb5893186517edafe1a4d51710c1362bc9cc,1,1,
+1398,1328222,neutron,2d9488be71244cd7fcee624764b2f6c0cc5fe3a1,1,1,"""Sync function is missing network information”"
+1399,1328288,neutron,1222366f6dadf7ce2a810c919344054196134db8,1,1,
+1400,1328321,neutron,c8bdff1533e54787d9a3dd98fe57a1e2e0d82e73,1,1,
+1401,1328331,neutron,09e706b210513968cac2bad78fe81ee9cbb5b5be,1,1,
+1402,1328362,neutron,b1b83e42ae20f510eea452b9c7fb7673374f2a79,0,0,"Refactoring “ extensions: remove 'check_env' method
+    The method is not documented or used.”"
+1403,1328539,nova,077e3c770ebeebd037ce882863a6b5dcefd644cf,1,1,
+1404,1328694,nova,801a37de197cdd98f264caa2bbe9c6ebddec070b,1,1,“ This reverts commit 8057b66c0b7ac87863f175d850414bc0ed260ab2.”
+1405,1328870,nova,0a7527c71228c8e776ad40cedd2cf137fd99f43d,1,1,
+1406,1328889,neutron,d4e5373240b97727ce9c4ec6636119bd5849bace,0,0,Bug in test
+1408,1329099,neutron,3eef1ae80fcd7d9fe82b5c7485702991992b2766,1,1,"“Add a config parameter to Cisco N1kv plugin to determine the total
+    number of active REST calls that can be made to the VSM.”"
+1409,1329156,cinder,c04709b127d6f2dea32c5faa37cc1e27f6792cd9,0,0,“Remove cinder.context warning logging”
+1410,1329426,neutron,13fe102fadf8d25b0927ee172b0fb3f681c56bf4,1,1,“Add missing keyword raise to get_profile_binding function”
+1411,1329546,neutron,90fedbe44ca6bfccce5d71465532fbdc85ee3814,1,1,
+1412,1329559,nova,f33a25a3c40722644c774395b38fd7a7ed0246e1,1,1,"“This was intentionally done in
+https://review.openstack.org/#/c/58829/ . We also intentionally ignore
+duplicate requests to delete an instance if its already being deleted
+(https://review.openstack.org/#/c/55444/)."""
+1413,1329614,nova,7e54641fc1f760423c2f1210787903e17ea1cc06,0,0,Bug in test
+1414,1329882,nova,c28956a6872b34a93891c985c93aad5e242563b6,1,1,"“This looks like a clear regression caused by https://review.openstack.org/#/c/82455/."""
+1415,1330065,nova,c5de5e7ab166e29304a01d7e310ae6ed32d22090,1,1,"“Also during spawing, if a datastore in maintenance mode gets choosen, since it had the largest disk space, the spawn would fail.”"
+1416,1330135,neutron,f89a6bd30b6f99bc39f266ae8d3880380379f8b9,1,1,
+1417,1330431,nova,c606043c64b31ba3289002dd9ac90b7566e1bca2,1,1,
+1418,1330503,nova,dd6fb1246ff2789bd78b772b45e1fcac21eda67a,1,1,
+1419,1330856,nova,da9891a30b3a3eac39458d829abdd5bc50cf876e,1,1,
+1420,1330981,nova,9283379849906f74047e47a679326e08e923fecc,1,1,
+1421,1331170,nova,5b27fe7de22aef53b82402f15b076887bc52670a,1,1,"""Unfortunately, that can result in live migrations failing if your environment is using different versions of the host OS on compute noes as the destination node may not be able to support the machine type used when the VM was originally started."""
+1422,1331249,neutron,24a19bfd362996cd9833a167d6eb86fdcf743b75,0,0,REFACTORING “Big Switch: Remove unnecessary initialization code”
+1423,1331317,nova,32cc13365be9baba7a1d50fae397f1b597ff505b,0,0,Bug in test
+1424,1331456,neutron,3867174bc82b7fd85dd79bc0cc5625a15df2d8fb,0,0,feature. “Need to add the same ability to auto_schedule_networks.”
+1425,1331566,neutron,cf92bbead9b25ee40a3336bd76110b3733a4f7ee,1,1,
+1426,1331569,neutron,1b46d36269adc5c64c8cd55a2d9f2c47e42b341f,1,1,"""ip_lib is currently used to list the bridges
+in the Open vSwitch neutron agent.
+
+use of ip_lib blocks reuse of the Open vSwitch agent
+with userspace only open vSwitchs implementations.” (52e281c736ce0ecac33f5807fa2c5c953925eda9)"
+1427,1331839,neutron,79f6ccd1b5b67c23d438332e9d8641d07426a9a1,1,1,
+1428,1332041,neutron,e8b9a11fd728d287a1c64aa025ebba009bf5025e,1,1,
+1430,1332198,nova,5120c4f7c2670eaa71898fe6941029bbb0081949,1,1,
+1431,1332290,neutron,a8d67485ab498a647b1f50184755c47b18e97e2c,1,0,“It should be a configurable parameter.”
+1432,1332334,neutron,60c1b9e227fdfcae8e3660ffbd5062eb6a4abb33,1,1,"“If the user sets the consistency watchdog polling interval to 0, it will poll as fast as possible instead of disabling the watchdog as expected”"
+1433,1332382,nova,66721eb2c0f53fc4260b2f0aa9a3811da0f7ddbd,1,1,
+1434,1332412,neutron,48e9c8b79bea9c9a65ceb1c24528a89db6d313d2,1,0,“probably due to oslo.messaging changes.”
+1436,1332571,neutron,e299349b3be240d799822daedfa2730fd96839d3,0,0,Feature? “They should be replaced by a unique constant equals to 15 to ensure consistency”
+1437,1332660,nova,9b559c31b781689fb66551f29a0cb8d10c7bac94,0,0,“Update statistics from computes if RBD ephemeral is used”
+1438,1332719,neutron,f807023246501b77e792371d98b612b208f5e8e3,1,0,"“However it is necessary to support all versions of NOS, hence a run time check of the NOS version should be made and the appropriate template should be used.”"
+1439,1333103,neutron,02cfe35694dc69c08d858c756db7221c32bf9f3c,1,1, “Clarify message when no probes are cleared”
+1441,1333252,cinder,ea56cf255ac956d23eba5bb4f6e7312b944eb5fb,1,0,“Update _resize_volume_file() to support appropriate permissions”
+1442,1333315,nova,04add2ed0d8b0341ea347ac98834f75cf5b2be1d,1,0,“Neutronv2 api does not support neutron without port quota”
+1443,1333325,glance,cb7b189f4cd425cad3cbea6ca71986216416cec7,0,0,"“This is a sync of processutils and lockutils from oslo-incubator
+along with their dependencies.”"
+1444,1333370,cinder,6f24ca2496e37f3f75496c0e4191e71e55fd7b5d,0,0,"“ This moves and renames nova.utils.cpu_count() utility method from nova
+    to oslo. Added in commit 75c96a48fc7e5dfb59d8258142b01422f81b0253, this”"
+1445,1333654,nova,4f8ccd7b95c27180a1cfe689e3c6f46bde5f803b,1,1,
+1446,1334024,nova,0d781d41fef329294891fdda0c1dac4add5ce7c3,1,1,"""The suffix .rescue is missed here and hence, original disk.config is overwritten.”"
+1447,1334086,cinder,8d6e9cf0fc564942dce14ce8f133c5d0ee06c4f4,1,0,“Commit 971a63bd9cf675a00bce1244ec101577b5c17cac has added a new parameter 'optional_args' to execute method of QuotaReserveTask and QuotaCommitTask. So where those Task used need change to provide the new parameter.”
+1448,1334142,nova,c250696ba12ead71e741cf8f608ce5212b0cc7bb,1,1,"“The git commit 873aad92944f8840e772d65eda4b3320d65a9ce7[1] has moved
+    ""brctl addif"" command, but the commit did not move its error check.”"
+1449,1334164,nova,48de2895b9a550a0944b31212349275605a4061d,1,1,
+1450,1334264,neutron,60fc1f64fabd86c38846c76785255c523a98b331,1,1,"“Previously ovs-agent exited with exit code 1 after SIGTERM was received.
+    SIGTERM should shutdown agent gracefully and exit code should be 0.” (320b9bd196a87f58229000c6a545a4911340c9ae)"
+1451,1334278,nova,2e6b2404155156ca336dadeacc8874645ca07bfc,1,1,
+1452,1334345,nova,9a01e62693a28a73120544b27ee2104558e0250e,1,1,
+1453,1334412,neutron,a630b3bae84091f0ff1029a87e3fc27eb9d7f5e3,0,0,"Feature. “Since nova notifications introduce a run-time dependency on novaclient, there should be an external sanity check added that tests the running systems ability to import neutron.notifiers.nova.”"
+1454,1334651,nova,2f3d774eb51eac9a370813362047a2cb3d124d86,1,1,
+1455,1334708,neutron,3709a1be92257daccba3f2506bea6d63f732564a,1,1,
+1457,1334774,glance,834e1f2150c6f2afd92036e6b7f53afee4006682,1,0,"“upload_utils is concatenating str and Message objects which doesn't work
+on python 2, so change the str to a unicode object.”"
+1458,1334922,neutron,54ffa26ce8e13ce0f77baae7b29bb793eb98f845,0,0,Bug in test
+1459,1334938,nova,7028f074202a59111f461b9fa935f44b6d118f41,1,1,
+1460,1334965,nova,d7d4ef350c971c442954d772b639f8b673630896,1,1,
+1461,1335076,nova,f8ae852c1a267a15f6b70026ad40d5d219fc0d33,1,1,"""This should be a coherent message.”"
+1462,1335193,nova,0ca33df5660849ce305f9e9756007d95fcbbfa2b,1,0,"“    In newer kernel versions, the network devices added for lxc containers
+    do not get checksums added. “"
+1463,1335295,cinder,f50be86330e81cb9dd61b8a2a635fa1a784b702a,1,1,"“However, this config option was accidentally dropped in https://review.openstack.org/#/c/67657/20/cinder/service.py
+
+“"
+1464,1335315,nova,825321cd7af9fc033d05f7bfbf730b50e4c6533c,1,0,"""old-world style instance and failing on the task_state attribute access.”"
+1465,1335821,neutron,5b34d41828a2a1260b1b92f6bfd91e1264aea7a8,0,0,Bug in test
+1466,1335859,nova,aaa9d6a8a28335b8dac4e1d4045571aa565e3196,0,0,Bug in test
+1467,1335959,neutron,8479c212b79e61aa9b694ec1368a1073898a09d5,1,0,"""This most likely is due to a recent commit: https://bugs.launchpad.net/neutron/+bug/1316190"""
+1468,1336127,nova,6ddd9f93f82427ce909c7773f7a806361035a0b2,1,1,
+1470,1336175,neutron,66abc6e5392047d4919a95cbafc9282f6a14c684,1,0,“commit 9d13ea88 had an argument mismatch which causes the following:”
+1471,1336196,neutron,69dfbd9468282f9ce16cc5b0cb1bcb121632a0d8,0,0,Bug in test
+1472,1336198,neutron,fd772afb697b70bf9da009976681a2a67d6fa5f1,0,0,Bug in test
+1473,1336207,neutron,dc6b07d4a37ef0db9906187611fec8e8753803cd,1,1,“CVE=2014-3555)
+1474,1336251,neutron,ee9fe2458f813b5d367bc7263c7a30a3af46aa2b,1,1,“Remove db lock and add missing contexts”
+1475,1336556,neutron,b98dda29c9bf2587c2eddad0231e337a1cb4ce02,1,1,“Fix missing migration default value”
+1476,1336566,neutron,fc01ddaaa5f1170b746f47837104352bfe36eaa5,1,1,
+1477,1336596,neutron,73b4239fbef5e52494cf3ffc3293dbb79b52d91c,0,0,Feature. “This change addresses the proper clean up of tables. i.e.”
+1478,1336648,cinder,f66f9e5805070e5ad2ba4688c6c4571ef1ec395a,1,1,
+1479,1336767,nova,2fee082e9267c75a1e676361d975e52ac9ad86f8,1,1,
+1480,1336970,glance,8c161b6a4b0a7617ee224b23ada0a368e97eaae7,1,0,“commit cb93eb60abf10af6fbb1ee438a6e8a51853e6788 changed the VMware store to use chunked encoding when the size is not known”
+1481,1337088,cinder,87cd23419bdd5724e742eda21bc23876b558e0d1,1,1,
+1482,1337236,nova,488f88c4d021bf429f62ca46dd8299a70d31505e,1,1,
+1483,1337349,nova,4431eec1c94c4a353b45e5d873854b3fb1eaa11b,1,1,
+1484,1337526,cinder,06dd7f28d1d3ec8619df0d25ddfe977d538897b3,1,1,“the field volume_image_metadata is missing from the response.’
+1485,1337796,cinder,4caca0dfae45dd6c61ddc1b4a2233d2ce1a11685,1,1,
+1486,1337821,nova,28b37c1a707f5e958221b4ee28c4832d081eb706,1,1,
+1487,1338451,nova,9d4b49c542e2076c8a572d1e8c6d50e255efe087,1,1,
+1488,1338479,neutron,3ca85460a178a18dea60399fd369ed84b17721dc,1,0,"“ In SQLite Integer can be stored in 1, 2, 3, 4, 6, or 8 bytes depending
+    on the magnitude of the value. “"
+1489,1338481,cinder,4469591c76888bad263662df424c3f266ded8d48,1,1,
+1490,1338853,neutron,31d67cfdee5b9f1ed77df2c9cda1c849fd7d6181,1,1,
+1491,1339235,nova,aa1792eb4c1d10e9a192142ce7e20d37871d916a,1,1,"“Commit cc5388bbe81aba635fb757e202d860aeed98f3e8 added locks to
+    stop_instance and the _sync_power_states periodic task to try and fix a”"
+1493,1339462,nova,6086db51b0c3acaf2b88617e3e739e06d894d761,1,0,"Platform. “Current Nova vmwareapi cannot configure guest VM's SCSI controller type as “Paravirtual""."""
+1494,1339775,glance,6b8d72df08e4b70b8de4b9797ae1c03be64e0072,1,1,
+1495,1339855,neutron,e8e2392321e0fd3e2b8a0345b725f2e8df854a34,1,1,
+1496,1339968,neutron,d144cb8ff422e16c5917c87471a46fd095fd1856,1,1,
+1498,1340145,neutron,cbd89e75d34c048c15c52dc828b1df7443c540d6,0,0,feature? ”Right now CommonDBMixin resides in db_base_plugin_v2.py so those plugins require to import it.”
+1499,1340159,nova,80df9f5ec53cc71c1ec51a8590921ae5b776ec22,1,1,
+1500,1340315,cinder,15a93312641bb6121d20c7749481104a1ab34bd0,1,1,
+1501,1340431,neutron,ff1ce62a0b9f504fd1dd46fb569ab85f5b56e4ff,1,1,
+1502,1340552,nova,bd5c5d5bbd808b4f83da58dce433cac711575bee,1,1,"""The feature above was put in by this commit: https://github.com/openstack/nova/commit/dc716bd0ce77b56f4aabe54d6633b7f3bf9b0a5d. I agree with your proposed fix.”"
+1503,1340570,neutron,40417e67820b38dc5492211554ac2ac1cd272f09,0,0,Bug in test
+1504,1340696,neutron,8a50e13a31e99148cebd5580f77cb92b8808fffc,1,0,“After migrating to oslo.messaging we don't need to have debug level in oslo.messaging but it's good to have communication logged.” (Change in the enviroment)
+1505,1340778,neutron,0540847c89a463f22438c6da6a0d03dc5a86d89f,1,1,
+1506,1340885,nova,ae744b4b60169f653d6bafba237593388266cb90,1,1,
+1507,1341014,neutron,487b98a73f6be41697dd4f59a245f1a7f338a72f,1,1,"I think this has a BIC …. “This patch deletes all VSM credentials on neutron
+start up before adding the newer VSM credentials” (b034f9de18ff0fa131a7b8ac77eeef52f23adaf5)"
+1509,1341459,nova,916aec717c2c1a6096e2f1884e4ad81a30ae70e6,1,1,
+1510,1341465,neutron,f676d9215958b1af1105d4ff4671ce6cefd83eb7,1,1,Resgression “after recently merged commit 9d13ea884bff749b3975acb5eb5630e5aca4a665”
+1512,1341738,nova,70feb102ae86d3421e46a07710e4cbab35408d02,1,1,
+1514,1341954,cinder,6a41fe9c5c98a14a355fa81b41aae2c4b0ce0a7b,1,1,
+1515,1342046,cinder,ed2f3ad04410e1236eba95ef6d9025aa901ddbf3,1,1,
+1516,1342055,nova,2f121680eba9404dc723872cde4d16dea90a0c3f,1,1,
+1517,1342274,glance,adeca091242eed0b691b88f6bcaac8c8044120f6,0,0,Deprecated
+1518,1342756,neutron,6762acab9ca70bad843cdee542d816ad8e3cb908,1,1,
+1519,1342880,neutron,a84a8a5d83f545d0c00b7a83ad91b52dc31c1194,1,1,
+1520,1342919,nova,963ad71af4750e28745b6de262da11816b403801,1,1,
+1521,1343024,neutron,6186e0cabe5ba854cddd68351e314933f826ee33,0,0,"""The OVS core plugin will be removed in Juno 2 but the embrane plugin code is still using it and will stop working.”"
+1522,1343142,cinder,6b7b705be4592c7a5406b1fda62fe83f73d869f6,1,1,
+1523,1343200,nova,daf278c0c8b6cc917b84f514fec65758adf17028,0,0,Feature. “We should add notification for server group operations.”
+1525,1343689,nova,97f81734c030f7f704369b37e1fe122c7040b9a6,1,1,"“ Revert ""Add missing image to instance booted from volume""
+    This reverts commit c3191cf0ba5ad3dc2df8da2a2bf5c9d270fde9d9.”"
+1526,1343750,neutron,8e31122d36ce5c9d367696921ed92c50cb062b5f,1,1,"“ This commit fixes the regression.”,”    The recently merged DVR change (https://review.openstack.org/#/c/102332/)
+    assumes that port_id is always a complete uuid “"
+1527,1343778,nova,83b37aeb5da8af6e305098a7e698d058f431f332,1,1,“API missing decorator expected_errors.”
+1528,1343854,neutron,f9c285fd617403ab89c857e3d8bab0d06d19d3ba,1,1,“Missing token in Neutron context”
+1529,1344036,nova,52de9395e5fe4f328f6dab0b35d660a700787c76,1,0,“Fixes Hyper-V agent force_hyperv_utils_v1 flag issue”
+1530,1344072,cinder,a074fec5f5d27ba66602a5b6133e5bfd49808c57,1,1,"""The following commit 4fdcbff96790753a4c1a508600e5d78b2c3b7172 introduced a”"
+1531,1344178,swift,e1fb64a7a6c675d909fe76757ae6671e51de9a51,1,1,"“Pass disk usage options when using —all"""
+1532,1346092,nova,13e2bd02a5b50973f95eb3d8fc0af4e0702e3381,0,0,"Feature “Move libvirt RBD utilities to a new file
+    This will make it easier to share rbd-related code with cinder and glance.”"
+1533,1346191,nova,5c3f212343df997daa48f1f4a1cdd2a29099c288,1,1,
+1534,1346245,neutron,4e8f4155fc559a5d49a70aee7882d7e0e117563a,1,1,“b7a8863760e_rm_cisco_vlan_bindin”
+1535,1346372,neutron,8748a3ee68e60778c90b8b83181bc28a7e8fe9d1,1,1,
+1536,1346444,neutron,5247f5cdf15bad4c62bbf854e30716fcf00a1d2a,0,0,Bug in test. “ Implement ModelsMigrationsSync test from oslo.db”
+1537,1346466,cinder,dbab8843ef33e0bb6745ae3ad5951fd86446c1a3,1,1,
+1538,1346496,cinder,2e4837971ff512342fb47d3b43a57b67d0ab36d3,1,1,Wrong logic?
+1540,1346638,neutron,9ea42f50d3136885ffb1f7b23a7d831165f25247,1,0,"""Now that the DB is healed, neutron-db-manage revision --autogenerate needs to be updated.”"
+1541,1346673,neutron,d98ca642402bafbaa15ac3df588ed34d58d8456b,0,0,Bug in test
+1542,1346900,neutron,e416a5420f45391c180f84098f4d2c02ecf857b9,1,1,
+1543,1347028,nova,9d64a827b9c2c5f332b3e57f6cb818d3f4735d23,1,1,
+1544,1347156,nova,77a7d14542600f2badcdf048fe6b586a0ff27e30,1,1,
+1545,1347355,nova,536bcbd2ce0822bec757f7ec949b9f70df20c966,1,1,
+1546,1347452,neutron,46501246c202f1f424f0d2a05769926303a39c89,1,1,
+1547,1347499,nova,9d64a827b9c2c5f332b3e57f6cb818d3f4735d23,0,0,"Feature ""Allow empty volumes to be created”"
+1548,1347777,nova,b856bc5e348cc69923e3ee815303804323730026,1,1,
+1549,1347963,neutron,72f66917fe79996b9715c47eae8e9d479b210c2d,0,0,Bug in test
+1550,1348056,neutron,6b8a5f0e1d26d2721e7ad7fc67099ff8b880d9ec,1,1,
+1551,1348288,nova,c363dae6a2b878db6801b502cced1fcc6aad2d0c,1,1,
+1552,1348306,neutron,c3c9f580393aea658571b00b3afd0b729dffe89b,1,1,
+1553,1348479,neutron,6bd147df43b1d352230d94f52e0fb4c56e7885d6,1,1,
+1554,1348584,nova,5e4a5f0d8c62ca6e94ae6db16e9fbe0428805158,1,1,
+1555,1348623,nova,a4fd236baa2fc544f174773e32a3f91ec52a4fe5,1,0,“Upgrade-impact: the hyervisor type will intentionally no longer distinguish libvirt Xen from XenAPI within a compute cloud. The driver name should be used instead”
+1557,1348629,nova,8fcd1b2c73dad8e2a7b4d299da270934fd5328cc,1,1,It does not meet req “bogus”
+1558,1348766,neutron,b8cf45218714937681d7df2e5b9d7d440cb2edd9,1,1,
+1559,1348787,cinder,aad4e2437736270af7164df4fc34174bf3fb49f9,0,0,Feature or bug “Split this into a separate file to reduce overhead (and things that can break)”
+1561,1349147,nova,b986d3d0b1ea91631df8c7b51e389a8150d497fb,0,0,Bug in test
+1562,1349268,nova,26871aa60ba663d56951fcd449167bfadbe01522,1,1,
+1564,1349475,cinder,09f6fe636416ac63e1463d14d469af8f93a6ddf0,1,1,
+1565,1349638,neutron,3eee50510fed29a7a8d97d4193a1c3c0a209a712,1,0,"""With the vendor's version of L3 Router Service plugins that assumption may not be true and hence the invocation of this method throws an exception.”"
+1566,1349767,neutron,cd3f4f7d24c92475ca698906c57f60375861b83f,1,1,
+1568,1349808,cinder,7fd2eea9710ca96415ee7d08349ae981a262f44f,1,0,""" Update ref used for notifications
+“"
+1569,1349810,neutron,bd40fbe304a18f8a231b519a0e1708b5ba63ad6f,1,0,"“Heal migration fix bug https://bugs.launchpad.net/neutron/+bug/1336177."""
+1570,1349888,nova,339a97d0f2d17f531cfc79e09cd8b8bc75ce6e2a,1,1,
+1571,1349895,neutron,a5765179201ee03ed26bb8f3bcda9f75bbdb191c,0,0,Feature. “If the Port is not found it should create a new Port.”
+1572,1349898,neutron,de5fa0dd327b1a81cb980d7553001dca244ae7a2,1,1,“port_bound forgets to normalize port name.”
+1573,1349936,cinder,8f8a8a6ffe14cf7bb461dc26d178bf8acc8ddf12,1,1,It performs additional filtering not done in the original solution (63f5798e8795f80f3612fb0699eb668e20ae321c)
+1574,1350089,neutron,86a0adefe326116ae42c0e01a8fa2c2849bfa2c2,1,1,
+1575,1350119,neutron,7a7291794eb718fc0a6105efacf88b2ee5594043,1,1,"“This code is incorrect: https://github.com/openstack/neutron/blob/master/neutron/db/l3_dvr_db.py#L297"""
+1576,1350252,neutron,748d4fdaf62667f39ce65e5053792b54dd684698,0,0,Bug in test
+1577,1350268,nova,4dcfa79058a407eb7a6ce83f4d804df19ec95026,1,1,
+1578,1350320,neutron,25c5291addcd3ed0ef9df567a828866f1681e014,1,1,
+1579,1350355,nova,03d34c975586788dc25249b5e0b962fc0634008c,1,1,
+1580,1350387,neutron,825a90bdb4ff2b6c08ef6717d350cc8b9d654120,0,0,Refactoring “The Open vSwitch and Linuxbridge plugins are being removed from the Neutron tree in Juno.”
+1581,1350469,neutron,62317a159ad98ef9ba5208f2fa7708a88692c46f,1,1,
+1582,1350485,neutron,dc658273e7cfe72e50dad40203db8bb0d9bb2188,1,1,
+1583,1350504,cinder,dca3c8323cf8cf12aa8ce4ba21f647ce631e8153,1,1,CVE
+1584,1350542,nova,d2ab9079ada5135598a89aa65f3ef8b63bf28003,1,1,
+1585,1350699,cinder,ce8893f4d3fae402494328bfbd07ea6642aae836,0,0,Bug in test
+1586,1350846,nova,984f4192ede99951078e2f6091e4c3e26cdb0e01,1,1,
+1587,1350937,neutron,1a0be0e05f8d299820b60cd888d74ed5ed73e265,1,1,(1d8afc7593fa04b8f804e13711ee36ea5bda0957)“Move from Python logging to Openstack loggingReplacing usage of python standard logging module with Openstack common logging module.”
+1588,1350942,neutron,b57d52aeb951bcfb9a2966ba7dc1b3f8b640bd8f,0,0,"feature “Use oslo.db create_engine instead of SQLAlchemy
+    oslo.db may set additional options to engines that we may be interested in.”"
+1589,1351002,nova,d96fbffcab5fafe48f4a91ea6f0a24310d63d9c7,1,1,
+1590,1351020,nova,6cef3c9b75cedb0fe6ff901128452415128d60b0,1,1,
+1591,1351066,neutron,6994ade726f4a33753a11b2b2c24454160c96d31,1,1,
+1592,1351123,neutron,0b4e42fe11bf918e18ea8f240d9055b3967b60bb,1,1,“Fix DB Duplicate error”
+1593,1351127,nova,6a9fe989e8d20ba43ed1a2bf318bc41b745f318e,0,0,Bug in test
+1594,1351350,nova,a507d42cf5d9912c2b3622e84afb8b7d3278595b,0,0,Refactorings
+1595,1351466,neutron,b4bf668ec40ee6a329740b587fa4a651a6e0dca2,1,1,“Remove the reference for now.”
+1596,1351810,nova,062b1f8c0f6ba09ab6764ea512c3615fc93aaf08,0,0,"Refactoring “Move _is_mapping logic to more central place
+“"
+1597,1352102,nova,674954f731bf4b66356fadaa5baaeb58279c5832,1,1,"“Commit da66d50010d5b1ba1d7fc9c3d59d81b6c01bb0b0 restricted
+    attaching external networks to admin clients. This patch changes
+    it to a policy based check instead with the default setting being
+    admin only. “"
+1598,1352428,nova,86a4bd7d9b34057f04ebbe2d2131f033d33d082b,1,1,
+1599,1352509,glance,d67a94b60261a856ab52e57a2490afaae6c5d91d,1,1,"""Change 4e0c563b8f3a5ced8f65fcca83d341a97729a5d4 was incomplete and missed a variable in the RBD store.”"
+1600,1352595,nova,81348368c70cd39c6241e7da6d33629e577494f5,1,0,"""In libvirt driver directory, rbd.py confict with global rbd library
+    which is imported in rbd.py,”"
+1601,1352659,nova,257183a8a9130f2b444f7f96ec8582da89684528,1,1,
+1602,1352698,neutron,f9c285fd617403ab89c857e3d8bab0d06d19d3ba,0,0,Feature “it makes sense for neutron context to include auth token.”
+1603,1352768,nova,34558259058e19f9c4b2a96cbb97770883460ded,1,1,"""this code review, https://review.openstack.org/#/c/104262/ brings an error in log because of the line at 137:”"
+1604,1352786,neutron,c5e186f466a4347b72868db8adbde9450215f107,1,1,"“this was caused because the l3 service plugin was
+    erroneously calling a method on self”"
+1607,1352907,neutron,cfea218390605e2fe34b225ffa75b8b5c141f0b9,1,1,
+1608,1353006,neutron,608003408b3aba6a8290427257460287d8a4ce96,1,1,
+1609,1353112,neutron,b1b97dd721980bd06a97b9a9ad0fb15d95370164,1,1,“extension is missed out and needs a fix.”
+1610,1353131,nova,1b83b2f11054ddd3f72fe75c5cef496060afcb3a,1,1,
+1611,1353180,neutron,01b2eedd05fb91aa8970c64b753d831257243598,1,1,"“following commit was made https://review.openstack.org/#/c/81334.
+That has introduce a problem where neutron-db-manage does not work with some of the options.”"
+1612,1353271,neutron,338171c114743c0e03def04ef551231f0d9c93f8,1,1,
+1613,1353309,neutron,ca00b1739431fb9fe8f81919dc4644f4f467fa9d,1,0,"“The following commit bumped the RPC version of l3-agent.
+L3-agent tried to get service plugin list when it starts.
+commit d6f014d0922e03864fd72efbcde04322711c2510”"
+1614,1353414,neutron,03c4dc3573f640d06b80d686a389f1f3438a6d25,0,0,Refactoing “Remove duplicated check for router connect to external”
+1615,1353506,cinder,140956515327494a53de6ad09c35690624248f0a,0,0,Bug in test
+1616,1353697,neutron,771327adbe9e563506f98ca561de9ded4d987698,1,0,“ML2 RPC base version is wrongly bumped to 1.1 and it breaks hyper-v agent with ML2 plugin.”
+1617,1353885,neutron,be81901b615b45d6aed4287df8c285a1f0aa72b0,1,0,"API change. “The L2Pop feature seems to have broken due to OVS Concurrent DeferredBridge implementation approved here:
+https://review.openstack.org/77578
+“"
+1618,1353949,nova,d96a8f0e6b524c10e563418c2770069030455c25,0,0,Feature “this exception is not handled in V3 api.”
+1619,1354072,neutron,b4eaa0520990f30519aaa073f352541f17b0577b,1,1,"“Since change:
+https://review.openstack.org/#/c/73234/
+“"
+1620,1354218,neutron,661e3ec795be075eb8f66ff15de1c8ad3603a682,1,1,
+1621,1354272,cinder,86fc539a23b0b2cdd6e0803aa3a3cb10fc5758a6,1,1,Minor issues in comments
+1622,1354285,neutron,6c1eec67d2e7def7561bde906df9a50006a86b10,1,1,
+1623,1354448,nova,3a5919fd4af6c3b772397a5e7d90eebdf9b371af,1,0,“The Hyper-V driver does not support resize down and is currently”
+1624,1354499,nova,c55736d9fc941ae3f00a29e945b8881be7813e52,1,0,“In c5402ef4fc509047d513a715a1c14e9b4ba9674f we added support for the new cinder V2 API.”
+1625,1354664,nova,23340b49b1adee5cb9592b8e6a8471969b9341c7,1,0,"""This is due to the change to objects.”,”Commit 1023e703bd41c2a42b1159af0d9e907e94440b34 added support
+    for objects.”"
+1626,1354801,cinder,a00f41a02b90ca93e21e9a98236af21b454872b3,1,0,"""The Swift backup driver for Cinder supports only Auth 1.0,”"
+1627,1354912,neutron,03920290d00148437fe14696621bc7446bfc7e46,1,1,
+1628,1355087,neutron,11ca12dd8752a7d8fc13027c21ee572233becb74,1,1,
+1629,1355251,neutron,3082a074f819f0479fc941b30dc7cfdbb8aab394,0,0,Bug in test
+1630,1355297,cinder,186c3e99cf04b22ddbb1046cc9e42d1f7473e8cf,1,1,
+1631,1355348,nova,4c4dc3a6d331426e472e2dd1e9b0513da7cb7450,1,1,
+1632,1355409,neutron,aee5344db7972e2e12ed056c2e6467f7952aec3f,1,1,
+1633,1355502,neutron,0ac15ad5d7902ef30d495acf737c90ba9377566a,0,0,"“This patch clarifies that in order to use NSX distributed
+    routers,”"
+1634,1355565,neutron,5defcd0aa61b96933369a545040e57d9665add7a,0,0,"cleanup. “As a minor cleanup, we should remove the argument in the interests”"
+1635,1355622,cinder,49b54af36a2aacd3d27330636f61d6f996016d65,1,1,
+1636,1355759,neutron,0125cf7815acb677b619905e2d9d258a9bae1c48,1,1,
+1637,1355777,nova,3d4e421204145bec16117ef3b9d5053ae27e836b,0,0,“Current git version of nova does not fully support ipv6 nameservers despite being able to set them during subnet creation.”
+1638,1355882,nova,d449b5d8556e67be08e016c94f9b1c523a69ce7e,1,0,API change “Commit e00bdd7aa8c1ac9f1ae5057eb2f774f34a631845 change get_floating_ip_pools in a way that it now return a list of names”
+1639,1355922,nova,b21d3b6402fe10616fa07df3c0fa6154f46f4b21,1,1,
+1640,1355929,nova,02fa15b4caaa414930b6ddf6a3a9fe8019751c26,0,0,Bug in test
+1641,1356051,nova,6c085e1d6652df013ec176d46ffb234065373193,1,1,
+1642,1356120,neutron,b025ccff2c7320caecfc005cfcbc3f4dfadfa505,1,1,
+1643,1356227,neutron,65de01dcb1c49271ad1e5067d8dfd206788086d4,1,1,
+1645,1356464,neutron,1deb787c15a0f24c6c079c5e5fe122dc54188cdf,1,1,
+1646,1356552,nova,671aa9f8b7ca5274696f83bde0d4822ee431b837,1,1,
+1647,1356665,neutron,6d7b2e007cf477a7f212312bad4ce0cbe8032d1a,0,0,Bug in test
+1648,1356679,neutron,0cc7444f7577e53f14068a2cb35431713d6d21a0,1,1,
+1649,1356687,nova,42d017c0d498aa4034032104f9cdd56300c866e0,1,0,"“commit 243879f5c51fc45f03491bcb78765945ddf76be8”, “The jsonutils rule was added in:
+    I86ed6cd3316dd4da5e1b10b36a3ddba3739316d3”"
+1650,1356734,neutron,e74b85f854e248919299fd875066903eba0a37c9,1,1,“The recently added external_gateway method does not check the agent mode or host binding before adding an external gateway to a particular node/agent.”
+1651,1356794,cinder,f668b347ca181229fab4b89fda25f1aadfbfdef1,1,1,
+1652,1356815,nova,a0a6017f9b58941a4f8e67300a5dc57e34aada35,1,1,“commit 243879f5c51fc45f03491bcb78765945ddf76be8 was bad”
+1653,1357048,neutron,9fc8b6c4b4d43df50b9bc15f4fdf274ad6dd711c,0,0,"Refactoring ""does not have anymore any restriction on transformation of centralized routers in distributed.”"
+1654,1357084,neutron,0d8911115e1b722da2f1e92f444e53b22223ee32,1,1,
+1655,1357102,neutron,b09c9950649c4c9fffa0b096eb21152cd84fe56f,1,0,"“However,
+there is no longer a point to this protection because the DB lock is gone and”"
+1656,1357152,nova,21aeb80a83e157dbc2ba27f16a83c98a37b7067d,1,1,"""commit 374e9766c20c9f83dbd8139aa9d95a66b5da7295”"
+1657,1357198,neutron,dd5c73450da908d95724e20eb3be09bc936cb551,1,1,“l2pop can send us entry removal without the corresponding addition.”
+1658,1357236,neutron,185f09b7c46edcbb1d39d3b79993fa8c07dafc2c,0,0,Refactoring “Also removed custom dispatch”
+1659,1357239,cinder,7ac4fc76f2d777fd4e0ec4245eaf989f99917be2,1,1,
+1660,1357261,cinder,7a72303aff86ba2b06c41e73b35989cddd884652,1,1,
+1661,1357372,nova,948ff4f3d0a159f1aed9fab65d205ede845b3eb9,1,1,“CVE-2014-8750“
+1662,1357379,neutron,74d10939903984d5f06c1749a8707fa3257e44ff,1,1,“CVE-2014-6414“
+1663,1357432,cinder,7e95b05b937e632ae8aee82cfa8f6f31835e6316,1,1,
+1664,1357462,glance,4502759243c0f363545f4236b41abaf8bcf9a37b,1,0,“Since the `_upload` method loads the store based on the scheme”
+1665,1357972,nova,ea19fb10c5e09ff5df383607654ab9dc2791ec21,0,0,Bug in test
+1666,1358196,neutron,eca9069be3d730c788e433edb291123eede07839,1,1,
+1667,1358206,neutron,44eff5daad81966f6530d84ca3683b2f9c58debf,1,1,
+1668,1358380,nova,f31ac7711bacb1408b17759426f3407937ba4d79,1,0,“This goes way back to grizzly and commit 718a3f057cee0b1163c40fbcbedda29bd2ef9dfe”
+1670,1358552,nova,ce2031afb2e42c756c065f423126ffd1a61b820a,1,1,
+1671,1358554,neutron,78059968e212d537c813f398da7f76714380bf4e,0,0,Bug in test
+1672,1358636,neutron,89e76a8afae19c5f66d532538607aedaac59722a,0,0,Bug in test
+1673,1358668,neutron,295efa00081c770a57a5541652d9d3ffd5c1074d,1,1,
+1674,1358702,nova,d88b4cf31dbff942cf529e63ee5b09356970ed50,0,0,Bug in test
+1675,1358818,nova,e9a5463bf71cb2f2e7185dea3ed8ee8b973a3208,1,0,"“The API change guidelines”, “In icehouse, we were able to store ints, floats in extra_specs, with I195bd5d45a896e9b26dd81dab1e49c9f939b4805 we forced the value(s) to be just strings.”"
+1676,1358881,nova,630a7f369a76eaf7f942d8989a30f5dc7b09327e,0,0,Bug in test
+1677,1359002,nova,eaf9522c842614dc83d3fd541bfdc1159416d438,1,1,
+1678,1359113,neutron,65b16f50bdd6544244d80c0f07653f4f478d3244,0,0,Typos
+1679,1359138,nova,e1f8664c9fa83f77f5bb763ffcc3157905ed954c,1,1,
+1680,1359427,nova,9f1f9a8b6fadbba2eb6733e0f13b727f14a52a3f,1,1,
+1681,1360022,nova,acf881a69b672936fec83900fc803c65c669f2a9,1,1,
+1682,1360104,neutron,fa0abeb043c2f66c537e43a8ea7181f648c71d33,1,1,
+1683,1360113,nova,cad9e77091dfa896ad59233341e8947eca13f66b,0,0,Bug in test
+1684,1360119,nova,2418a9dce86280fbf269f68f7d7c9b739f662ef1,1,0,"“FYI, Nova has always been broken in this regard, but libvirt was buggy and did not enforce uuid,name stability for nwfilters until release 1.2.7”"
+1685,1360395,neutron,0985ef78d43ae7d910669c3ca968fd977f2ea2ae,1,1,
+1686,1360656,nova,b32912f8b47f50f72a59d97387fc7f28e3e096a1,1,0,"“Since this change https://review.openstack.org/#/c/98607/, if the conductor sends back “"
+1687,1360719,nova,7090595658c2f931008fda62d612ea702509e930,0,0,Bug in test
+1688,1361097,nova,88d91252eca1f8734e316a6e4b9ebc3a977bee44,1,1,
+1689,1361176,neutron,25f117bacf1cb110260d96e764ae8fac9440c14e,1,0,“After commit commit 466e89970f11918a809aafe8a048d138d4664299 migrations should not anymore explicitly specify the engine used for mysql.”
+1690,1361366,neutron,9294de441e684a81f6e802ba0564083f1ad319d6,0,0,Bug in test
+1691,1361487,nova,e0552af51ce1246e9c938720009c89ccfa008f2f,0,0,Feature. “Allow backup operation in paused and suspend state”
+1692,1361517,nova,83ab44f6ffb8533dd53d5eb385f99f62d23a6056,1,1,
+1693,1361545,neutron,9569b2fe58d0e836071992f545886ca985d5ace8,1,1,"This is tricky! The code works with one configuration, but when there is another one it requires changes. The bug is solved by generalizing the code. If the requirements at the time of writing the original code were just to use that configuration, then there is no BIC. My understanding is that when writing the code, the coder should have been aware, so I am more inclined towards a BIC! (42061fc9cb26558baef52541eb4a02d66575f1c1)"
+1694,1361611,nova,0c3a47e57317f6efd573388c2c400a6a88745fd8,0,0,"Feature “Adds typed console objects used by virt driver API to
+    return information about consoles.”"
+1695,1361738,cinder,ddcad011db507cde66b6b1e655d5ffc91ab8880f,1,1,"“And in turn to this Cinder patch that introduced the regression:
+https://review.openstack.org/#/c/76471/7/cinder/volume/manager.py"""
+1696,1361840,nova,0b01e846d40f3b343da9ebe1dae89cca8bc2ac66,1,1,“if I revert ecce888c469c62374a3cc43e3cede11d8aa1e799 everything works fine.”
+1697,1361963,glance,819f28a0b8863bd18f8a14491b5966c8b2723432,1,0,"""glance should do same change as well.”"
+1698,1362129,nova,2e90d62727c093efbf60a7d86b1ee5262b041bbb,1,1,
+1699,1362221,nova,e9eb1d69bf75c22b0ad4b50e4892a5644c78cf68,1,1,
+1700,1362233,nova,dbc46b99cc85402c087bb214c120bce2c65dfea9,1,1,
+1701,1362308,neutron,271a280d0e8f86b96d24970f588184b1cfc34ef8,1,0,"This is strange! It looks like there is no BIC, but a change in the requirements. One of the fixing commits is huge and changes many, many files"
+1702,1362405,nova,bf5d003af694ea1eb95fceea8c36e961092cb516,1,1,"“Commit 77b4012a02c6b4827a7a6b112f35deb9ce94c395 added further
+    validation on the quota update controller that isn't aware of the
+    'force' parameter. This”"
+1703,1362416,neutron,648063881ebfbb54a362ef32d58263fc0f20981c,1,1,
+1704,1362466,neutron,4e80524a61a655fe9732ff42dc8f035810214670,1,1,
+1705,1362480,neutron,ace3a01ebf980c166b4dfe6d1216b17bf0aec2ed,1,1,
+1706,1362595,nova,bfdae32efbeffcb74e7b2a0c48cb89cbf4c11329,1,1,
+1707,1363014,nova,148fd1bb124fa80f70a8983242dc979a34acceab,1,1,
+1708,1363016,cinder,5c5f3c0684caada0fb7efe33d59bc7f1d66c72d8,1,1,
+1709,1363058,neutron,dcd3fb9da5ba64b5ae56a97c147f125bb7e33c4c,0,0,Bug in test
+1710,1363324,nova,f6d6c632f620411816979f04b7b3dda28681db18,1,1,
+1711,1363326,nova,4ba7ee4c1bb89b2fa48c2091df1d7f0bcf10ee02,1,1,
+1713,1364232,cinder,6d59790b9cd42309417ae1866e40a06dcb557abe,1,1,
+1714,1364279,cinder,80b14a54710dad659fde3e319f8b0cf0e673acdd,1,0,“The new cinder pools submission breaks any cinder operation that involves <host> as input parameter”
+1715,1364344,nova,3e11db0e3b832703feafe8317c0c12fb0a149e53,1,1,
+1716,1364392,neutron,3146837b7aea1a6c767131ad9aebaac2acb765df,1,1,"“Missing constructor when
+“"
+1717,1364692,nova,a5cf28a68ab400fc59ae77bb11542a84b97b0d56,1,1,
+1718,1364696,neutron,50c65d16bee8e6e46840f232519e92d9ba9989b4,0,0,Feature request
+1719,1364839,neutron,9cd96fe116ac1d990410cb1135473bd15c1f7dce,1,1,
+1720,1364849,nova,c4d0e55098952ad3180f74357a9256da43bf7d15,1,1,The BIC is not the pc”Change I8f6a857b88659ee30b4aa1a25ac52d7e01156a68”
+1721,1364986,nova,1b83b2f11054ddd3f72fe75c5cef496060afcb3a,1,0,“A recent commit to oslo.db changed the way the 'raw' DB exceptions are wrapped”
+1722,1365065,cinder,90bbed483618505620346255d0f1f3eeb539fea0,1,1,
+1723,1365352,neutron,3c503adcf703db7b772208389b43ee09cee66185,1,1,
+1724,1365392,cinder,3783c50dce3917257060dd977f69785238f58078,1,1,
+1725,1365429,neutron,0bd4472ef7bdb9d94f988669f34f7eaa53ca0a89,1,1,
+1726,1365474,cinder,ce7c8dfba800874fec7411393e6799d81064f939,1,1,
+1727,1365487,cinder,0e429c71f34c5a7603854171c6843a67c61b9127,1,0,“Qemu-img still uses the legacy name 'vpc' for vhd files which causes this confusion”
+1728,1365516,cinder,75564b4af164786f43f00a12bd16f26f4b0b9197,0,0,"this is basicly ""dead code"" so it should be removed"
+1731,1365806,neutron,524981cce05a9b365036c0a1e9810036936d3d5b,1,1,“Add missing methods to NoopFirewallDriver”
+1732,1365829,neutron,74a292ceba0be6aaa7ea1911cac2f102eb3db90e,0,0,Bug in test
+1733,1365881,cinder,e6ea26ea1272f9407879b822b3913b4308e3f2f8,0,0,Feature.” This patch optimizes the data path”
+1734,1365884,cinder,a120ede9ae3f18756db07d1d6696b9ac773b84bf,1,1,
+1735,1365901,cinder,92ae5ac0df07a68b9c7c8f58740e2d7b2e2959d0,1,0,“inder-api ran into hang loop in python2.6”
+1736,1366011,cinder,c9e5bb4fe8b23743f4e2a064395584c87d1232ba,1,1,
+1737,1366083,cinder,9cc9cf111ef8a0265df5323fecaed12b0dabe312,1,1,
+1738,1366105,neutron,11c8f8cbca0fc3feed0469346d682225f9301251,1,1,"""misses format for parameter 
+“"
+1740,1366371,cinder,9082273305b0b9c117eb677a0e34c2ffde4e66f0,1,1,0
+1741,1366506,nova,f4fec08e9850dae163f447e72cd1c7f638b2bb10,1,1,
+1742,1366548,nova,bc40e85c0278afcca74892fc818da1e005f13fc7,0,0,Refactoring “the instance is updated so there is no need for the save”
+1743,1366859,nova,5fd0500e7e262c602dc7bbbff456326598da41bc,1,0,"“This was recently changed as part of the Ironic -> Nova driver patch series. We still want to canonicalize supported_instances though…"""
+1744,1366982,nova,35008c0d16e41fdae6e868626477f361392aa923,1,1,
+1745,1367172,glance,2df48336d0e0381522e9ec100cb56579367cfa1f,1,1,
+1746,1367238,cinder,3fff55681739872ab125aa7f0677f7d836c10615,1,0,"""IBM NAS cinder driver sets 'rw' permissions to all during volume creat” external artefact"
+1747,1367342,nova,efe1002459145c43577b53ba03a228ecf9a78434,1,1,
+1748,1367344,nova,79bfb1bf343484e98aa36dcc663a5370baf4cab7,1,1,“Commit f0ff4d51057080e769407e873e5ed212f15b773d caused the problem.”
+1749,1367363,nova,5f93c841a80663b68da2fb04df78d5acd0754d68,1,1,
+1750,1367454,cinder,3d301346a7100e52fe0c319c1c1b5b81a3bc1660,1,0,Bug in API  “There was a bug in WSGIService “
+1752,1367540,nova,688be19e8a2170276451926401af8257c4faece5,1,1,
+1753,1367552,neutron,eccf5e819ef918d566b7efd1e91719550d0fbef9,0,0,Bug in test
+1755,1367575,nova,a5c9340130f86d1f2a54a808add32d9d7d7355cd,1,1,server actions were missed for V2.1 API.
+1757,1367642,nova,61b2824a1ff9c57066e3277b2f66f6b93a5d5f08,1,1,“backward compatible with V2 APIs”
+1758,1367771,glance,89c04904416270d3c306d430f443a7127c5fc206,1,1,
+1759,1367864,neutron,1d4e13574574472e299296892d7c9e8f706aea67,1,1,
+1760,1367881,neutron,c5ae5ad2637a561ccbc7484045e99d8140822b8d,1,1,
+1761,1367918,nova,ba49c5eb387d841d40f81f57d5cefbb00c835bff,1,1,
+1762,1368006,neutron,60816b637d391aa5e5aef9b4b3a432b5ce552cc8,1,1,
+1763,1368033,neutron,485c174fc7e52e697d1d73a96cd924c2e3a04414,0,0,"Feature ""So the CRD configuration options are to be moved to a separate file to be used with other plugin/drivers”"
+1764,1368035,nova,f7ef2b09a195f853cecaa28db710d643a8e30f78,0,0,Feature “V3 resource name needs to be changed to work that for V2.1.”
+1765,1368055,neutron,ed499b6af1ee8cc3003a991eea2ab4d0fdd461c3,1,1,
+1766,1368152,neutron,e7f0b56d74fbfbb08a3b7a0d2da4cefb6fe2aa67,1,1,
+1767,1368202,nova,a957488450e6d31dfc34eade38e03b5535c1d017,0,0,Refactoring “was deprecated”
+1768,1368234,neutron,3b0ac61dea7178e858c6dede44a13818c5162283,0,0,Bug in test
+1769,1368251,neutron,b030300b1687b853a95b6bd2e706045f549d1e50,1,0,"Environment. “was defined to be a boolean type and in postgresql this type is enforced,
+while in mysql this just maps to tinyin”"
+1770,1368381,cinder,804f5de841b410c3e6a2ff30756546f2a086b112,1,1,
+1771,1368404,nova,c860280a92c2d0e32897d71aa4c6f083ee13345c,1,1,
+1772,1368495,nova,a5147669f4d584fdbee10b4a2c77b93b31ef3108,1,0,“Reverting those attribute same as V2 to work with V2.1”
+1773,1368595,cinder,26de1b1d829849665dae921b8be739194b84515d,1,1,
+1774,1368597,nova,21baedfc3185111589535cdc24fff83603a5e3fc,1,1,
+1775,1368900,neutron,a2ef082cb0b25d14595a8810adb16df3f9661e43,1,1,
+1776,1368989,nova,197bb467c0fa33700e5397c934fa10d8c16f1fbc,1,1,Bug It is reporting some bug or a consecutive list of actions that should happen and they can end in a bug (78dbed87b53ad3e60dc00f6c077a23506d228b6c)
+1777,1369136,cinder,b04a1dd063d9678747194e416ed157109a17fdc7,1,1,
+1778,1369151,nova,e65bf1febb66cb2771834f4bbb11c2e61579ad7d,1,0,"Chnage requirements, specifications. API change. “This patch updates the relevate baremetal/ironic host state
+    classes to do likewise.”"
+1779,1369355,cinder,debbf0ee49dcb78a92afaed24a60d81ba441430f,1,1,
+1780,1369418,cinder,47a26f1ac41100c40b7997bc4df802fa867fbd42,1,1,"“This issue is introduced in patch https://review.openstack.org/#/c/106377/"""
+1781,1369431,neutron,bf4a0199a73374d786e3a5bda770fd8545ebc4e9,1,1,
+1782,1369502,nova,1d91921459e0d67eb668838253dc76371dbdf553,1,1,
+1783,1369508,nova,12b8b56807af7ce3bbe330d73864abc87cdadbf1,1,1,
+1786,1369605,nova,2192102d85d6d6742832b4961556ad6a2ac7c089,0,0,Feature
+1787,1369750,cinder,f94d671e627dd7b5143422ffe739418fcfb51a70,1,1,
+1788,1369815,cinder,ea32e07f36781c2c0c7a0aa28817cc2df23df32d,1,1,
+1789,1369973,nova,e3fbdfb3aa2251bb57e53b856e6c5c2d89a23150,0,0,Bug in test
+1790,1369984,nova,903ebc2b71bbfafc29fb42eebbd87ce7e04605f4,1,1,
+1791,1370019,nova,27a5296f4d7f045abf9534155081025b214ce088,1,1,
+1792,1370068,nova,e517c884eff3c2bb1255dc2bf8e52fd655b1ea1a,1,1,
+1793,1370112,neutron,59d4c264bdcf056eb44d9d137336fde7c00f3a1b,1,1,
+1794,1370184,nova,8fb62fe8274ef4a8b7e2a811d4c55999246cdb5f,0,0,"Refactoring “is out-of-date, and was’"
+1795,1370265,nova,1dea1cd710d54d4a2a584590e4ccf59dd3a41faa,1,1,
+1796,1370308,cinder,ee6299620ec1ce5c5ff22e0888e00a70b840a708,0,0,Bug in test
+1797,1370578,nova,1a17d1719d163a360dfd02f9b124f8dc55a5fd0a,1,1,
+1798,1370680,swift,38ba5790fb527967c2fcbaf094e76a73f4b94d38,1,1,
+1799,1370769,glance,1cdc555d21c532d7e4963ed1784a488769abdd1b,1,1,
+1800,1370885,nova,027a913a304f8e7000fa3e8ede7776e250a029fb,1,1,
+1801,1370914,neutron,e90d6d6c833db51964037afd1c4aa1f521ee380a,1,1,
+1802,1370999,nova,d65ca49990f1241a5a8afdc3ad0e1a99c878275a,1,0,"Platform. “The windows nova-agent now can trigger a gust reboot during resetnetwork, so the hostname is correctly updated.
+“"
+1803,1371022,cinder,08bfa77aeccb8ca589e3fb5cf9771879818f59de,1,1,"(21eb376df58d48ac5b7d57224484f6db1bba6114) There is a bug but I don’t know whether there is a BIC or not “Add a parameter to take advantage of the new(ish) eventlet socket timeout behaviour”. Bug! I would say that there is an omission in the original code, that is solved by adding a parameter"
+1804,1371072,nova,3f4a0e40af7705b037db1a2ccc63de94547f6dd7,0,0,cleanup. “it would be good to clean up older snapshots”
+1805,1371160,neutron,f92d1300e1aca68b39b927282af038acc68c5013,1,1,
+1806,1371696,neutron,7ca696c7355ba93dd89e69a76162c6d9a3429a2b,1,1,
+1807,1371732,neutron,411836b5411411a6046043e0264aaa7b6f5760f0,1,1,
+1808,1372076,neutron,086496bfc45e01cd2905a074d526a7d513bf4ec2,0,0,Bug in test
+1809,1372196,neutron,d1f1722e0edb63c73b60c80abafa63749349cd8e,1,1,0
+1810,1372337,neutron,55f6a8ac5d234f004ef06add87d16284e9f048d3,1,1,“The patch fixes a regression introduced with secgroup rpc refactor by”
+1811,1372438,neutron,3cd2163d5105faad389bee5175ef446f0bb90289,1,1,
+1812,1372454,cinder,dafe048f2f36d221242036c159271d7544ad39e3,0,0,Feature “we need to to check the value of the configuration item”
+1813,1372570,neutron,32ea2e349decd750e25cb00a8c907b8f73f795f3,1,1,
+1814,1372571,neutron,c756d3c3ca9e90fab5e1d3ff37af33972747ba70,0,0,Bug in test
+1815,1372672,nova,aafe39cd94c7311ae6d02a6b98cfd09d70ae0b56,1,1,
+1817,1373100,neutron,45a523681f2136f8fefb6c3da44540decd6a0fda,1,1,“1373100” revert
+1818,1373159,nova,6a374f21495c12568e4754800574e6703a0e626f,1,1,Requirements were not fulfill
+1819,1373230,nova,42c7c7cfc96045930820c37b45f54ba717da117e,1,1,
+1820,1373333,glance,4b2304d6bb1d77db1e411f375a00a93aaabca262,1,1,
+1821,1373524,neutron,5be55ac161adfec9085121fe59ea3bf59daa92cf,1,1,
+1822,1373535,nova,279b6e98bc72c906ac2c3f8665a1acdc99b30833,1,1,"“Commit 7cdfdccf1bb936d559bd3e247094a817bb3c03f4 attempted to make the obj_make_compatible calls consistent,”"
+1823,1373851,neutron,04df85b6e5a098f8f55bb82f04d9769763beb487,0,0,Optimization “ptimize a query in _get_lla_gateway_ip_for_subnet”
+1824,1373950,nova,48e94bf75ce2be50d323e8b883cf3322c4d06c4e,1,1,
+1825,1373993,nova,30871e8702737edbbfbcbbb5f21858873b37685c,1,0,Library “This should be changed to use the requests lib.”
+1826,1374044,neutron,acfcb523b15fbd9ccc509e4366e4a141a66d4783,1,1,
+1827,1374140,nova,1af3ca69c250f8cd2f8e60ed596ad2df30353713,1,1,
+1828,1374158,nova,480a932173219bda0f7ead61fd406fe4a366832c,1,1,“Typo in call to LibvirtConfigObject's parse_dom() method”
+1829,1374458,nova,eef97cdf4bb7f426d7feb394ef54510db8b1656b,1,1,“There is an error in the n-cpu log”
+1830,1374461,neutron,ccd650732729451aa8e5ce3401f9570c70c4f066,1,1,
+1831,1374573,neutron,36e8cbb34e78ff367cb501b8c494d9a02228251d,1,1,"""This looks like a regression caused by commit: b1677dcb80ce8b83aadb2180efad3527a96bd3bc”"
+1833,1374902,nova,6b640163ab8133085e7bb970d3ac08a86e339ddb,1,1,“missing vcpupin”
+1834,1375379,nova,4f0547d4978172e29eb328bceb404335da1b9e0a,1,1,
+1835,1375382,cinder,5d22ec17c7548f3de85ba9e3ad54ce5799dc5fff,1,1,
+1836,1375478,nova,2ee0d651b18a5840033f9338f3b605b5a64769f1,1,1,
+1837,1375597,neutron,79f1e8a9c1f308586077483d849e66dcdc83144f,1,1,
+1838,1376128,neutron,20dbbab61c1159a3dc6ef838ec65b04f7e9cf560,1,1,"""Changes in commit 7f8ae630b87392193974dd9cb198c1165cdec93b moved
+    pid files”"
+1839,1376194,cinder,7ee80f76674bf4ee37b42a1223eb570138425ddd,1,0,"Requirements. “Currently the display name and description of the target volume
+    is changed to”"
+1840,1376199,cinder,82716b4ac836024b968c76db75be8a92ede0e226,1,1,
+1841,1376307,nova,0251b53966eaa9e724377a300ea247367fd778c7,1,1,"“Seems like the commit https://github.com/openstack/nova/commit/6a374f21495c12568e4754800574e6703a0e626f
+is the cause.”"
+1842,1376349,cinder,933a7c01ffa78810b283aa3c3b32d75e4c4504bb,0,0,Feature “Warn at driver startup if the configuration option should be set to True”
+1843,1376368,nova,3f9003270efd9ac036f3c229b36baa0bb05203bf,1,1,"“Cert revocation was broken by
+    32b0adb591f80ad2c5c19519b4ffc2b55dbea672.”"
+1844,1376492,nova,5065aeca1b4acad513c07e3832ec0e12de2e6568,1,1,“Patch I7598afbf0dc3c527471af34224003d28e64daaff introduces a tempest failure with Minesweeper”
+1845,1376651,nova,c20f50b419ca95c7df35a2b2a546a8f36f311d98,1,0,“versions of libvirt that are older than the minimum supported version”
+1846,1376945,nova,0aeffa12a62604ee3238323d969345e41937b642,1,1,
+1847,1377241,neutron,4c2b42e21744be56cbf32aeac6f4b4f1c87de24e,1,1,
+1848,1377307,neutron,29250949012e9c0a60b0ddb56ddbf18d7b68106b,1,0,"“When DVR is enabled and enable_isolated_metadata=True,
+the DHCP agent should only inject a metadata host route” change in the requirements"
+1849,1377346,neutron,db5e370b0d68c3e71626c99941fe487059b3cf88,0,0,“ML2: Invalid unit test case”
+1850,1377447,nova,74145b625a2544eb0d72c811a20c64c9987bedf0,1,0,"API Change - Change requirements, “a8a5d44c8aca218f00649232c2b8a46aee59b77e that make each tuple have four items Old code only accept three items for each tuple:”"
+1851,1377981,cinder,5e4e1f7ea71f9b4c7bd15809c58bc7a1838ed567,1,1,“cve-2014-7230)”
+1852,1378389,nova,8299e80ad437d86925484366c29a01fa30c344ed,1,1,
+1853,1378398,neutron,5e9305a6f934549408a9c18480fc1c000126621e,0,0,Refactoring “Remove legacy weight from l3 agent”
+1854,1378461,nova,cf3c1d10b10067cab226bf9a82e89017a4b27fec,1,0,"“The VERSION of the nova.objects.NetworkRequest object was incorrectly
+    still at 1.0, even though a 1.1 version had been incremented previously”"
+1855,1378508,neutron,7ea605df3ac71dc568194bcd5eaf1c115008e1ee,1,1,
+1856,1378525,neutron,abe30e973442271b0093eaa61c59d171a68a2028,0,0,"No bug, it does not have a BFC. “This is deceiving and confusing     and should be blocked until the migration itself is fixed     in a future patch.”"
+1857,1378756,neutron,a1fac106479f9c3c5559f8b2cfbc01fe12d3a575,1,1,
+1858,1378786,nova,6ed57972093835f449ad645b3783bbb8b3c4245e,0,0,“Update rpc version aliases for juno”
+1859,1378866,neutron,93012915a3445a8ac8a0b30b702df30febbbb728,1,1,
+1860,1378952,neutron,8a08a3cb47d0dd69d4aa2e8fa661d04054fe95ae,0,0,It’s a proposed feature
+1861,1378964,cinder,9710357f246e670bd3cacb153cae245941362c54,1,1,
+1862,1379510,neutron,24e4110eb284078775496501ff81630eb1619c11,0,0,“If the topology sync fails”
+1863,1379609,neutron,c97069dc9a73344ebdc7b686133269850a81b3b2,1,0,Change requirements.:  “it does not delete the older profile bindings and maintains them”
+1864,1379654,cinder,afcbfe053c9165ab84af30c8e663dfaee2a79e81,1,1,
+1865,1379811,neutron,2c5f99a4b1376a46b8c1e1f4e82a015c2d29aa1f,0,0,"“he VPN logging code should use the new marker functions for info, warning, error”"
+1866,1379830,cinder,48cb82971e0418f9a629e2b39d0433dc2c0e6919,1,1,“This is a regression caused by commit 4be8913520f5e9fe4109ade101da9509e4a83360”
+1867,1380456,nova,5e3f8db96fd0390c6f66754d0e1105ba127e1aa8,1,1,
+1868,1380552,glance,675a39a74faad5f7fe4eb94e1dcf7f4359ed2285,1,0,API change. “but the glance project code was not updated properly for the required changes.”
+1869,1380624,nova,f274816f073cfe9d0071a99159309fee643dbdb8,1,1,
+1870,1380675,cinder,6ac6225e72bde92f66da8e92c563c140471b949b,1,0,"Change requirements. “This results in failures of all storage policy
+    related APIs invoked using datastore selector”"
+1871,1381094,neutron,fd37ce7d943ab1c2dbc1cf3b6f0187c227f658ad,1,1,
+1872,1381221,neutron,06fc675928408e462f01178e0158a72f8518188a,0,0,Refactoring “cleanup’
+1873,1381238,neutron,9902400039018d77aa3034147cfb24ca4b2353f6,1,1,
+1874,1381277,neutron,5e4b600528a2b58cbb38d6b8d55b316602d4d015,1,1,
+1875,1381414,nova,f91d4ebeac9181ff279158fe89a8d50b34184a89,0,0,Bug in test
+1876,1381464,cinder,fbd04f71ed28efc85e51465527e91c21bd0d7328,1,1,
+1877,1381900,neutron,ffcb30c4fbee334f9903d2719418bc6aa9d7721c,1,1,
+1878,1382318,nova,73fcf4628089dd784889062e916b80d3fc9988a2,1,0,"Bug in ExtL. “The libvirt config code shouldn't be casting values to str(), it should be using six.text_type.” The bug was fix in 2014 and the pc was done in 2012config code shouldn't be casting values to str(), it should be using six.text_type.”"
+1879,1383757,nova,7f7cfc2dc6baa53adbea431aba840cd88eea8040,1,1,Revert
+883320,883320,nova,32b0adb591f80ad2c5c19519b4ffc2b55dbea672,1,1,“This is a bad pattern” Code does not fulfil policy
+948179,948179,Swift,fdc775d6d52150c8314ec43ef5ab14a5b751e2c7,0,0,"""db_replicator.py needs more/better tests"""
+1065531,1065531,neutron,eece55ceb687c425de1066851c9601221f1ef2b7,1,1, 
+1095346,1095346,neutron,ed1071ec1981821275fedf35c5c90ab0a5080c58,1,1, “recent change to oslo allows the configuration of the interval that ProcessLauncher waits between checks of child exit.” The change didn’t check the current code and caused the bug because the neutron service consumed unnecessary cpu
+1097999,1097999,nova,5161d6c0023151d39fb56a85f739063205e676f4,1,1, “iptables setup multiple times”
+1100697,1100697,nova,dbb7ef845f5684673b320d0914d4f9cea12fef65,1,0,“Nova doesn't enable pae setting for Xen or KVM guest in its libvirt driver. Windows(Win7 in my enviroment)” A change in the Environment
+1106423,1106423,nova,1df9b26b51ff3a153b93d79e25bef454e08a8e38,0,0,"“If https://review.openstack.org/#/c/18042/ is merged, a new configuration option/feature will be added to nova.” Hypothetical bugs, we do not consider them as bugs"
+1131395,1131395,nova,6132f991bdc8515aa665db16fef260ff71a618e6,1,1,“This settings is ignored and all instances go to a stop state rather than termination.”
+1136252,1136252,neutron,7a67a5676fb82ddb717e6b606cc702c31523b9fa,1,1,I’m not sure at all. I would say it has a BIC since the beginning the meta plugin had wrong logic
+1152748,1152748,nova,7eedeb2e5db4cfcd8505cc74d85ec625b7069302,0,0,“needs to be refactored”
+1154303,1154303,nova,67179bf58f35d54bee12e6e8eaf084e2f70ea6a2,0,0,“Improved logs for add/remove security group rules.”
+1157922,1157922,nova,6a0e6209cab2ced467b63ce9ce69a41daae669fe,1,0,Wrong logic
+1168318,1168318,nova,2ed3e28442e7dd8ded485cdf96a2053386441051,1,1,"Wrong logic, “should not return empty QemuImgInfo objects”"
+1175695,1175695,neutron,011d99f300ea5d5f4ce48023bd04a795a4872287,1,1, 
+1175940,1175940,glance,1fbf09814481229e722873474d0be56bb7d53803,0,0,Test files
+1177973,1177973,neutron,cb0df591a9508e863ad5d5d71190eca349dc551f,1,1, 
+1178375,1178375,cinder,a1fe496e1113737d0b133a64078bc45c485dd3b2,1,1,"“Sync the following fix from oslo-incubator:
+    76972e2 Support a new qpid topology
+    This includes one other commit, so that the above fix could be brought”"
+1179007,1179007,Swift,4332bff3f500f062e7e06edccf0da5a9d9379d79,0,0,"""Migrate to pbr for build"",""pbr updates are also part of the upcoming automation around ensuring
+global requirements stay in sync."""
+1180044,1180044,nova,a25b2ac5f440f7ace4678b21ada6ebf5ce5dff3c,1,1,"I’m not sure, maybe when the commit was done the specifications were only one datacenter…"
+1182131,1182131,nova,72dd81343e73baf838bc58d413413f0d57018f15,1,1,“Expected result: no stackstrace to be thrown”
+1183152,1183152,swift,1bc4fe891a359c626ebc8049403d4d72a75b6be7,1,1, 
+1187244,1187244,nova,322cc9336fe6f6fe9b3f0da33c6b26a3e5ea9b0c,1,1,“there is a NetworkDuplicated erro”
+1189671,1189671,neutron,de15e0b9c51cf9124de41258c1e3d774de215213,0,0,“Can we change the default to quantum.db.quota_db.DbQuotaDriver please3”
+1190615,1190615,neutron,872d1982716acf426d21dcac838102e9479408f7,0,0,Test files
+1190620,1190620,neutron,b6a8aea4d1fe8be6073af57fad2ab6863d8f359c,0,0,Test files
+1190621,1190621,neutron,3cb9168822a0805a9b8904ce54577f3e3f05d9eb,0,0,Test files
+1190622,1190622,neutron,26e9fad61f86bedd16179ede9736b56c4a9a5752,0,0,Test files
+1191812,1191812,cinder,f702fe7e30e4021895dac8e7ab243e5192f8182d,1,1, 
+1195139,1195139,nova,e2efa57ab2fb03b92f80abbf612a257c28475140,1,0,Change in the environment “This fails is some DBs like postgresql. Needs a fix in the VMware driver”
+1195947,1195947,nova,8f932311da19ea9de7ba1b344484ccdb748f5786,1,1, 
+1196924,1196924,nova,b32d01d44ca5711c96d192df51bf7acd34f52556,0,0,Feature should give guest a chance to shutdown
+1196963,1196963,Neutron,a369f9e39691c01a4e4f7f8668cb37fc17ba03b3,0,0,"""As part of the changes to support multiple tunnel_types [1] and deprecate enable_tunneling [2]"""
+1198796,1198796,nova,f10f67dcc82dc7fda5aaf546b145dad34db82f7b,1,1, “The method nova.api.openstack.compute.contrib.cells_filter_keys() uses the 'Query' object as a dict”
+1199308,1199308,nova,d6e6c35ff653565aa65e049ed1de371235b261de,1,1,Ambiguity33 “The exception class InvalidInstanceIDMalformed in exception.py could be changed to something like InvalidEC2IDMalformed.”
+1199954,1199954,nova,c586d635387e9baa3c0857afb56d05137fcddd7c,1,1, 
+1201873,1201873,nova,1e3d2fbcb13e01bee0a8f90bd2078b1f5063b4d5,1,0, “This bug describes and interaction between Openstack and Ubuntu”
+1201875,1201875,swift,56440eb95da79506cc27d92e07f0f5969cc683ce,1,1, 
+1202177,1202177,Nova,3e1e2448bf162bd2750416efe5d7c1010b51b52a,1,1,"""After catching an exception, it is required to save off the exception details"""
+1202687,1202687,neutron,08112f087ffb221513db2872b6db0726d0c30702,0,0,Clean up
+1203152,1203152,cinder,7aa4f65a8c17aa037deff0f5b534ed694c17e62a,1,0,
+1204169,1204169,nova,3267d3ad92274303b6339e8a8d237ad8a3bb7bb9,1,1,"“The solution would be a refactor”,”Whatever refactor we do come up with”"
+1204173,1204173,neutron,39c04fdc2c94b8ee48600f3148c5f850645b7c4e,1,1,
+1204424,1204424,nova,474e48bf1169a24123e92381f45650b29990d3bf,1,1,
+1205089,1205089,nova,05e0ceb242f16a236f3c793305ed24e1f9a43efb,0,0,"Feature. “powervm driver needs to support”, “Implements the OS reboot API”"
+1206032,1206032,nova,045e1b11fd058441539e5e6888da7bd873d58c89,0,0,Refactoring “Rename instance_actions v3”
+1206650,1206650,cinder,783e3243f98a90550a8b7ec8ce279709ab8db372,0,0,“This fixes the sample configuration to contain proper config groups alongway.”
+1206884,1206884,nova,c883862751d3081bbc05eb4b40fc15abd4fa5b1b,0,0,Test files
+1207402,1207402,neutron,9bf0e6654480f98f2315a43687b267263a82a823,1,0,“According to neutron/db/migration/README this means that I have to stamp it to manually.”
+1207914,1207914,nova,2d20b87aef5a7d00cb36826b8907032912fb17fc,1,1, 
+1208396,1208396,Swift,53345da70e3c969168e7192c3098540ba642ea09,0,0,“/opt/stack/swift/swift/common/utils.py:docstring of swift.common.utils.parse_content_type:7: ERROR: Unexpected indentation.”
+1208707,1208707,nova,fbe3c734a8675ed36d7e021584612d1413444667,1,0,“Previously baremetal volume driver used DB API to get fixed ips and DBNotAllowed was raised.”
+1208734,1208734,cinder,061938563097241983b70fc6b85e1c196dfebfeb,0,0,Refactoring “deprecated”
+1209410,1209410,nova,5fc059f13d4f0b2a5fef63095ea3fc710d46b5b3,1,0,“That provokes the next error in Windows:” change in the environment
+1210276,1210276,neutron,fefad06eabc7fb23ccb3ca1a6093d3460065adc7,0,0, “The neutron.common.exceptions.AlreadyAttached exception is not used.” Refactorings
+1210877,1210877,neutron,3e1116eb0f1d94530707cd6ef4b37f17e9a13918,1,1, 
+1211307,1211307,nova,767fb98b885327d1ad1cd380682ae4745aa78387,1,1,"“is executed successfully on MySQL and SQLite (though WHERE clause never evaluates to True, so related entities aren't actually deleted), but fails on PostgreSQL,”"
+1211915,1211915,neutron,5becbbec6a686667925f399904cebd97b583c35a,1,0, 
+1212179,1212179,nova,4054cc4a22a1fea997dec76afb5646fd6c6ea6b9,1,1,“CVE References”
+1212710,1212710,cinder,c77868f44b1e72be2b65f697a1f0f3b32126e581,1,1, 
+1212768,1212768,nova,105d99d4f52fa849e80829dad3ed12b116820118,1,1,“When claims are rejected indicate specific reason” 
+1212772,1212772,neutron,62040d03b3b7f02ff7f67ed08e0dc867eef183dc,1,0,“external gateway modes doesn't work with ML2”
+1212868,1212868,neutron,71ecc6ba46433999cf6b6c346670337b875832a0,1,1,“ This patch changes L3 agent to enable SNAT by default if plugin doesn't support ext-gw-mode extension.”
+1212915,1212915,nova,9795c3e9fdc1f6253f3099414e379367b50587dc,0,0,Test files
+1213541,1213541,neutron,e52b5e8e98dd640c69d009a3d5546a479e394d81,1,1,Typos and 1 LINE of code: LOG = logging.getLogger(__name_₎
+1213930,1213930,neutron,6b0c899d36d5a98963342e9cffb351fc3a1f4fd2,1,1, 
+1213964,1213964,cinder,587eb5a6b9acc9f02eee1147dbaafb3782c295d5,1,1, 
+1214162,1214162,nova,3292103d80676fc789615465759de966dba4e9f7,0,0,Bug in the future
+1214406,1214406,nova,0efbcf4e168d030907adbadd6ab7fccf766f4068,1,1, 
+1214720,1214720,nova,b36826ef3ddeafcf5f16034bccd971de800f677a,1,1, 
+1214850,1214850,nova,a25b2ac5f440f7ace4678b21ada6ebf5ce5dff3c,1,0,Software evolution. After some point they need to use two DC and the software was not prepared
+1214985,1214985,nova,5c95824191855b0012268f641e5e738888b8d13f,1,1, 
+1215019,1215019,nova,43e102cc215aabc72a0ef84cf48965c4db2d58d4,1,1, “The powervm driver should log ssh stderr as warning rather than debug”
+1215270,1215270,neutron,884b08e1b20a2f80fb6eba6f0c7405979b914817,1,1,Missing code
+1215387,1215387,neutron,9da60d0a417dd70c16ae34f5877c564e425e4cf8,1,1, 
+1215390,1215390,nova,52a9137d18369848feb1f496497523098d08ceff,1,1,"“we rename the 'stats' attribute of the class to 'compute_node' (due to the fact that the corresponding relation actually maps to ComputeNode class, not to ComputeNodeStat)”"
+1215772,1215772,nova,c5402ef4fc509047d513a715a1c14e9b4ba9674f,1,0,“the root cause is nova not support cinderclient v2 yet”
+1216247,1216247,glance,ba1f41d89d38286f769cfdf40b337fe5c7dad578,1,1, “This is due to an incorrect regular expression used int he code”
+1216929,1216929,nova,840599bc2d496874e5e15639afa643fed1bbe3bb,1,1, 
+1217552,1217552,cinder,37e775f12592824de17aee73216549bcb182c7cc,1,1,
+1217586,1217586,nova,cda106c399a81d4027d3bb99f452fd4064405009,1,1,Change Ieaf256a5c0f54804686318d6cbd5877a5003c9eb made the powervm driver raise NotImplementedError from the plug_vifs method which causes this failure on the compute node when it starts up
+1217679,1217679,nova,d6214f122feb99be74b6654bf86d1677926fa628,1,1,
+1217998,1217998,neutron,3e1116eb0f1d94530707cd6ef4b37f17e9a13918,1,1,Duplicated of  1210877
+1218057,1218057,nova,6653abe5b11b2fccdc0c02083297335d42d57fe1,0,0,Feature “to allow the newly created volume file to be”
+1218185,1218185,neutron,7753ce5fc3e489857e785dac08c951d32050f8d5,0,0,Test files
+1218338,1218338,neutron,55bfb412f1732e97da76f1b34e581d2429df38e6,1,1, 
+1218556,1218556,neutron,8d88ee7411d43f148b45d0a145fe32a75765a3ac,1,0,“Some distributions (e.g. openSUSE) have udev rules installed by default” Change environment
+1218588,1218588,neutron,dc48ac1a9c02c236157347f715190a2b1107ec70,1,1, 
+1218621,1218621,neutron,3ba80960075bf7873e96914f1be54ae176069a8d,0,0,Test files
+1218779,1218779,nova,281e2a10628eb394b6b905286070c4f25ce9f134,1,1,“Fix wrong method call in baremetal”
+1218861,1218861,nova,a957beb94720ca3f171149155f9dcabd20e6141b,1,1, 
+1219097,1219097,cinder,d2479f1e88e1eff777afbc922ae1da63afcc7716,1,0,“fails due to db schema change”
+1219693,1219693,nova,11b9305e3f0dcff7f5f92863cfd3679fd7b6a6a3,1,0,"Database bugs “PostgreSQL gives an error if you try to shove 256+ characters into a 255-character field. MySQL truncates by default, but can be configured to give an error.”"
+1220011,1220011,neutron,d632b66dc8b701ca777af4335b6505b4c4cd7828,1,1, 
+1220112,1220112,nova,035f05eb531cb8dd805685272d46ecd8cb0ad2b3,1,1,Backwards compatibility
+1220286,1220286,cinder,29e889bde9364f30c3f1cbeb7ee835b036451cba,1,1, 
+1220436,1220436,cinder,4fe60f6192abdf154cbf7f65021a47d7e339aa76,1,1, 
+1220459,1220459,nova,9adba6727bbec051c1437ee95367ecb97b207f35,1,1, 
+1220521,1220521,neutron,d6f50e8476feb3c76db485fa033d0b1c22ee024d,1,1, 
+1220557,1220557,cinder,6956065f0b336c0d4edeba265fae8c9f7cddb736,1,1, 
+1220692,1220692,neutron,6d1037335bbe969cfbc6d9657c24865ca226c7e9,1,1, 
+1220813,1220813,cinder,193ad7994d536f644d73849512b574d4f5ee7546,1,1,"Changed requirements333, the commit before the change was done in may 2012 and the bug report in September 2013"
+1220856,1220856,nova,d2874463010b129e62a568357cfa1df3ab4805e6,1,1, 
+1220904,1220904,nova,d61eb32eeeaf213912383fb14bf86f2511518943,1,0,"“As some environments/architectures may have different PXE binary,this needs to be an option.” Change in the environment"
+1220947,1220947,cinder,75e39fc7b232ac54422ba6a3b5e58308e54297b1,1,1,"“should have been synchronized with the synchronize annotation, but were not.”"
+1221026,1221026,nova,fcceb93bc842ee2ba61dd21205d09c66d1f08634,1,1,“fix conversion type missing”
+1221036,1221036,neutron,ee26de1ed22fc67591a7b5465132f78af1f1c0f4,1,1, 
+1221190,1221190,nova,dc8de426066969a3f0624fdc2a7b29371a2d55bf,1,1, 
+1221244,1221244,nova,af911f12fe726ae17601e2381455742882ca71e8,1,1,"“Fix misuse of ""instance"" parameter”"
+1221315,1221315,neutron,44fd0f74e5b19593e9d37eaec1f87134003b10f4,0,0,Feature3 “_validate_network_tenant must be less strict”
+1221336,1221336,neutron,abf2f328e87195e87a03ccdef11d3bd787aec891,1,1,“Last minute modification introduced typo”
+1221493,1221493,nova,341b9866ce337034b6d8ca768d03581b4bf40a5c,1,1,"“the message ""An unknown exception occurred."" was obtained.”"
+1221500,1221500,neutron,0739b2fe827b3beefb5ad81c063cbc4d00525a9d,1,1,
+1221525,1221525,nova,ea91ad2b2317cb88fb14c0cdaf31187eca93ff57,1,0,"“This is not an issue with most volume backends, but it causes the attach to fail when using Storwize as a Cinder backend.” Compatibility or bug3"
+1221527,1221527,nova,8b6bc869394bdcbe9cbead8bda8d45be75d2874b,1,1,“Exception message that is different from the expected” . Duplicate.
+1221620,1221620,nova,59fb3c18759bb2529a9c1dea445c2d5caf6746da,1,1,"“This particular error is caused by this change https://review.openstack.org/#/c/43151/"""
+1221646,1221646,nova,9501fa954b4d724b665207c2a0188e92f691fdfb,1,1,“access_ipv4 should be access_ip_v4”
+1221663,1221663,neutron,155cb48bca9b66fa5188e5c1c63adf696cd6d127,0,0,“Make neutron.common.log.log print module path” feature or bug3
+1221726,1221726,neutron,0ff9373de6e11d7040b6b289cb3239a9ee9a924d,0,0,Test files
+1221946,1221946,cinder,4ea6dfd0b1140e437703128bf52d65dbd2751751,1,0,"In the beginning the code only need two args but then it evolved and now it need three args so they change the method. “NMS call nms.folder.create doesn't support third argument, that is why this call changed to nms.folder.create_with_opts.”"
+1222656,1222656,nova,724493d21fdfcbb4c095b54975c0c1d612f0a856,1,1, 
+1222663,1222663,nova,ed8b4706f554e5ae5d57f6017b1fd762216dad97,0,0,"Feature, “Catch more accuracy exception for _lookup_by_name”"
+1222907,1222907,cinder,867b131e09a43ba7ed36267dcdec751abd652f14,1,1, 
+1223198,1223198,nova,911fe582ec68a1a2df0abb2cb11352c9106842c2,1,1,"“in some cases the message is incorrect."""
+1223205,1223205,nova,18f417c14a9313d90918285b22263623ba0c7e22,1,1, 
+1223253,1223253,nova,605e5950751cd4d19ca7fd81c04c52cfa41ce7f6,1,1,"“Subprocess output is bytestrings, not unicode”"
+1223309,1223309,nova,c19ea390ecbe045728444d49f40920329a1d0743,1,1,“Added os-security-groups prefix”
+1223345,1223345,nova,6ae5899a86c0d863f1c64fdd960b109fb2a5c80f,1,1, 
+1223452,1223452,nova,3c88fce604959a68f48d71274e0d93b74da17e34,1,1, 
+1223559,1223559,nova,0663778c531a69bf55ed8f88cd828febd69be44c,1,1, 
+1223803,1223803,nova,0ff26160f9a7ae2a4df33c4aaf0dbb59d76ac8d5,1,0,"“V3 API is broken as the JSON format was changed, but the corresponding XML serialisation/deserialisation wasn’t.”, software evolution"
+1223843,1223843,nova,64aa897c8a2408093e277972f1e702e1a4287db2,1,1,“run_instance() doesn't properly handle instances being deleting”
+1223859,1223859,nova,1957339df302e2da75e0dbe78b5d566194ab2c08,1,1, 
+1223890,1223890,nova,b65eecf2d8b4df9330c09dd31b818bbd5c0da3cb,1,1,"""Due to a typo”"
+1223975,1223975,Nova,fc786dd469a15bda1b9d3c7bacf9f1771b9b9956,1,1,The BFC ESTA MAL
+1224014,1224014,nova,e80121a2c5ccac42f857b0628ea6f340eda1ca3a,1,1, 
+1224030,1224030,cinder,f8ac42460dca22f83a59097530f73b282129cc2b,1,0,“uses arguments for qemu-img (--backing-chain and --output=json) that are newer than the versions”
+1224251,1224251,nova,ab55af8ed5afd0765a23a85d608d4b6d35bdd166,1,0,“Modify this behavior to match EC2” software evolution
+1224334,1224334,cinder,4d43983726f4b5d1d93337be005d9e1c165c4939,1,0,"“The HyperV driver doesn't support CHAP authentication,” DocImpact"
+1224429,1224429,cinder,13387c01390e70c9d7811760e603e6306d6d7ea7,1,1, 
+1224677,1224677,nova,1967cee5abb71a23bccd440da9a27309a8d67081,1,1, 
+1224712,1224712,nova,8b9d6f6fedbbd47932cd672f51d4db7031724e84,1,1,“this does seem to be problematic”
+1224790,1224790,cinder,996f7f949002d3d23048550b69579889f4e1c5a2,1,1," ""Fixes the use of exception.InvalidInput with the wrong arguments”"
+1224960,1224960,nova,2d13161643faf2b663b50d2e191232fcdeefd815,1,0,BIC or evolution333 “Nova was sending the host that previously hosted the vm”
+1224967,1224967,neutron,f0f87ca56bb76ebad94b6f01e04b475bd9362bdf,1,1,"“First of all, I think there is a bug in nova” We are in neutro, how this can work"
+1224978,1224978,neutron,db5e370b0d68c3e71626c99941fe487059b3cf88,0,0,"“With introduction of multi-segment support in ml2 plugin, agent misconfiguration could happen under exceptionnal circumstances:” Feature or bug3"
+1224981,1224981,neutron,8eb142748d9f63a0e4d5902f55bb66281d0df615,1,1,“due to a string concatenation bug”
+1225094,1225094,cinder,2cae463f18a8a0a579e6dd22ec918af79934ac00,1,0,“nms.folder.create_with_opts not supported on NexentaSto”
+1225194,1225194,cinder,863ae9f484089aa5d9e576255b39288da82c1100,1,1,Wrong logic
+1225659,1225659,nova,84a797ec8c801057fef7a3c30ab74426e4c3fbdc,1,1, 
+1226171,1226171,nova,dbdb938fc08452ea80379652ee101b6ebe006e3f,1,0,“Update user_id length to match Keystone schema “
+1226190,1226190,cinder,8dc60e928d35ac29eef62a2d7963059edac55577,1,1, “The correct description should be 'Enable monkey patching’”. Bug in the Comments
+1226226,1226226,Nova,9b88e54998f0e197a29413a28dc101c5bbb7e89e,1,1,"""Workloads should not require a Fixed IP Address for migration"""
+1226229,1226229,Neutron,f96cf93e70f8c434499efb903820aa72665a7fd4,1,1,"“The root cause is when deployment finished, we only update router status to
+    active if the status is in pending create.”"
+1226337,1226337,cinder,1aef7b6304af6c19b8ceb81cbd9a3c83bb4880de,1,1, 
+1226348,1226348,Nova,ff693722639387a7a3ea62e291a8306569392ab9,1,1, 
+1226366,1226366,neutron,96e0eb23a458f068f540d98132ee261053c45585,1,1,
+1226400,1226400,neutron,20b97388efcc3540066ca7743c761c1ec899dd2c,1,0,“The python neutron client for the V2 API expects the neutron API”
+1226442,1226442,cinder,a8fcfdbe8b2f46a100f986eeef5c7d43aef69bb7,1,1,“information in 'src_id' is lost from the exception message.”
+1226803,1226803,neutron,37b78c5d48a9a5da1e9b0187b2004d5352e7c877,1,1, 
+1226814,1226814,neutron,276a3b422d54b6976fed8c23ed54bd9bb707e4ff,0,0,Feature or bug3 “Allows 'external' keyword in addition to 'any' keyword”
+1226826,1226826,nova,4845d08967cdff22d53d55467245402e10ae9814,1,1,"“The VMwareVCDriver method ""detach_volume"" is missing the “encryption"""""
+1226830,1226830,cinder,587a7e35aa7f0c1cccfa366b795424ba55808e1a,1,1,“Wrong arguments orders in”
+1226959,1226959,cinder,3cc149a802346bef063bcb865182e4e21ec8b086,1,1, 
+1226965,1226965,nova,6dc290a88a3240b9f454d5140ab14d499d9ab1b2,1,1, 
+1227027,1227027,nova,8a34fc3d48c467aa196f65eed444ccdc7c02f19f,1,1,“In the following commit:“
+1227079,1227079,neutron,c3b4f24883c04cd139292ecf9cee31cff43e3973,0,0,Bug in test
+1227366,1227366,cinder,cbb057169094e9d633162cc5645fa19a82325d49,1,1,
+1227477,1227477,cinder,61135b6a5f1724888e92471b68f91e4a825bf4f0,0,0,Refactoring “remove VolumeNotFoundForInstance class”
+1227655,1227655,nova,de648bb7bfa9985ab67c0754c25d35cd71f6eb81,0,0, Bug in test
+1227971,1227971,neutron,396a0e42755af96d8b96d42ae1bcf4ae4604443d,1,1, 
+1228008,1228008,neutron,77aee9e71523c543286d05a2f553d4a30778d17c,0,0,Bug or feature3 “should support update with value None”
+1228212,1228212,neutron,d4d06dfd18d8d085ccd390d6ebae7e3808fa8d09,0,0,Bug in test
+1228442,1228442,neutron,78aa12567d226fe73df483d75e0d1980e6d3625e,1,1, 
+1228449,1228449,nova,204d3ebec8522cfd01f260720c56e3cd879948cf,1,1, 
+1228827,1228827,neutron,793c76344715790531d39436508b188b536e2ff5,1,1, 
+1228847,1228847,nova,be5d39eacc84c11f96357a624ffa1cdeda8a568d,1,1,
+1229082,1229082,neutron,f1d91b2456353b92bda7017422aaa97d6720d7a9,1,1,“Recently merged patch - https://review.openstack.org/#/c/42090 - adds an ability to update status of a member according to health statistics”
+1229217,1229217,neutron,684c9b0b10535eb91b2f679de82c460a864f2cc0,1,0,Feature or bug3 “The Cisco Nexus plugin currently has no support for migration”
+1229366,1229366,glance,4a83dbb9e6ef9cc69176d8d96de6993ee4b45f77,1,1, 
+1229508,1229508,neutron,752b7ab29ddc75d8ae54c52d824ecc94a9551b56,1,0,"“From the initial commit of NEC plugin, network_id of packetfilters table is nullable=False [1], but in folsom_initial db migration script nullable is set to True.”"
+1229548,1229548,neutron,5dcbddf516750e21359c859f8da0ab829f67d3f9,1,1, 
+1229625,1229625,nova,9c044d2c94812e18cf84927fbf719cd073fe6c4f,1,1, 
+1229655,1229655,neutron,8a37d04bfda7a583d02a3fac262f4f9242d7ed76,1,1,"“dns nameserver information  was not being passed down to the midonet client API."""
+1229753,1229753,nova,016e39734e1b70c1b004f1ae366c22b091463932,1,1,"“Using blame, here is at least one patch that added code which is causing one of the failures but it wasn't caught in the gate:”"
+1229759,1229759,cinder,b30402eeeddefb855126a32fee15db164684ba8c,1,0,"“It's necessary to support XenServer, Windows, VMware ESX, etc.”"
+1229867,1229867,cinder,f4dc301efda13a6a1769b071b1955a4869110b98,1,1,"“This reverts commit d5cd652."""
+1229954,1229954,neutron,893e10b0add63b364eb6d92715967c45028fa692,1,1,"“Below command can't work because list element ""allowed_address_pairs"" hasn't been updated into the varaiable “attr.PLURALS"""""
+1229994,1229994,nova,7910385825ccfa705785af360fcd5717656e3557,1,1, 
+1230069,1230069,cinder,d534811cbcfe591688b5e9c6becbed2224be3c31,1,1,“This patch fixes the calls to be according to the function definition.”
+1230083,1230083,neutron,31def3ccf425a8f1a617a674a30d29f89d733432,0,0,Bug in test files
+1230102,1230102,nova,3dad53ce1d0263786c3f9ff585dc446a0a9dbecf,1,1," “Remove REGEXP_LIKE operator for oracle db backend since it's not suitable,”"
+1230127,1230127,glance,0b246bb5f561d694a4fa4f41c90811a64c05b9fb,0,0,Test files
+1230184,1230184,neutron,92b4c34e05770e8b3c31459158a018bdd5449c3e,1,1,“Missing allowed addr pairs support in NEC plugin.”
+1230282,1230282,nova,fe513ec3707afd529270f0c4eef7c468ab2c6b91,1,1, 
+1230296,1230296,cinder,3be220539a529572f30f3345fe80f2aa572730a3,1,0,“errors occur when attaching volumes with Huawei HVS iSCSI driver.”
+1230323,1230323,neutron,fbc6b991a79a147bf1411b643f5c304062e5956a,1,1, 
+1231215,1231215,nova,f05a0c486d8478cdea3808108b172b2487b38bf4,1,0,“we should keep consistency of these two places.”
+1231770,1231770,neutron,1eb8fa563d13e46f0a7011143f65e371ae091684,0,0," ""In order to support NVP advanced lbaas/firewall UI, it is needed to”"
+1231913,1231913,neutron,f4b78c7f17e29448ed54b136eeb4ac700b324120,1,1, 
+1231914,1231914,neutron,3568a9cac73a2da19e86d82f561be10ae9dbe9a0,1,1, 
+1231915,1231915,neutron,338569c7c30509bce8565272023dfd791f4e9609,1,1, 
+1232172,1232172,cinder,5eddb2e2245e9c42f458de201ade166b727ee8f4,0,0,feature. “Add the API implementation of extend_volume for the VMware vmdk driver.”
+1232177,1232177,cinder,b715701ff4387d55e7eb4c301a0edea92fa4e0e8,1,1, 
+1232179,1232179,nova,f2f58eef93aec45e46a9a2ab06fc8b00a9420350,1,0,“based on evidence it looks like caller passing information with key metadata (change back in August3)”
+1232287,1232287,cinder,db3088b888e9560df93ff608b1e45a28fac14b6f,1,1,“that bootable attribute is missing from:”
+1232698,1232698,cinder,36c420157674e8ed34d407f19062b06a657e6490,1,1, 
+1232787,1232787,swift,94090e8760da324d6586b5d45b7c339457e33647,1,1, 
+1233026,1233026,nova,aa8938d696e6e2ecf23709f748de825dc2d07fd0,1,1, 
+1233161,1233161,nova,4ffdf53550bd823f18c7a45c094adee18ed320d8,1,1, 
+1233188,1233188,nova,7a34be0ec0cd0cb9555fe64ff6c486faae1ae91d,1,1, 
+1233271,1233271,neutron,5652e20b0bdc3a707d11d2b9ee521066b8f1150f,1,1, 
+1233288,1233288,cinder,203e8bf9daf35319d56612de9c8b75d36fcfafd4,0,0,Bug in comments “should be editted to be more clear.”
+1233561,1233561,nova,01a44568cc60bb5a6dd7b55d69b20bba57d1b94b,1,1, 
+1233563,1233563,nova,ef3fbe99af498a40555b44f9ef0fcf6b88eb5d30,1,1, 
+1233789,1233789,nova,3a5e1faee04671f2e88b28d805b191b480054254,0,0,"“will result in verbose exception” bug in the future, refactoring"
+1233861,1233861,cinder,645a84f990c90e28548cf35b4b5f242eb0e0c286,1,1,"“It appears that this is caused by not setting the charset in the migration,”"
+1233907,1233907,cinder,a9a36082528a6d46d950b5e83cb46c2af389317a,0,0,"Feature, “cinder should use cinder/utils.get_root_helper()”"
+1234002,1234002,cinder,2a630f71af21334a1f3dd213205efcba1ef38ac4,1,1,
+1234479,1234479,nova,6e30bbc126a1ad4eb87e735c812832f4fcc0054e,1,1, 
+1234750,1234750,neutron,5f749768676e6739db1e01a03ddb7f3cb43d48f8,1,1, 
+1234759,1234759,nova,efdca8eeaffe6e63d57243147658f4691da3d89e,1,1, 
+1234902,1234902,Nova,ff693722639387a7a3ea62e291a8306569392ab9,0,0,"Fixes several misc typos in scheduler code
+"
+1235022,1235022,nova,026843773b71ab0ac30abb36fe9eed92f5e11f7a,1,1, 
+1235082,1235082,neutron,520a5e2e5fa749cc3e505c6ae526171714cd6369,0,0,Test in files
+1235088,1235088,nova,ff56055a081a622e90b393b7f40dbe6b482abf65,1,0,"Changed requirements ""some logs have to be changed in order to support translation”"
+1235112,1235112,nova,07c24d6bbe6b55638f46d9f7dc9123c5d96eb453,1,1, 
+1235118,1235118,nova,058ea40e7b7fb2181a2058e6118dce3f051e1ff3,0,0,"“remove deprecated”, refactoring"
+1235148,1235148,cinder,2d8b905f474a879ad6a9a441e79bf7b05d2d39a5,1,1,Feature or bug3 “Provide the user with useful information”
+1235358,1235358,cinder,6e287c0f2bb7d4994d50f1763f412277e4dac6f7,1,0,“The problem appears to be in cinder when using the gluster or nfs drivers.”
+1235389,1235389,nova,a7885385fb34f7040684343deed040d302dbbfea,1,1, 
+1235399,1235399,nova,c17253bde86f62952351d42db4dba926b33269db,0,0,Test files
+1235450,1235450,neutron,bd4a85d67f091382752d75b95f9cfd076431f30e,1,1,“vulnerability”
+1236372,1236372,neutron,238689570145fdafe8e61967bb56133f167d39ab,1,1, 
+1236459,1236459,cinder,5c321d758c9718d7dde555316ac4fbd2f7acf424,1,1,“In ae6b7642e8d32ef5fa75cdcfe55be23c052fd547 we added a key manager with a static key.”
+1236585,1236585,nova,d87bd44d0211a633efd545dc7b2027a613897b85,1,1, 
+1236626,1236626,cinder,a5371712ce67b8e769f5fc12a3048dc5d0eef3eb,1,1, 
+1236648,1236648,cinder,c47bb5b89e04403b46c224c1bda13d3d0e11eedd,1,0,“__metaclass__ is incompatible for python 3”
+1236709,1236709,glance,635ceac07969a700756e571ff5777993b59b9829,1,1, 
+1236723,1236723,cinder,f330eac22ad47901ccd3252ffd73c46d7157644e,0,0,Refactoring “remove unused methods in driver.Scheduler”
+1236741,1236741,neutron,3299eb3dfebde39f0bec73008c99976c0b852c89,0,0,"feature3, “Adding more tests for Radware LBaaS driver.”"
+1236744,1236744,nova,e33e1f3e816c64e55d23d32366f22a79bdb45b86,0,0,“Ensure that this is in the correct section”
+1236930,1236930,nova,2392313f562ba6a90ed1ec3fbc507862043fa44f,1,1,“nova compute api should throw exception for such state.” Feature
+1236993,1236993,neutron,46495f4995b6604cb249b688aaa249ef4e8b18ef,1,0,"“This is the side effect of the recent commit: Quota DB driver has been recently enabled by default”"""
+1237082,1237082,neutron,345f8e1fdc65e0cf23369488d4318c0755d6b65d,1,1, 
+1237102,1237102,nova,73b3bf91df00059c69dc1dd81e4554ec24c647b1,1,1, 
+1237185,1237185,cinder,7aa0c1d9a4a02add6b00aeb764e9ba86a3c460ff,1,0, 
+1237209,1237209,neutron,39b8bddb1124d16eae15f667f8d921e8ddf5701d,1,1, 
+1237303,1237303,nova,c2ae5fb5659faeadc6f4d8afe27eb68e3c0ade0c,1,1,“Update log message for add_host_to_aggregate“ bug in comments
+1237427,1237427,neutron,befa0b9184eb0c6248d06efa5b02be8217f1722e,0,0,Bug or feature3 “Implement local ARP responder onto OVS agent“
+1237557,1237557,cinder,015555acb75ee4d9298915951d2bfaf0d19d2b02,1,1,Worng logic
+1237611,1237611,nova,831e6013544326e32a1e252917301618c9ea7626,1,1, 
+1237622,1237622,nova,db68dc8670fc8943dfc142ebb0f3f1f405c04e4b,1,1,Refactoring “is not actually implementing get_diagnostics”
+1237679,1237679,nova,dced1df98e385ebb0615d3789f67d95add49c637,1,1,Test files
+1237795,1237795,nova,74289aacb5363bd72b449580325a651117e5342d,1,1, 
+1237802,1237802,nova,e936cac67612015e1123b4539a60ec1aa1b1ff82,1,1, 
+1237836,1237836,nova,27466f2a8f518cfda2935ddd882a99f6736296af,1,1,Bug in a msg333 “Fix error message of os-cells sync_instances api”
+1237868,1237868,nova,9532e4ed969e47826801b14aff40dd9e356f2677,1,1,fix missing host when unshelving”
+1237912,1237912,neutron,48e36b542904effb9b35c9d62bd0247e25f0dac6,1,1, 
+1237944,1237944,nova,1ce493b9e4e0c381146287161ab2a3c75f1fc603,0,0,Bug in test
+1237994,1237994,cinder,51fd5edb106e26d65696ce37a70eef6a4f75b1e2,1,0,“supports_thin_provisioning now uses a regexp to ensure parsing of lvm version succeeds when the build is customised;”
+1238085,1238085,cinder,b6b9df2940ac07f715f759f4c315b2cf088c2320,1,1, 
+1238281,1238281,nova,c3330931113ac2edf5961a653e5c2cfe459c13a0,1,1,“ This addresses a minor (albeit important) logic error in the migration script”
+1238366,1238366,glance,8f1c1b1a3be563db173d8096b59bcfa3964179ed,1,0,“Keep the date and content of man page update to date”
+1238374,1238374,nova,c28c87db4c2b20e0f6c1375d2d4433e06c4e1743,1,1, 
+1238430,1238430,nova,6ee68137c5ea9af99c1db4e2a2ce555f43a9e3e1,1,1,“The error message is not sufficient enough for debug of hyper-v”
+1238439,1238439,neutron,1763c80711993c55f4f13afe56f449b1dd6d3d3a,1,1, 
+1238561,1238561,neutron,a272a2838313b56edc1463f6d81a01414b37a78f,1,1, 
+1238967,1238967,cinder,e4bde7adda4e885fe847e0bacc4d3fc84547e723,1,1, 
+1239009,1239009,nova,e842fff31fd77289507d89387a62eee288aea6bc,0,0,feature. “Make scheduler disk_filter take swap into account”
+1239038,1239038,nova,103db29c224909cd260f1619a0a4578e172f6649,1,1, 
+1239220,1239220,nova,eaf5636544a9b2ae1e87f74d0cdb989f8a41b008,0,0,Bug in test
+1239288,1239288,neutron,3ae0171834521a2152516e4bd7b0f8e46547bfda,0,0,Refactoring “Removing workflows from the Radware driver code”
+1239637,1239637,neutron,54d79acaab50993f08b50f21019f82f17d38caa3,1,1, 
+1239709,1239709,nova,99cbfb3492c80ded53fa018fe5a0881f977dc407,1,1,“A typo made early in the object prototyping process has meant that”
+1239747,1239747,nova,c31ae4987c5ae2015cc5379a4717490b75c62c9e,1,1, 
+1239864,1239864,nova,f37905a3c1fd09597898c93a1cbc3050f335cf61,1,1,“Service groups using zookeeper don't work due to apparently improper handling of the zookeeper session creation.”
+1239952,1239952,nova,6594746108afa2db39ca2973b3dd0c37611f955e,1,1, 
+1240022,1240022,nova,a1dae85094fd1efc9c329885d212b684cd12ffa5,1,1,“missing in following files:”
+1240027,1240027,neutron,a269541c603f8923b35b7e722f1b8c0ebd42c95a,0,0,"feature, ""Allow multiple DNS forwarders for dnsmasq”"
+1240125,1240125,neutron,202fe60b646429aabeb2ef8b1430a1ba9b356061,1,0,“Handle VLAN interfaces with Linux IP wrapper”
+1240247,1240247,nova,0493c803ae9612f87ed028e1a39e880aead5bdcb,1,1, 
+1240287,1240287,cinder,ec442e41d2d243003a42ed60ae862e96142a5cde,1,1, 
+1240292,1240292,nova,100e962bb989ea3adc8324365dd84f87634691ea,1,1, 
+1240299,1240299,cinder,de4392314f9b0def8fab65679ec5668aec98fbee,1,1, 
+1240351,1240351,nova,edcc7dcbcbfa50a002767d437ea9cf344d1d7a37,1,1, 
+1240374,1240374,nova,db0831ec96a6806035c51d94ade1e51eafb42162,1,1, 
+1240383,1240383,nova,65726540a19442c2882756b26959fdd1088d442e,1,1, 
+1240395,1240395,cinder,cf16029b69f50af1bc2e8627af5bc65ffac24992,1,1, 
+1240542,1240542,nova,db0daa3455f114e90cefbe02e205ca1d327fc45c,1,1, 
+1240572,1240572,neutron,3c00dd43f613c838f713a7cbf3cedb6767a8c52a,1,1, 
+1240670,1240670,nova,cc70e3a28df3c8492769b305d248bb4d9bf32830,1,1,
+1240790,1240790,neutron,d1b783fd673448381445dce82e9160ba2f715a7c,1,1,
+1240922,1240922,nova,d0948a1fb0a4c425310f0cf0aea5b28680dc4817,1,0,“As described in the bug - some hypervisors (libvirt) do not support this.”
+1241017,1241017,nova,b9031fb0ad890ad45530ccfdb4ea9df8b715f111,1,1, 
+1241098,1241098,neutron,8d0abf2db701803eaf11c0a8ff4d759b0da5dc39,1,1, 
+1241275,1241275,nova,51e5f52e4cb60e266ccde71f205c91eb8c97b48b,1,1, 
+1241337,1241337,nova,de4158861000dedc204314c545cc5682aa38f5f1,1,1,
+1241350,1241350,Nova,fefea36baff5f65c56984ae27074e4ad95a3b511,1,1,The BFC ESTA MAL
+1241379,1241379,glance,0cbe012602c7d4240beaa2e4158e885a8ce7de5a,1,1, 
+1241602,1241602,neutron,01e45596fae2818b41c76b41bef46e86c5d33231,1,0,“Fix update_device_up method of linuxbridge plugin”
+1241615,1241615,nova,effa12e8711ff6e23aa2d4b40f4e9f248e141915,1,0,“Which will return the old style (legacy) bdm format if called without legacy=True. “
+1241625,1241625,nova,825499fffc7a320466e976d2842e175c2d158c0e,1,1,“Enable non-ascii characters in flavor names”
+1241681,1241681,nova,0c409d98bb8f04bc1ba9a47d86c13678ab9221e5,1,1, 
+1241685,1241685,nova,0a47253307d427c6e668d7cdf3bdf186dfc93858,0,0,Bug in comments
+1242338,1242338,neutron,c9b6c15d5de4d5ee326d7a870c2b2668f7909efa,1,1, 
+1242366,1242366,nova,ead9cfca93c9b5ca55e3ba269213c98d5e6e1d38,1,1, 
+1242447,1242447,neutron,83a3e77e63851c290e2f849db6db555cffb1ef41,0,0,“deprecated”
+1242510,1242510,neutron,31def3ccf425a8f1a617a674a30d29f89d733432,0,0,Bug in test files
+1242511,1242511,cinder,cb1d1e4241c6ecb99797a46053c43b2e4b3b52e7,1,1, 
+1242532,1242532,neutron,1f4595872c2d06359b78795b406ac42fa99cc7a4,1,1,“missing”
+1242549,1242549,cinder,1212f66b188bbe40ac7219908eb47af26ebf2edc,1,1, 
+1242644,1242644,Swift,8825c9c74a67d1cef28b6d2d18d5fbaf40e36f51,1,1, 
+1245335,1245335,Neutron,fe18aa12d48377e9dae7990396fdaf59c960f687,0,0,Test files
+1245388,1245388,neutron,946ab2d6a518501f150a59d86428df1e986c6028,0,0,Test files
+1245408,1245408,neutron,da139f615673172a1a54fb3065233d568db5e313,1,0,"“The DHCP driver used to use device_delegate, but that has changed to device_manager.” Software evolved"
+1245564,1245564,nova,b7bf623d79608df8ff5bf8040dc3590da7eeb236,1,1, 
+1245694,1245694,Swift,56440eb95da79506cc27d92e07f0f5969cc683ce,0,0,"There is no BUG: “This will probably be added with a currently-in-progress ""feature discoverability"" patch, but it does not exist now.” THE LINK IS WRONG!! It should be:"
+1245696,1245696,nova,fa1857184db370ff78b9b7344be5f3a1030b862f,1,0, “Fix response code and improve error message”
+1245719,1245719,nova,85d0ace169be513c30b09e13a35fa7d912f5b380,1,1, 
+1245797,1245797,neutron,e19a2ae0b37a5ec74f77d3cdd8e639f2dc580ccf,0,0,Feature3 “MidonetInterfaceDriver should use the mm-ctl script to bind ports.”
+1245799,1245799,neutron,34f30a1d16d81be86a117690ccc5bdfc5bdd0659,1,1,“It's possible to set '@' or ':' character in Linux device name.”
+1245885,1245885,neutron,cd542a7f1f2ea21d3694e70b8e6a6db0efbd3a01,1,0,“Previous default for eswitch/daemon_endpoint would set a TCP port (5001)”
+1245909,1245909,cinder,d72914f739b1467ad849dd47fddd321965fed928,1,1, 
+1246079,1246079,cinder,e7319bcebdc225a4b7f784acebbf2cd00f3a3e3b,1,1, 
+1246080,1246080,neutron,a0a462f0303f68d885ff344898437e310c64188c,1,1,Wrong logic
+1246103,1246103,nova,a3aeace9afd5c533f040452f33482fdb55d93927,1,0,“because it depends on the Python cinderclient library”
+1246206,1246206,nova,c27d2dcfa9ee1c91176bb98b0be5765948266e68,1,1,“fix missing datastore”
+1246228,1246228,Cinder,0278a38153f9649aab1cc641bfabd8d5738d2d8c,1,1,Typo in code
+1248818,1248818,Swift,d69e013519201af9af7683b1b6dfdf1efa226c7c,1,1,"""the Last-Modified header in Response didn't have a suitable
+value"""
+1249181,1249181,Swift,aa622eb799556fd8a7c96d9c431b7037eaf439d0,1,1, 
+1249188,1249188,neutron,d1220a3c22fccc1d86eaafeebe7ef9c074d4fcb9,1,1, 
+1249222,1249222,nova,cf6bf1c88687da5c18487ddfa2434a3943129847,1,1, 
+1249412,1249412,glance,5f37044d9a851fd02d4f1d918b1c276462a76034,0,0,“The V2 API doesn't not allow empty `container_format` and `disk_format`” feature
+1249957,1249957,neutron,cd33dbee09ca8335bcb5ba6975a8edd16258babe,0,0,“This bug is created to add this support.” Feature
+1249971,1249971,cinder,2ed2f3aff8eee70e02eb995780af292057cfcad4,1,1, 
+1250206,1250206,nova,1167a0f808dd746875be50f31d7ebc56f79d45d6,1,1,“This seems to be happening because the Instance.destroy() function does not update the instance with the latest state “
+1250228,1250228,glance,53d055d5b0924f1233ca370d94542e918eda095e,1,1,"“On an forbidden update, the message returned to the user is not tied to the type of object modified by the operation."""
+1250249,1250249,cinder,9834639454103ee2ba980628f0bc67ad0baa94ff,1,1, 
+1250324,1250324,nova,710cf4e3a7ee3b89e462ec5ff2291e1177556819,1,1, 
+1250405,1250405,neutron,e2163abce55bba83f531b4a0c9286b7b329602e9,1,1,“there is mistake in DateTime”
+1250454,1250454,neutron,fe3fae10698ed465f45aec4a4022bc784307b4c3,1,0,“mismatch between 2a6d0b51f4bb_cisco_plugin_cleanup and the initial definition.”
+1250574,1250574,neutron,0c85faa733aef714a8e47f647a931fb27857d4b9,1,1,“Add missing quota flags”
+1250580,1250580,nova,85332012dede96fa6729026c2a90594ea0502ac5,0,0,"Refactoring, “will enable reuse of the already set up client”"
+1250633,1250633,glance,f035efd043aa75d662d2a26a963358db59b75628,1,0, 
+1250644,1250644,neutron,965542bfac90194bd032e5e6aeb6a507dcb11088,1,1, 
+1250673,1250673,cinder,d869dee85aa9d32d1a397b954f6583d6bfa60c18,1,1, 
+1250767,1250767,neutron,daecbdfdebaf89163f6eaf6b72a4cde2322f1b08,0,0,"Refactoring, it is not a bug “Move Loadbalancer Noop driver to the unit tests”"
+1250816,1250816,cinder,b85cc49588c9f40e091801af33da8c7575058ec0,1,1, 
+1250841,1250841,neutron,d7743bbdc3e992d9f9cceaeaa2919cd70b422364,0,0, “test in files”
+1251055,1251055,glance,55937308c2020cbc185f656779f5876eae6ca29c,1,1, 
+1251086,1251086,neutron,53886fc7374bc4f0bda1f8f6b80f815d718c81e6,0,0,deprecated code
+1251126,1251126,cinder,8f8be6815e6a7d26165ee6f185821597e56cb740,0,0,Bug in test files
+1251235,1251235,nova,6b9f9e6e9ae2fcf5c733b261717775970a9a4f62,1,1, 
+1251261,1251261,nova,81fc3967bca0f154d72d5de7875b646e1b6c47c8,1,1,
+1251422,1251422,neutron,ed83265bb794d38f6f66d9e5182a9abc6b82ed53,1,1, 
+1251589,1251589,nova,29f2d666e9ad64fd646d4711fd32cf325e039f5b,1,1, 
+1251602,1251602,nova,f35c63df24d8f47927d055729e9ca08c7bc3fe8c,1,1,“missing exception info”
+1251757,1251757,cinder,cbd7acfc294c4bf2ae0014bcf04646382bed469d,1,0,“Sync the following fixes from oslo-incubator:” The bug was in Oslo and Cinder only need to sync so it didn’t cause the bug.
+1251803,1251803,nova,e1fdd8f9b1536c75e36dd74416dd3aad1495e203,1,1, 
+1251822,1251822,nova,65ae11285fc2e3e11d5d07ad1e253f1a4f8ebccf,1,1, 
+1251920,1251920,nova,9b44d9d75d3767c6b7d1af4f237da8c1cf16266a,1,1,“local has a broken TLS symbol”
+1251943,1251943,nova,f4646b74532d3e75a105290e8333bff92eb838ad,1,1, 
+1252175,1252175,cinder,9f138a1efdab9dd0f7b4bbfc9835bd53dfed762b,1,1,Bug in comments
+1252201,1252201,neutron,17b8cedeaa291f973e8311865b6560dc4806888d,1,1, 
+1252284,1252284,neutron,a5d996e381bd342f0204fcd99e8548cf28b20e92,1,1, 
+1252409,1252409,nova,e4b0d8e9446ad3ad3a514b9cf65722f6ed95888d,1,1, 
+1252423,1252423,cinder,b9ff8cd7ad8c402787324d2baca9b32f61eafb4a,1,1,“This causes the volume clone from snapshot dd operation to fail”
+1252506,1252506,neutron,89f25623a4345b5044a58cff36e7fd103c6b88e8,1,1, 
+1252692,1252692,cinder,6bd4dae9680aae924ef24750e15f00711c14b1a3,1,1, 
+1252693,1252693,nova,c1be8381e19390b0edca28c8ab3f77e6226f25e0,1,0,“SQLite doesn't provide a native implementation of BOOLEAN data type.”
+1252806,1252806,neutron,9335ffd7c3eaad0d66d7d19e7760ae12476a5ea2,1,1, 
+1252827,1252827,nova,6471776b6b25bb4062238f7c1b732b2d6999ec65,1,1, 
+1252856,1252856,neutron,07d597079781967f5a149f1812ddca3897fa49d9,1,1,"""Refactor _spawn/destroy_metadata_proxy so”"
+1252864,1252864,cinder,d8a11168c908fe6c6a07fbb30a5bc88a6df6e939,1,1, 
+1252915,1252915,cinder,d97304d18cf594e5982899d1c9f82a297842cd1d,1,1,Typo in method name
+1252921,1252921,neutron,68369fe6789d4ab053eb382458562394ce632de8,1,1, 
+1252967,1252967,nova,c91842af547f9d70ac2a538477d89da1e3efafa9,1,1, 
+1253207,1253207,Swift,72ade27ea322056b993da8cfd389476461a845af,0,0,Bug in test files … Should we have to take into account3
+1253478,1253478,Swift,af2607c457171975fe4f512a92a87b827d5b6528,1,1,"With the new early majority code, Este escenario no lo tenian en cuenta Asia es BIC o no3 “that's the client problem- also it already existed,”"
+1253497,1253497,glance,11b5487eff312d4d914fbc2f861e18b031421dbe,0,0,"“should be to remove generate_uuid() from”, “deprecated”"
+1253657,1253657,cinder,20667f7d49eed88ddd528be73293a624b3af1ba0,1,1, 
+1253660,1253660,cinder,585f34ff7798ad271121d432e0cae8820bc54389,1,1, 
+1253875,1253875,nova,1d769b0c37f24028bceae568ca66bb0426b28b69,1,1,"“Commit a52259e introduced some changes to debug log messages in the ImagePropertiesFilter but with that came a bug"""
+1253891,1253891,swift,4ed1c8473f50f7f11082ad1ee389f5339707e212,1,1,“UNCAUGHT EXCEPTION”
+1253910,1253910,cinder,6dfb3ede190cb013f747617e75218953330c54ca,0,0,“fix docstring”
+1253931,1253931,cinder,45489f9814fce0f7b3f6c947076529962902f729,0,0,"“Remove unused code in test_admin_actions.py”, refactoring"
+1253960,1253960,nova,1588de2714a0f28a0da219f319d6a7ac6c1f9bab,1,1,“return the hypervisor_version as an integer rather than a string.”
+1254046,1254046,glance,e9468d77a41ada6d77021c32c5df4351d368ea72,1,0,“Original change to Nova: If4dd973acc23921dbc2bc69bb76225deb2802dad”
+1254089,1254089,cinder,273d8765115f0936d24549db8698dbe7e8d2ec1a,1,1, 
+1254174,1254174,nova,384cce84fde784f9e2f39db49502c66e20ff0b4c,1,1, 
+1254210,1254210,glance,1772a9116d127294354addd830e16877658bbee3,1,1, 
+1254246,1254246,neutron,5529071bf1393d0d448bc495cc906a68bc30a820,1,1, 
+1254318,1254318,cinder,3de7da12d1098ef777305099e5f4a039e536bf99,1,1, 
+1254520,1254520,Neutron,4af2163bd41648d64cf1c3c838990737955d2133,1,0,"Enviromental change, this is a bug related with ovs-vsctl"
+1254521,1254521,glance,ab7ea6baf7e67ee6353257f112e315369dd8d36e,0,0,Feature3 “Set upload_image policy to control data upload”
+1254530,1254530,neutron,4fd4d490ac1e12b2bf835949447d21b64c641616,1,1, 
+1254635,1254635,cinder,f1df39fe7be45c9d789f7b889de35328158079c4,0,0," Bug in the comments , “Fix docstring”"
+1255142,1255142,Neutron,fbf50ad8cba857b62ecb24fccf778175db5b5534,1,1, 
+1255556,1255556,Glance,1f6381a73f5c99f1f731d6c4f9defb91bd2d042d,0,0,Error in test
+1257273,1257273,Glance,616d2f9a65f7995298153cdf8a1e94bb62912ebe,1,1,“Prevent creation of http images with invalid URIs”
+1257295,1257295,Swift,eb4b29d243150d2f348d163ecc2fb552675891bf,0,0,List of known misspellings
+1257922,1257922,Glance,16c3a33c0b8c37ea76d45a90d6b332cfda416b3d,1,0,"""files still uses json.loads() instead of using the wrapper provided by glance.openstack.common.jsonutils"""
+1259981,1259981,Nova,fefea36baff5f65c56984ae27074e4ad95a3b511,0,0,It is a bug or a feature3
+1264561,1264561,Swift,da794932ba5e627c2aaa58200116eeaf5234863b,1,0,"“Most stock Linux systems come with a soft limit of nproc set to 1024, which can be low now”"
+1267103,1267103,Glance,23fa48fa7b86f0767ff4bde9095393a8dfa2e1f7,0,0,“Here the list of misspelled word found in glance source” las misspellings no son un bag verdad3
+1268480,1268480,Glance,3d03291df88a2a95e0cfb9ae8bb0b7a56ce1b846,0,0,Bug in test files
+1269189,1269189,Neutron,2b9805105eac9594a038c8e09f4b6cfc6255c677,1,1, 
+1269515,1269515,Cinder,027b78a214e1f7ab7bbda342a024cb13dae8944d,1,1, 
+1270020,1270020,Cinder,2331d3336a6adf4fc13a3b187e91a5d1b1f7c723,1,1,"""but the exception msg only contain info about ""available"". So fix it.”"
+1273087,1273087,Glance,f6e7992a68f6ab36f87604fffbe5349f2a12b25e,0,0,"""There is no merge"""
+1274317,1274317,Nova,70f7761e6f053297266fd5cc63212e74e73ec1cc,1,1,"""the case where we do want the method to execute very often was missed"""
+1276367,1276367,Neutron,c1eb61b98a37a10775affa845185388f05e3ceb4,0,0,"""Removes an incorrect and unnecessary return""-- There is a comment later that said ""We're going to revert this"""
+1277029,1277029,Neutron,aa85a97ca2dcb06996ed133d864705f1dca722b1,1,0,"Changed requirements ""Previously list operations in ovs_lib returns an empty list if RuntimeError occurs and a caller cannot distinguish an error from normal results.”"
+1279478,1279478,Cinder,027b78a214e1f7ab7bbda342a024cb13dae8944d,1,1,
+1280100,1280100,Glance,2cf64655da38d228b8892a86f005353c84ab212b,1,0,“StringIO.StringIO is incompatible for python 3”
+1284549,1284549,Neutron,f96cf93e70f8c434499efb903820aa72665a7fd4,0,0,Bug in tests
+1284677,1284677,Glance,627d5fbc1303b3f9d9b2f89acf21359437f9a928,1,0,"""Python 3: do not use 'unicode()'"", ""The unicode() function is Python2-specific"""
+1285040,1285040,Swift,87710cc8a2654d872adb74d4fa4856c9beb41fbd,0,0,"""assertEquals is deprecated"" "
+1285673,1285673,Cinder,051aa362ff1f52926b1725ab24b3b21bfb5e5e21,1,1,"“Updated code where service_get_all_by_topic is used to make use of disabled kwarg instead of filtering afterwards”
+“This means it doesn't get all and in fact gets only services that are not disabled.”"
+1286809,1286809,Cinder ,2f5360753308eb8b10581fc3c026c1b66f42ebdc,0,0,Removing code is not a bug
+1287462,1287462,Neutron,2a2d566be3d69295f56d2db5b6004f12d0ec5b9f,1,0,"""The following patch renames the rest of q_exc to n_exc which were left when quantum was renamed to neutron"" ------ Aqui me vuelve la duda, habria algun commit que olvido cambiar esto33 Quien seria el responsible33"
+1290969,1290969,Glance,053b468326e2de6ffecbe77b78cb6a33220f9dec,1,1,“This change should be reverted and depending on the list should be logged as a deprecation warning for 1 cycle.”
+1291130,1291130,Neutron,fdbaba877f98bf20c1ff71c9bd0d04956120f845,0,0,Bug in tests
+1291181,1291181,Cinder,07ad47ef80dd71e1216331b3b95f5be280455cbd,1,0,"“The blueprint https://blueprints.launchpad.net/cinder/+spec/vmdk-storage-policy-volume-type introduced ""pbm_default_policy""”"
+1291848,1291848,Glance,f6e7992a68f6ab36f87604fffbe5349f2a12b25e,0,0,"""Tracking the need of removing deprecation warning "", ""This commits removes the old `store` package from glance"""
+1292784,1292784,Swift,2e8bc44c9d0586813587a5711f8e857a31393326,1,1,"""There was a path on container recreate that would sometimes allow db to get reinitialized without updating put_timestamp"""
+1301854,1301854,Cinder,1fdb38fd4b43c2685658c1a7aa6a56c92ac31585,1,1,"“Therefore, relying on image size to invoke extend API might
+result in VIM API fault, if the virtual disk size is same as the target
+size”"
+1307878,1307878,Glance,006a4e5e31a12d049c3d6308c3a2d73f57cd980f,0,0,“to avoid problems in the future”
+1311182,1311182,Cinder,03a41f863b160384593ef8df130f369a0c22d393,1,1, 
+1314008,1314008,Nova,fdce41ac4f8de00769fbe6ba32265e35266df621,1,1,"The BFC ESTA MAL “In _report_final_resource_view() method, Nova will never record
+""free pci"" in log message because 'pci_devices' is not in dict ‘resources'."""
+1315195,1315195,Cinder,541cc9d53ac999535edcb7a02d1a76a883cfb02b,0,0,"""In order to eliminate the need to have the hp3parclient in the global-requirements"""
+1315237,1315237,Glance,c9a034c838e2c5a1f636656ead9aa3b6f7d06603,1,1, 
+1315430,1315430,Neutron,fbc02fd569983122a9f5284a71f3c3aaaa03d260,1,1, 
+1316916,1316916,Nova,fdce41ac4f8de00769fbe6ba32265e35266df621,1,1,"The BFC ESTA MAL. “
+we need to avoid this kind of audit logs and give more accurate info”"
+1317847,1317847,Glance,2e94076ca43ee3f31b1fc7f46b4c137d36bcd7db,1,1,"It depends when the translation policy enters, after the code or before3 Since I do not have the info I would say it is a BIC"
+1318333,1318333,Swift,872420efdb8e6e945cd2fe06994136b8c2ee153a,1,0,Depend when they decided the logging standards. But I think this is caused by the evolution
+1327000,1327000,Neutron,fb9886b903434321e62373cb4c11ba014921e4df,1,1, 
+1327473,1327473,Nova,0bea84ac20fe498bd08f7212a0017196c8cb0812,0,0,I don't think this is describing a bug …. It is avoiding a wrong practise in Python
+1329093,1329093,Swift,7c1c8c0b4d36ec1795c11950652fa42564352264,1,1, 
+1332103,1332103,Glance,fe172d61145ce2cca388f880806b7cf3a6cae6c5,1,1,Im not sure if this bug was caused because of something changed in V2
+1332482,1332482,Cinder,b07c1a759c8a0cdaaaaaf3e6f1ad7402bf631a44,1,1,"""This change fix those missing parameters"""
+1333219,1333219,Nova,d0225509bdb7882324726312f4a4a9f63375203e,1,0,There is a partial bug and a bug-close differents which one3 The one that is in this table is not marked as a fix commit in Launchpad but it is the bug-close according to the Label.
+1334711,1334711,Glance,1f965cac884165ce11c7c81bfdb982e7735e11e9,0,0,“This change adds the equivalent documentation for the registry.”
+1336168,1336168,Glance,5148c9648fc959c1d807313176afe3fcf84b89cf,1,1, 
+1339401,1339401,Neutron,fbf0e621399027d5004bbc8c888d67a3c2851686,1,1,logic is now obsolete and can be removed’
+1340002,1340002,Glance,d6286b3fd2f9535c023fd50e1825111c9a85b17f,1,0,"""Some v2 exceptions raise unicodeError"""
+1341144,1341144,Neutron,59da928e945ec58836d34fd561d30a8a446e2728,1,1,"""Change https://review.openstack.org/105411 introduced the following incorrect server_default value:"""
+1341518,1341518,Neutron,95b3dd1ea114b1460c9d18b8a74bbc44ccf4b066,1,1,"""Migration 5446f2a45467_set_server_default try to set incorrect default boolean value on Integer column cisco_network_profiles."""
+1341752,1341752,Cinder,e8273cdb3f4a838aad78f298658f7685bc90d02f,0,0,"I think the error is on the test, the source code of the software is not buggy"
+1343544,1343544,Cinder,4499b62738e5ad25838eae0398f0d15bf5132387,1,0,"""It looks like a limitation with logging in python 2.6."""
+1346637,1346637,Nova,1deb31f85a8f5d1e261b2cf1eddc537a5da7f60b,1,0,"""The ESX driver was deprecated in Icehouse and should be removed in Juno"""
+1348624,1348624,Nova,fc69f038bb3dca554475bbdd6844996d2d07a23e,1,0,"“Unfortunately the Xen hypervisor uses a architecture name of 'x86_32' for i686 platforms which means it won't match the standard OS ‘uname'"""
+1348869,1348869,Swift,f5caac43ac40e103f3f2156eedb313385dbb6ba8,1,0,“The tempfile.mktemp() function has been deprecated since Python 2.3 due to security issues.”
+1349452,1349452,Nova,58d48ded2bbb90b8639a31b47e37e97c276eac87,1,1,"""Looks like it got changed a while back."", ""It looks like one or both of these changes is causing the issue"""
+1349805,1349805,Cinder,5ee167c14c9978409db059054a02635de35a2e93,1,0,use the newly updated snapshot-ref object
+1352857,1352857,Neutron,fdee7801248b5605112e5e2ce0f06f8a5e9ecc6b,1,1, 
+1352893,1352893,Neutron,b6e9922364fca4d8d141fbb2f27024f7db79ca9e,1,0,"""On systems where ipv6 module is not loaded in kernel we need """
+1356368,1356368,Cinder,2981cdbb03c6f1239a58fedb260796667b8154ab,1,1,“https://github.com/openstack/cinder/commit/0505bb268942534ad5d6ecd5e34a4d9b0e7f5c04 appears to have introduced a bug”
+1358524,1358524,Cinder,826c4520d093f5e0809a08e10b5d18bf69adc698,0,0,“Improve Cinder API internal cache interface”
+1363899,1363899,Nova,1e54cae3d3f562046a50ab20ff60e2879ce80438,1,1, 
+1365606,1365606,Nova,fc82c6dbbd0fa1cdc130cefea534967e273d5570,1,1,The BFC ESTA MAL
+1365751,1365751,Nova,45553a6dda84ef6be38150071f8bb6fa9850a53e,0,0,"The only file that is not a test and has been changed was the hacking file ""Add a new HACKING rule for nova to prevent assert_called_once()
+usage from creeping in"""
+1366205,1366205,Cinder,764c5ec749821d36bb0215dc6002d3caea95d3b1,1,1, 
+1367514,1367514,Swift,51fa32f53d81864e9267fc40ce3fcfe494b62437,1,1,When we broke out stats per-policy for some reason we only did two of the three:
+1367564,1367564,Glance,2e7de07c5a7c8f9d11c00499f7e85ac30f71d025,1,1,“should handle type specific prefix”. Is it a bug3
+1367633,1367633,Nova,42cec80e6ce1c95326ab5871750401f3a8131f77,1,0,"""'createImage' server actions was missed for V2.1 API."". Problema!!!!!! Segun el desallorador alguien se olvido de cambiar el nombre a lo que falla (createImage->create_image) Hay algun commit en mi repo responsible de esto33 El que introduce la v33 Yo lo clasificaria como NoBIC"
+1369516,1369516,Nova,2fc92d9bd7b4e212a3f28e57565a4cf260982f30,0,0,"Bug in test files, but due to evolution."
+1369558,1369558,Swift,6354e2da57a8d487caf3605d4005134f584cf935,1,1,Please ensure that the arg=None that are failing were incorrect when they were inserted.
+1372862,1372862,Neutron,739b3cac3210e6a1ce942238ca3efa3ddf49cb4d,1,0,"""in neutron code, there still are some codes to enable translation tag for debug level log"""
+1374783,1374783,Swift,64aa8062bc96799993deafbdf184adb72c509f20,0,0,Bug in test files

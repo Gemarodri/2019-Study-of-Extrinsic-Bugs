@@ -1,0 +1,78 @@
+* Methodology to understand whether the lines modified in a fix commit were clean in the moment in which the commit inserted them.
+Elastic Search uses a very strict labelled, for this reason we can found all [[https://github.com/elastic/elasticsearch/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aclosed+label%3Abug][Bug reports]] from the [[https://github.com/elastic/elasticsearch/issues][issues]] in elastic Search simply filtering them with the query : is:issue is:closed label:bug.
+
+1. We take a random sample of the bug reports using the python script [[https://github.com/dmgerman/gr/blob/master/ElasticSearch/elasticIDBugs.py][elasticIDBugs.py]]. Inside the script there is the instruction of how you can use it. This script is a web scrape that takes the identifiers of each bug report and saves them into an array, then with the lenght of the array calculates the size of the sample that we have to use in the study and finally, takes randomly the identifier of the bug reports from the array according to the sample size
+
+2. In each Bug report there is a link to the pull request closed. In this page we can find the information related with the problem and the discussion of the possible solution and get more context about the problem. Some Bug reports doesn't have pull request web page because in the meanwhile th bug was fixed in other bug report.
+  - Should we discard this Bugs report from the study?
+  Also, some bug reports have two different pull request with two different fix commit
+  - Which one we should take?
+
+3. In the pull request web page you can find information about the code change proposed and some comments from the reviewers, also, you can find the link to the commit that merge the fix commit into the source code.
+
+4. In the web page of the fix commit, we find the parent of the each commit and the files involved. We extract this parent commit to see the last commit that touch this/these lines in all the files involved excluding test files. We notice that the files are test files because in the path we can see the 'test' word.
+  - We can display this information in a web page using github with the url:   https://github.com/elastic/elasticsearch/blame/'parentcommit'/'file
+  
+  Also, we can find the parents of a commit in the command line; This command will give you the parents of the current commit. The parents are in the first line. See example
+  
+      #+BEGIN_SRC sh
+      git log --parents -1 commitId
+      #+END_SRC
+    
+    The parent of the commit ffee1b34448333a5406d766feef85cea4f4be1dc is a4e15e329f9adbcfe72fbcd6acb94f0743ad02f8.
+    See line starting with "commit" below. If a commit has more than 1 parent (a merge) the order of the commits matters.
+    The first one is the branch where the merge is done, and the rest of the commits are the merged commits in the order 
+    specified in the command
+    
+      #+BEGIN_EXAMPLE
+      git log --parents -1 ffee1b34448333a5406d766feef85cea4f4be1dc
+      commit ffee1b34448333a5406d766feef85cea4f4be1dc a4e15e329f9adbcfe72fbcd6acb94f0743ad02f8
+      Author: jichenjc <jichenjc@cn.ibm.com>
+      Date:   Sat Apr 23 01:56:55 2016 +0800
+      
+          Complet Method Verification of availability-zone
+      #+END_EXAMPLE
+      
+    Alternatively you can do the following command, and the parents are the commit ids after the commit id:
+          
+      #+BEGIN_EXAMPLE
+      git log --no-abbrev --parents --oneline -1 ffee1b34448333a5406d766feef85cea4f4be1dc
+      ffee1b34448333a5406d766feef85cea4f4be1dc a4e15e329f9adbcfe72fbcd6acb94f0743ad02f8 Complet Method Verification of availability-zone
+      #+END_EXAMPLE
+
+5. For each previous commit, find his parent and display the same information that before in the web, to can understand the moment in which this/these line/s was/were inserted and to be sure that the previous commit was who inserted these lines, avoiding that way the lines copied from other commits.
+
+  * *How we can know that the previous commit was clean in the moment in which it was inserted into the source code?*
+    - Incompatibility between versions or Hardware and Software
+    - Optimization of the code
+    - When the cahnge doesn't have any relation with the bug reported
+    - Changes in the LOGs to clarify the message
+    
+  * *How we can know that the previous commit was buggy in the moment in which it was inserted into the source code?*
+    - If the previous commit is mentioned in the description as the reason of the bug
+    - When we are not sure 100% if the previous commit was clean at the moment in which the lines were inserted.
+    - Obvious cases when the values of the variables is not the correct, wrong sentences ... 
+  
+6. Removing the false positives previous commits. When we are analyzing the previous commit we have to realise whether the date in which this commit was committed was done after the date in which the bug report was reported, and in that case discard the previous commit. 
+
+At the end, we have semi-automatized this methodology, building a python script [[https://github.com/dmgerman/gr/blob/master/ElasticSearch/elastic.py][elastic.py]] which interact with the research asking for the bug ID, the fix commit and the previous commits. The script opens many web pages where you can find all the information and decide if the previous commit inserted a clen lines or a buggy lines in the moment in which they was merged into the source code. Also, this script save the information in a json file.
+
+  * What information we need to save?
+    - ID fix commit
+    - ID commit parent
+    - ID commit previous
+    - ID Bug report
+    - Files involved
+    - The number/numbers of previous commit that caused the bug
+    - Comments from the researcher with a description of the previous commits involved.
+    
+  
+  * What should we do in the next situations? 
+    I've found some situations in which i'm not sure how to handle them, so could be easier if we define some rules to follow in those situations.
+    * Only added lines was inserted in the bug fix.
+      - When there is only onle previous commit above and below the new lines
+      - When there is more than one previous commit in the lines below and above the new lines inserted.
+  
+   * When there are more than one previous commit tha caused the bug.
+      - have some of them more responsability than the others?
+  
