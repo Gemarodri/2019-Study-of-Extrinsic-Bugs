@@ -1,2 +1,0 @@
-# HowBugsAreBorn
-Reproducibility data.
