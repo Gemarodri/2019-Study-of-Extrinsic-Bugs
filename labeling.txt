@@ -1,0 +1,24 @@
+-- HOW TO LABEL EXTRINSIC BUGS --
+
+The curation procedure requires to understand the bug in its very detail, which is a non-trivial task. In our study we following these classification rules for classifying bug reports as intrinsic or extrinsic.
+
+A bug report is classified as extrinsic if: 
+(1) It reports a bug caused by a change in the environment where the software is used.
+(2) It reports a bug because requirements have changed.
+(3) It reports a bug caused by an external change to the VCS of the project. 
+(4) It reports a bug in an external library used by the project.
+
+A bug report is classified as intrinsic if:
+(1) There is no evidence to be classified as an extrinsic bug.
+
+
+-- HOW TO AUTOMATIZE EXTRINSIC BUGS--
+
+At this point we cannot tell much about how to automate the process, as we have focused on doing it manually. From our experience we can only say that automating it won't be an easy process because you have to at least understand the bug description (which is in natural language) and understand the change (which is code). 
+
+So far, we believe that this process can be a semi-automatizatice process as the complete automatization will require technology that it is not available now (see "Rodríguez-Pérez, G., Robles, G., Serebrenik, A., Zaidman, A., Germán, D. M., & Gonzalez-Barahona, J. M. (2020). How bugs are born: a model to identify how bugs are introduced in software components. Empirical Software Engineering, 1-47.")
+
+However, the semi-automatization to identify extrinsic bugs will require the combination of different techniques and tools. For example, to understand the bug description we can use natural language processing and to understand the code we can use tools that help researchers to backtrack the modified source code lines in the bug fixing commit. Recently, we have discovered a tool that helps to analyze the evolution of source code lines from their introduction until their last modification in the bug fixing commit. This tool is called "BugVis: Commit Slicing for Defect Visualisation". The demo of the tool can be found here (https://www.youtube.com/watch?v=ohwMvoZfj1E). 
+
+We hope that the result of our manual work can serve as a fold standard for deep learning and natural language processing to develop an automatic way to classify extrinsic bugs from their bug description.
+
